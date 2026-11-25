@@ -1,0 +1,37 @@
+RESULTADO DO OCR - TESSERACT OCR
+Versao do motor : 5.4.0.20240606
+Modo            : SEM ROI (OCR direto na imagem inteira)
+Dataset         : placas_exercicio
+Gerado em       : 17/11/2026 11:01:00
+
+IMAGEM     LIDO       CORRIGIDO  GABARITO  OK     VARIANTE     CONF
+------------------------------------------------------------------------------
+1.JPG      LFAMEAER   LFAME43    IFA1T95   NAO    cena_cinza_psm11_concat 0.11
+2.JPG      ROSSFOX    ROS5F0X    NEV1C08   NAO    cena_otsu_psm11 0.68
+3.JPG      LYZ2Z18    LYZ2Z18    IYZ2Z18   NAO    cena_otsu_psm11 0.86
+4.JPG      2QOWIN47   QOW1N47    QOW9N47   NAO    cena_cinza_psm11 0.00
+5.JPG      AQJTE      AQJTE      USQ0T32   NAO    cena_cinza_psm6_concat 0.35
+6.JPG      COS73S     COS73S     TYL3X75   NAO    cena_cinza_psm6 0.00
+7.JPG      RASIL      RASIL      GXQ2J95   NAO    cena_cinza_psm11 0.88
+8.JPG      UUUUUUU    UUU0U00    XHY6U29   NAO    cena_otsu_psm11_concat 0.48
+9.JPG      WS         WS         AOA4J16   NAO    cena_cinza_psm11_concat 0.61
+10.JPG     ABILEZ     ABILEZ     PDU7G22   NAO    cena_cinza_psm11 0.00
+11.JPG     9NLOS      9NLOS      MNL3U98   NAO    cena_otsu_psm11_concat 0.21
+12.JPG     JET7G88    JET7G88    JET7G88   SIM    cena_otsu_psm6 0.00
+13.JPG     ABPEGSD    ABP3G50    ABP8Q89   NAO    cena_cinza_psm3 0.00
+14.JPG     ESPACIAL   ESP4C14    PHI8H00   NAO    cena_cinza_psm11 0.51
+15.JPG     THY7ZE19   THY7Z31    THY7E19   NAO    cena_cinza_psm11 0.46
+16.JPG     TUHK5055   UHK5O55    UHK5O55   SIM    cena_cinza_psm3 0.00
+17.JPG     FOIOLS     FOIOLS     NZQ3M77   NAO    cena_cinza_psm3 0.00
+18.JPG     EXDASESUM  EXD4S35    XDA5E50   NAO    cena_cinza_psm6 0.67
+19.JPG     ABRET2I    ABR3T21    ESI4I93   NAO    cena_cinza_psm6_concat 0.27
+20.JPG     ES14       ES14       TGG1D44   NAO    cena_cinza_psm11_concat 0.02
+------------------------------------------------------------------------------
+
+RESUMO
+  Imagens processadas       : 20
+  Etapa de deteccao         : nao se aplica (OCR direto)
+  Acerto exato (com mascara): 2/20 (10.0%)
+  Acerto exato (sem mascara): 1/20 (5.0%)
+  Acuracia por caractere    : 32.1%
+  Tempo total / por imagem  : 58.52s / 2.93s

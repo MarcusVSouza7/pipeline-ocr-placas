@@ -1,0 +1,86 @@
+COMPARACAO ENTRE PIPELINES DE OCR - PLACAS VEICULARES
+Gerado em: 17/11/2026 09:02:44
+Dataset  : placas_exercicio (20 imagens)
+
+Legenda: OK = leitura identica ao gabarito.
+
+IMAGEM    GABARITO  TESSERACT  OK   EASYOCR    OK   CONCORDAM
+------------------------------------------------------------------------
+1.JPG     IFA1T95   LFA1T95         IFU1T95         NAO
+2.JPG     NEV1C08   NEV1C08    OK   NEV1C08    OK   sim
+3.JPG     IYZ2Z18   LYZ2Z18         IVZ2Z18         NAO
+4.JPG     QOW9N47   QOW0N42         QOW9N17         NAO
+5.JPG     USQ0T32   USQ0T32    OK   USQ0T32    OK   sim
+6.JPG     TYL3X75   TYL3X75    OK   TVL3X75         NAO
+7.JPG     GXQ2J95   GXZ1I95         GXQ2J95    OK   NAO
+8.JPG     XHY6U29   XHY6U29    OK   XHY6A29         NAO
+9.JPG     AOA4J16   AOA4J16    OK   AOA4J16    OK   sim
+10.JPG    PDU7G22   PBU7G22         PDU7G22    OK   NAO
+11.JPG    MNL3U98   MNL3U98    OK   MNL3U98    OK   sim
+12.JPG    JET7G88   JET7G88    OK   JET7G88    OK   sim
+13.JPG    ABP8Q89   ABP8G89         ABP8O89         NAO
+14.JPG    PHI8H00   PHI8H00    OK   PHI8H00    OK   sim
+15.JPG    THY7E19   THY7E19    OK   THY2E19         NAO
+16.JPG    UHK5O55   UHK5O55    OK   UHK5O55    OK   sim
+17.JPG    NZQ3M77   NZQ3M77    OK   NZQ3M77    OK   sim
+18.JPG    XDA5E50   XDA5E50    OK   XDA5E50    OK   sim
+19.JPG    ESI4I93   ESI4I93    OK   ESI4I93    OK   sim
+20.JPG    TGG1D44   SEG2A04         TGGIDG          NAO
+------------------------------------------------------------------------
+
+TESSERACT OCR (v5.4.0.20240606)
+  Acerto exato (com mascara) :  65.0%  (13/20)
+  Acerto exato (sem mascara) :  35.0%  (7/20)
+  Acuracia por caractere     :  90.0%
+  Acur. caractere sem mascara:  83.6%
+  Tempo total / por imagem   :  289.8s / 14.49s
+  Chamadas ao motor / tempo  : 360 / 0.805s por chamada
+
+EASYOCR (v1.7.2)
+  Acerto exato (com mascara) :  60.0%  (12/20)
+  Acerto exato (sem mascara) :  35.0%  (7/20)
+  Acuracia por caractere     :  92.9%
+  Acur. caractere sem mascara:  85.7%
+  Tempo total / por imagem   :  926.2s / 46.31s
+  Chamadas ao motor / tempo  : 120 / 7.719s por chamada
+
+CONCORDANCIA ENTRE OS MOTORES
+  Leituras identicas         : 10/20 (50.0%)
+  Acertaram ambos            : 10
+  So o Tesseract acertou     : 3
+  So o EasyOCR acertou       : 2
+  Nenhum dos dois acertou    : 5
+
+A segmentacao e o pre-processamento sao IDENTICOS nos dois pipelines;
+a unica variavel e o motor de OCR.
+  Placas segmentadas corretamente: 20/20 (100.0%)
+
+CONFUSOES MAIS FREQUENTES - TESSERACT
+  L -> I     2x
+  0 -> 9     1x
+  2 -> 7     1x
+  Z -> Q     1x
+  1 -> 2     1x
+  I -> J     1x
+  B -> D     1x
+  G -> Q     1x
+
+CONFUSOES MAIS FREQUENTES - EASYOCR
+  V -> Y     2x
+  U -> A     1x
+  1 -> 4     1x
+  A -> U     1x
+  O -> Q     1x
+  2 -> 7     1x
+
+VARIANTE DE PRE-PROCESSAMENTO ESCOLHIDA - TESSERACT
+  segmentada   9x
+  otsu         7x
+  cinza        4x
+
+VARIANTE DE PRE-PROCESSAMENTO ESCOLHIDA - EASYOCR
+  segmentada   9x
+  cinza        5x
+  otsu         3x
+  adaptativo   2x
+  nitidez      1x

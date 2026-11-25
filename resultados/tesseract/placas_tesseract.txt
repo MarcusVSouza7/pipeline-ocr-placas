@@ -1,0 +1,43 @@
+RESULTADO DO OCR - TESSERACT OCR
+Versao do motor : 5.4.0.20240606
+Modo            : com ROI, detector=classico
+Dataset         : placas_exercicio
+Gerado em       : 17/11/2026 08:45:49
+
+IMAGEM     LIDO       CORRIGIDO  GABARITO  OK     VARIANTE     CONF
+------------------------------------------------------------------------------
+1.JPG      LFAIT95    LFA1T95    IFA1T95   NAO    otsu         0.80
+2.JPG      NEV1CG8    NEV1C08    NEV1C08   SIM    otsu         0.88
+                      TAD0P66                     (2a placa detectada na imagem)
+3.JPG      LYZ2Z18    LYZ2Z18    IYZ2Z18   NAO    cinza        0.70
+4.JPG      QOWON4Z    QOW0N42    QOW9N47   NAO    otsu         0.44
+                      SIV0M35                     (2a placa detectada na imagem)
+5.JPG      USQGT32    USQ0T32    USQ0T32   SIM    segmentada   0.09
+6.JPG      TYL3X75    TYL3X75    TYL3X75   SIM    otsu         0.85
+7.JPG      GX2JI95    GXZ1I95    GXQ2J95   NAO    otsu         0.00
+                      MEW1E31                     (2a placa detectada na imagem)
+8.JPG      XHY6U29    XHY6U29    XHY6U29   SIM    segmentada   0.89
+9.JPG      AOA4J16    AOA4J16    AOA4J16   SIM    segmentada   0.81
+10.JPG     PBU7G22    PBU7G22    PDU7G22   NAO    segmentada   0.62
+11.JPG     MNL3U98    MNL3U98    MNL3U98   SIM    otsu         0.85
+12.JPG     JET7G88    JET7G88    JET7G88   SIM    segmentada   0.89
+13.JPG     ABP8G89    ABP8G89    ABP8Q89   NAO    cinza        0.52
+14.JPG     PHI8HGG    PHI8H00    PHI8H00   SIM    cinza        0.76
+15.JPG     THY7E19    THY7E19    THY7E19   SIM    segmentada   0.75
+16.JPG     UHK5055    UHK5O55    UHK5O55   SIM    segmentada   0.80
+                      MRL0G01                     (2a placa detectada na imagem)
+17.JPG     NZQ3M77    NZQ3M77    NZQ3M77   SIM    segmentada   0.89
+18.JPG     XDASESO    XDA5E50    XDA5E50   SIM    otsu         0.83
+19.JPG     ESI4193    ESI4I93    ESI4I93   SIM    segmentada   0.88
+                      IPG8C66                     (2a placa detectada na imagem)
+20.JPG     TSEG2AD4A  SEG2A04    TGG1D44   NAO    cinza        0.38
+                      ITF0O02                     (2a placa detectada na imagem)
+------------------------------------------------------------------------------
+
+RESUMO
+  Imagens processadas       : 20
+  Placas detectadas         : 20 (100.0%)
+  Acerto exato (com mascara): 13/20 (65.0%)
+  Acerto exato (sem mascara): 7/20 (35.0%)
+  Acuracia por caractere    : 90.0%
+  Tempo total / por imagem  : 289.83s / 14.49s

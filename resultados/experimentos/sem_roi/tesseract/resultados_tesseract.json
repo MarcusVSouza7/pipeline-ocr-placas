@@ -1,0 +1,1684 @@
+{
+  "motor": "Tesseract OCR",
+  "versao": "5.4.0.20240606",
+  "metricas": {
+    "imagens": 20,
+    "avaliadas": 20,
+    "placas_detectadas": 0,
+    "taxa_deteccao": 0.0,
+    "acertos": 2,
+    "acerto_exato_pct": 10.0,
+    "acuracia_caractere_pct": 32.14,
+    "acertos_sem_mascara": 1,
+    "acerto_exato_sem_mascara_pct": 5.0,
+    "acuracia_caractere_sem_mascara_pct": 30.0,
+    "tempo_total_s": 58.52,
+    "tempo_medio_s": 2.926,
+    "chamadas_ocr": 133,
+    "tempo_por_leitura_s": 0.44,
+    "motor": "Tesseract OCR",
+    "versao": "5.4.0.20240606",
+    "modo": "SEM ROI (OCR direto na imagem inteira)",
+    "detector": "-",
+    "sem_roi": true
+  },
+  "resultados": [
+    {
+      "imagem": "1.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "LFAMEAER",
+      "texto": "LFAMEAER",
+      "texto_corrigido": "LFAME43",
+      "confianca": 0.108,
+      "variante": "cena_cinza_psm11_concat",
+      "formato_valido": false,
+      "tempo_s": 2.639,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.5,
+      "nota": 0.4115,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "LFAMEAER",
+          "texto": "LFAMEAER",
+          "texto_corrigido": "LFAME43",
+          "confianca": 0.108,
+          "consenso": 0.5,
+          "nota": 0.4115
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "TMS",
+          "texto": "TMS",
+          "texto_corrigido": "TMS",
+          "confianca": 0.0,
+          "consenso": 0.5,
+          "nota": 0.1811
+        }
+      ]
+    },
+    {
+      "imagem": "2.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "ROSSFOX",
+      "texto": "ROSSFOX",
+      "texto_corrigido": "ROS5F0X",
+      "confianca": 0.68,
+      "variante": "cena_otsu_psm11",
+      "formato_valido": false,
+      "tempo_s": 4.304,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.25,
+      "nota": 0.6534,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "TTABGRGGD",
+          "texto": "TTABGRGGD",
+          "texto_corrigido": "TTA8G80",
+          "confianca": 0.0,
+          "consenso": 0.25,
+          "nota": 0.2802
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "ROSSFOX",
+          "texto": "ROSSFOX",
+          "texto_corrigido": "ROS5F0X",
+          "confianca": 0.09,
+          "consenso": 0.25,
+          "nota": 0.4174
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "NEVICGS",
+          "texto": "NEVICGS",
+          "texto_corrigido": "NEV1C05",
+          "confianca": 0.0,
+          "consenso": 0.25,
+          "nota": 0.3814
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "TTABGRGGDROSSFOXBRASILNEVICGS",
+          "texto": "TTABGRGGDROSSFOXNEVICGS",
+          "texto_corrigido": "TTA8G80",
+          "confianca": 0.26,
+          "consenso": 0.25,
+          "nota": 0.2829
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "TADGPGGB",
+          "texto": "TADGPGGB",
+          "texto_corrigido": "TAD0P00",
+          "confianca": 0.0,
+          "consenso": 0.125,
+          "nota": 0.3121
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "ROSSFOX",
+          "texto": "ROSSFOX",
+          "texto_corrigido": "ROS5F0X",
+          "confianca": 0.68,
+          "consenso": 0.25,
+          "nota": 0.6534
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "NEV1CGS",
+          "texto": "NEV1CGS",
+          "texto_corrigido": "NEV1C05",
+          "confianca": 0.0,
+          "consenso": 0.25,
+          "nota": 0.4168
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "YTADGPGGBPTROSSFOXBRASILNEV1CGS",
+          "texto": "YTADGPGGBPTROSSFOXNEV1CGS",
+          "texto_corrigido": "FOXNEV1",
+          "confianca": 0.272,
+          "consenso": 0.125,
+          "nota": 0.269
+        }
+      ]
+    },
+    {
+      "imagem": "3.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "LYZ2Z18",
+      "texto": "LYZ2Z18",
+      "texto_corrigido": "LYZ2Z18",
+      "confianca": 0.86,
+      "variante": "cena_otsu_psm11",
+      "formato_valido": true,
+      "tempo_s": 3.812,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.333,
+      "nota": 0.844,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "33PWRA3BRSF4SZ",
+          "texto": "33PWRA3BRSF4SZ",
+          "texto_corrigido": "WRA3B85",
+          "confianca": 0.271,
+          "consenso": 0.167,
+          "nota": 0.3102
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "LYVZ2Z18",
+          "texto": "LYVZ2Z18",
+          "texto_corrigido": "YVZ2Z18",
+          "confianca": 0.06,
+          "consenso": 0.333,
+          "nota": 0.4734
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "SFBRASILBRLYVZ2Z184SP",
+          "texto": "SFBRLYVZ2Z184SP",
+          "texto_corrigido": "YVZ2Z18",
+          "confianca": 0.442,
+          "consenso": 0.333,
+          "nota": 0.4743
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "BRASILBR",
+          "texto": "BR",
+          "texto_corrigido": "BR",
+          "confianca": 0.9,
+          "consenso": 0.167,
+          "nota": 0.4557
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "LYZ2Z18",
+          "texto": "LYZ2Z18",
+          "texto_corrigido": "LYZ2Z18",
+          "confianca": 0.86,
+          "consenso": 0.333,
+          "nota": 0.844
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "7BRASILBRLYZ2Z18LBBES",
+          "texto": "7BRLYZ2Z18LBBES",
+          "texto_corrigido": "LYZ2Z18",
+          "confianca": 0.362,
+          "consenso": 0.333,
+          "nota": 0.4423
+        }
+      ]
+    },
+    {
+      "imagem": "4.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "2QOWIN47",
+      "texto": "2QOWIN47",
+      "texto_corrigido": "QOW1N47",
+      "confianca": 0.0,
+      "variante": "cena_cinza_psm11",
+      "formato_valido": true,
+      "tempo_s": 3.398,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.25,
+      "nota": 0.4015,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "SLOSRTOAT",
+          "texto": "SLOSRTOAT",
+          "texto_corrigido": "SLO5R10",
+          "confianca": 0.0,
+          "consenso": 0.125,
+          "nota": 0.2614
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "TPRRBF",
+          "texto": "TPRRBF",
+          "texto_corrigido": "TPRRBF",
+          "confianca": 0.0,
+          "consenso": 0.125,
+          "nota": 0.3121
+        },
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "NGTPPAN4KREAGGGMSLOSRTOATK2TPRRBF",
+          "texto": "NGTPPAN4KREAGGGMSLOSRTOATK2TPRRBF",
+          "texto_corrigido": "GTPPAN4",
+          "confianca": 0.114,
+          "consenso": 0.125,
+          "nota": 0.2411
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "2QOWIN47",
+          "texto": "2QOWIN47",
+          "texto_corrigido": "QOW1N47",
+          "confianca": 0.0,
+          "consenso": 0.25,
+          "nota": 0.4015
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "FY2QOWIN47STVKNLANVLGR2",
+          "texto": "FY2QOWIN47STVKNLANVLGR2",
+          "texto_corrigido": "QOW1N47",
+          "confianca": 0.16,
+          "consenso": 0.25,
+          "nota": 0.3136
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "NNSYCSFAGAFMANBT",
+          "texto": "NNSYCSFAGAFMANBT",
+          "texto_corrigido": "NNS9C5F",
+          "confianca": 0.077,
+          "consenso": 0.125,
+          "nota": 0.191
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "LPORINS7",
+          "texto": "LPORINS7",
+          "texto_corrigido": "POR1N57",
+          "confianca": 0.0,
+          "consenso": 0.25,
+          "nota": 0.3662
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "FY5LPORINS7AAWLMA7VNYLSN2",
+          "texto": "FY5LPORINS7AAWLMA7VNYLSN2",
+          "texto_corrigido": "POR1N57",
+          "confianca": 0.006,
+          "consenso": 0.25,
+          "nota": 0.2167
+        }
+      ]
+    },
+    {
+      "imagem": "5.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "AQJTE",
+      "texto": "AQJTE",
+      "texto_corrigido": "AQJTE",
+      "confianca": 0.353,
+      "variante": "cena_cinza_psm6_concat",
+      "formato_valido": false,
+      "tempo_s": 2.375,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.25,
+      "nota": 0.4214,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "AQJTE",
+          "texto": "AQJTE",
+          "texto_corrigido": "AQJTE",
+          "confianca": 0.353,
+          "consenso": 0.25,
+          "nota": 0.4214
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "BRASILSS",
+          "texto": "SS",
+          "texto_corrigido": "SS",
+          "confianca": 0.465,
+          "consenso": 0.25,
+          "nota": 0.2942
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "NOE4",
+          "texto": "NOE4",
+          "texto_corrigido": "NOE4",
+          "confianca": 0.26,
+          "consenso": 0.25,
+          "nota": 0.3336
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "BRASILS",
+          "texto": "S",
+          "texto_corrigido": "S",
+          "confianca": 0.465,
+          "consenso": 0.25,
+          "nota": 0.2589
+        }
+      ]
+    },
+    {
+      "imagem": "6.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "COS73S",
+      "texto": "COS73S",
+      "texto_corrigido": "COS73S",
+      "confianca": 0.0,
+      "variante": "cena_cinza_psm6",
+      "formato_valido": false,
+      "tempo_s": 4.162,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.167,
+      "nota": 0.3183,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "COS73S",
+          "texto": "COS73S",
+          "texto_corrigido": "COS73S",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.3183
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "RASS",
+          "texto": "RASS",
+          "texto_corrigido": "RASS",
+          "confianca": 0.19,
+          "consenso": 0.167,
+          "nota": 0.2577
+        },
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "COS73SSSBSRASSSEBEMO",
+          "texto": "COS73SSSBSRASSSEBEMO",
+          "texto_corrigido": "COS7B55",
+          "confianca": 0.07,
+          "consenso": 0.167,
+          "nota": 0.1944
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "BFBRAEMESSSSPPSSMOI4",
+          "texto": "BFBRAEMESSSSPPSSMOI4",
+          "texto_corrigido": "PSSMO14",
+          "confianca": 0.209,
+          "consenso": 0.167,
+          "nota": 0.25
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "7SN7B2YNSMMESHEOTQS",
+          "texto": "7SN7B2YNSMMESHEOTQS",
+          "texto_corrigido": "TSN7B29",
+          "confianca": 0.059,
+          "consenso": 0.167,
+          "nota": 0.2254
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "EYBEE7ENAPY",
+          "texto": "EYBEE7ENAPY",
+          "texto_corrigido": "EYB3E73",
+          "confianca": 0.027,
+          "consenso": 0.167,
+          "nota": 0.2126
+        }
+      ]
+    },
+    {
+      "imagem": "7.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "RASIL",
+      "texto": "RASIL",
+      "texto_corrigido": "RASIL",
+      "confianca": 0.88,
+      "variante": "cena_cinza_psm11",
+      "formato_valido": false,
+      "tempo_s": 2.895,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.077,
+      "nota": 0.6062,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm3_concat",
+          "texto_cru": "MSFV",
+          "texto": "MSFV",
+          "texto_corrigido": "MSFV",
+          "confianca": 0.0,
+          "consenso": 0.077,
+          "nota": 0.1682
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "FLVZ",
+          "texto": "FLVZ",
+          "texto_corrigido": "FLVZ",
+          "confianca": 0.06,
+          "consenso": 0.077,
+          "nota": 0.1922
+        },
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "SSA7FLVZABRGX23MS",
+          "texto": "SSA7FLVZABRGX23MS",
+          "texto_corrigido": "ABR0X23",
+          "confianca": 0.199,
+          "consenso": 0.077,
+          "nota": 0.2679
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "RASIL",
+          "texto": "RASIL",
+          "texto_corrigido": "RASIL",
+          "confianca": 0.88,
+          "consenso": 0.077,
+          "nota": 0.6062
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "T2RF",
+          "texto": "T2RF",
+          "texto_corrigido": "T2RF",
+          "confianca": 0.0,
+          "consenso": 0.077,
+          "nota": 0.1329
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "LJBYENRASILMST2RF2",
+          "texto": "LJBYENRASILMST2RF2",
+          "texto_corrigido": "MST2RF2",
+          "confianca": 0.197,
+          "consenso": 0.077,
+          "nota": 0.2318
+        },
+        {
+          "variante": "cena_otsu_psm3",
+          "texto_cru": "FRAT",
+          "texto": "FRAT",
+          "texto_corrigido": "FRAT",
+          "confianca": 0.23,
+          "consenso": 0.077,
+          "nota": 0.2602
+        },
+        {
+          "variante": "cena_otsu_psm3_concat",
+          "texto_cru": "MFRAT",
+          "texto": "MFRAT",
+          "texto_corrigido": "MFRAT",
+          "confianca": 0.115,
+          "consenso": 0.077,
+          "nota": 0.3002
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "NSOL7PBRGXQZ2JM",
+          "texto": "NSOL7PBRGXQZ2JM",
+          "texto_corrigido": "SOL7P88",
+          "confianca": 0.287,
+          "consenso": 0.077,
+          "nota": 0.3031
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "TREE",
+          "texto": "TREE",
+          "texto_corrigido": "TREE",
+          "confianca": 0.32,
+          "consenso": 0.077,
+          "nota": 0.2962
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "RASH",
+          "texto": "RASH",
+          "texto_corrigido": "RASH",
+          "confianca": 0.33,
+          "consenso": 0.077,
+          "nota": 0.3002
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "TIAL",
+          "texto": "TIAL",
+          "texto_corrigido": "TIAL",
+          "confianca": 0.54,
+          "consenso": 0.077,
+          "nota": 0.3842
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "JHYTREERASHMTIALYW22",
+          "texto": "JHYTREERASHMTIALYW22",
+          "texto_corrigido": "IAL9W22",
+          "confianca": 0.266,
+          "consenso": 0.077,
+          "nota": 0.2594
+        }
+      ]
+    },
+    {
+      "imagem": "8.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "UUUUUUUBRASIL",
+      "texto": "UUUUUUU",
+      "texto_corrigido": "UUU0U00",
+      "confianca": 0.48,
+      "variante": "cena_otsu_psm11_concat",
+      "formato_valido": true,
+      "tempo_s": 5.235,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 1.0,
+      "nota": 0.6859,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm3",
+          "texto_cru": "UUUUUUUT",
+          "texto": "UUUUUUUT",
+          "texto_corrigido": "UUU0U00",
+          "confianca": 0.0,
+          "consenso": 1.0,
+          "nota": 0.4433
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "UUUUUUU",
+          "texto": "UUUUUUU",
+          "texto_corrigido": "UUU0U00",
+          "confianca": 0.0,
+          "consenso": 1.0,
+          "nota": 0.4939
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "UUUUUUUT",
+          "texto": "UUUUUUUT",
+          "texto_corrigido": "UUU0U00",
+          "confianca": 0.0,
+          "consenso": 1.0,
+          "nota": 0.4433
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "UUUUUUUTBRASIL",
+          "texto": "UUUUUUUT",
+          "texto_corrigido": "UUU0U00",
+          "confianca": 0.48,
+          "consenso": 1.0,
+          "nota": 0.6353
+        },
+        {
+          "variante": "cena_otsu_psm3",
+          "texto_cru": "UUUUUUU",
+          "texto": "UUUUUUU",
+          "texto_corrigido": "UUU0U00",
+          "confianca": 0.0,
+          "consenso": 1.0,
+          "nota": 0.4939
+        },
+        {
+          "variante": "cena_otsu_psm6",
+          "texto_cru": "UUUUUUU",
+          "texto": "UUUUUUU",
+          "texto_corrigido": "UUU0U00",
+          "confianca": 0.0,
+          "consenso": 1.0,
+          "nota": 0.4939
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "UUUUUUU",
+          "texto": "UUUUUUU",
+          "texto_corrigido": "UUU0U00",
+          "confianca": 0.0,
+          "consenso": 1.0,
+          "nota": 0.4939
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "UUUUUUUBRASIL",
+          "texto": "UUUUUUU",
+          "texto_corrigido": "UUU0U00",
+          "confianca": 0.48,
+          "consenso": 1.0,
+          "nota": 0.6859
+        }
+      ]
+    },
+    {
+      "imagem": "9.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "WSBRASIL",
+      "texto": "WS",
+      "texto_corrigido": "WS",
+      "confianca": 0.615,
+      "variante": "cena_cinza_psm11_concat",
+      "formato_valido": false,
+      "tempo_s": 2.265,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.5,
+      "nota": 0.3917,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "WSBRASIL",
+          "texto": "WS",
+          "texto_corrigido": "WS",
+          "confianca": 0.615,
+          "consenso": 0.5,
+          "nota": 0.3917
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "LWDBRASIL",
+          "texto": "LWD",
+          "texto_corrigido": "LWD",
+          "confianca": 0.317,
+          "consenso": 0.5,
+          "nota": 0.3079
+        }
+      ]
+    },
+    {
+      "imagem": "10.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "ABILEZ",
+      "texto": "ABILEZ",
+      "texto_corrigido": "ABILEZ",
+      "confianca": 0.0,
+      "variante": "cena_cinza_psm11",
+      "formato_valido": false,
+      "tempo_s": 2.158,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.2,
+      "nota": 0.3233,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "AAW",
+          "texto": "AAW",
+          "texto_corrigido": "AAW",
+          "confianca": 0.217,
+          "consenso": 0.2,
+          "nota": 0.2229
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "ABILEZ",
+          "texto": "ABILEZ",
+          "texto_corrigido": "ABILEZ",
+          "confianca": 0.0,
+          "consenso": 0.2,
+          "nota": 0.3233
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "4442ABILEZS4TS",
+          "texto": "4442ABILEZS4TS",
+          "texto_corrigido": "BIL3Z54",
+          "confianca": 0.061,
+          "consenso": 0.2,
+          "nota": 0.2312
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "AGILELTZ",
+          "texto": "AGILELTZ",
+          "texto_corrigido": "AGI1E11",
+          "confianca": 0.0,
+          "consenso": 0.2,
+          "nota": 0.3233
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "IRE5AGILELTZRSS",
+          "texto": "IRE5AGILELTZRSS",
+          "texto_corrigido": "IRE5A01",
+          "confianca": 0.077,
+          "consenso": 0.2,
+          "nota": 0.2376
+        }
+      ]
+    },
+    {
+      "imagem": "11.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "9NLOS",
+      "texto": "9NLOS",
+      "texto_corrigido": "9NLOS",
+      "confianca": 0.21,
+      "variante": "cena_otsu_psm11_concat",
+      "formato_valido": false,
+      "tempo_s": 1.861,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.333,
+      "nota": 0.3413,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "FSWAS",
+          "texto": "FSWAS",
+          "texto_corrigido": "FSWAS",
+          "confianca": 0.103,
+          "consenso": 0.333,
+          "nota": 0.3339
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "6L",
+          "texto": "6L",
+          "texto_corrigido": "6L",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.0854
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "9NLOS",
+          "texto": "9NLOS",
+          "texto_corrigido": "9NLOS",
+          "confianca": 0.21,
+          "consenso": 0.333,
+          "nota": 0.3413
+        }
+      ]
+    },
+    {
+      "imagem": "12.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "JET7G88",
+      "texto": "JET7G88",
+      "texto_corrigido": "JET7G88",
+      "confianca": 0.0,
+      "variante": "cena_otsu_psm6",
+      "formato_valido": true,
+      "tempo_s": 1.882,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.2,
+      "nota": 0.48,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "JET7GSSJ",
+          "texto": "JET7GSSJ",
+          "texto_corrigido": "JET7G55",
+          "confianca": 0.0,
+          "consenso": 0.1,
+          "nota": 0.3437
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "REFSILARNG",
+          "texto": "REFSILARNG",
+          "texto_corrigido": "REF5I14",
+          "confianca": 0.0,
+          "consenso": 0.1,
+          "nota": 0.2071
+        },
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "FNJET7GSSJREFSILARNG",
+          "texto": "FNJET7GSSJREFSILARNG",
+          "texto_corrigido": "FNJ3T70",
+          "confianca": 0.11,
+          "consenso": 0.1,
+          "nota": 0.2358
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "BLZAGCS",
+          "texto": "BLZAGCS",
+          "texto_corrigido": "BLZ4G05",
+          "confianca": 0.0,
+          "consenso": 0.1,
+          "nota": 0.3589
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "5SBRASILBLZAGCSKINE",
+          "texto": "5SBLZAGCSKINE",
+          "texto_corrigido": "SBL2A00",
+          "confianca": 0.215,
+          "consenso": 0.1,
+          "nota": 0.2424
+        },
+        {
+          "variante": "cena_otsu_psm6",
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.0,
+          "consenso": 0.2,
+          "nota": 0.48
+        },
+        {
+          "variante": "cena_otsu_psm6",
+          "texto_cru": "BSORELNES5SEEEEE",
+          "texto": "BSORELNES5SEEEEE",
+          "texto_corrigido": "RELNE55",
+          "confianca": 0.0,
+          "consenso": 0.1,
+          "nota": 0.1918
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "PNJET7G88BSORELNES5SEEEEE",
+          "texto": "PNJET7G88BSORELNES5SEEEEE",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.13,
+          "consenso": 0.2,
+          "nota": 0.3295
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "JETZGSS",
+          "texto": "JETZGSS",
+          "texto_corrigido": "JET2G55",
+          "confianca": 0.0,
+          "consenso": 0.1,
+          "nota": 0.3589
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "KUBRASILJETZGSS3148",
+          "texto": "KUJETZGSS3148",
+          "texto_corrigido": "TZG5S31",
+          "confianca": 0.225,
+          "consenso": 0.1,
+          "nota": 0.3171
+        }
+      ]
+    },
+    {
+      "imagem": "13.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "ABPEGSD",
+      "texto": "ABPEGSD",
+      "texto_corrigido": "ABP3G50",
+      "confianca": 0.0,
+      "variante": "cena_cinza_psm3",
+      "formato_valido": true,
+      "tempo_s": 2.587,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.2,
+      "nota": 0.3739,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm3",
+          "texto_cru": "ABPEGSD",
+          "texto": "ABPEGSD",
+          "texto_corrigido": "ABP3G50",
+          "confianca": 0.0,
+          "consenso": 0.2,
+          "nota": 0.3739
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "SESIBRASIL",
+          "texto": "SESI",
+          "texto_corrigido": "SESI",
+          "confianca": 0.38,
+          "consenso": 0.2,
+          "nota": 0.3387
+        },
+        {
+          "variante": "cena_otsu_psm3",
+          "texto_cru": "ABPSOSS",
+          "texto": "ABPSOSS",
+          "texto_corrigido": "ABP5O55",
+          "confianca": 0.0,
+          "consenso": 0.2,
+          "nota": 0.3739
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "SRERLTTRE",
+          "texto": "SRERLTTRE",
+          "texto_corrigido": "SRE8L11",
+          "confianca": 0.0,
+          "consenso": 0.2,
+          "nota": 0.2727
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "HSHETSRERLTTREBRASIL",
+          "texto": "HSHETSRERLTTRE",
+          "texto_corrigido": "HSH3T58",
+          "confianca": 0.295,
+          "consenso": 0.2,
+          "nota": 0.2894
+        }
+      ]
+    },
+    {
+      "imagem": "14.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "ESPACIAL",
+      "texto": "ESPACIAL",
+      "texto_corrigido": "ESP4C14",
+      "confianca": 0.51,
+      "variante": "cena_cinza_psm11",
+      "formato_valido": true,
+      "tempo_s": 2.807,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.167,
+      "nota": 0.5223,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "BRAS",
+          "texto": "BRAS",
+          "texto_corrigido": "BRAS",
+          "confianca": 0.0,
+          "consenso": 0.083,
+          "nota": 0.1692
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "PHI8HOG",
+          "texto": "PHI8HOG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.0,
+          "consenso": 0.25,
+          "nota": 0.4168
+        },
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "A9EPZBRASPHI8HOG",
+          "texto": "A9EPZBRASPHI8HOG",
+          "texto_corrigido": "RASPH18",
+          "confianca": 0.12,
+          "consenso": 0.083,
+          "nota": 0.2019
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "ESPACIAL",
+          "texto": "ESPACIAL",
+          "texto_corrigido": "ESP4C14",
+          "confianca": 0.51,
+          "consenso": 0.167,
+          "nota": 0.5223
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.0,
+          "consenso": 0.25,
+          "nota": 0.4168
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "CESPACIALABRASILPHI8HGG",
+          "texto": "CESPACIALAPHI8HGG",
+          "texto_corrigido": "ALAPH18",
+          "confianca": 0.294,
+          "consenso": 0.083,
+          "nota": 0.2715
+        },
+        {
+          "variante": "cena_otsu_psm6",
+          "texto_cru": "LPHI8SHOG1",
+          "texto": "LPHI8SHOG1",
+          "texto_corrigido": "PHI8S40",
+          "confianca": 0.0,
+          "consenso": 0.083,
+          "nota": 0.2399
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "N1WP6PPWT7BRALPHI8SHOG1",
+          "texto": "N1WP6PPWT7BRALPHI8SHOG1",
+          "texto_corrigido": "PWT7B84",
+          "confianca": 0.025,
+          "consenso": 0.083,
+          "nota": 0.1639
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "WAAP",
+          "texto": "WAAP",
+          "texto_corrigido": "WAAP",
+          "confianca": 0.0,
+          "consenso": 0.083,
+          "nota": 0.1692
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "ESPACIAL",
+          "texto": "ESPACIAL",
+          "texto_corrigido": "ESP4C14",
+          "confianca": 0.4,
+          "consenso": 0.167,
+          "nota": 0.4783
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.0,
+          "consenso": 0.25,
+          "nota": 0.4168
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "KEWAAPESPACIALWWFBRASILPHI8HGG",
+          "texto": "KEWAAPESPACIALWWFPHI8HGG",
+          "texto_corrigido": "WWFPH18",
+          "confianca": 0.29,
+          "consenso": 0.083,
+          "nota": 0.2699
+        }
+      ]
+    },
+    {
+      "imagem": "15.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "THY7ZE19",
+      "texto": "THY7ZE19",
+      "texto_corrigido": "THY7Z31",
+      "confianca": 0.46,
+      "variante": "cena_cinza_psm11",
+      "formato_valido": true,
+      "tempo_s": 3.757,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.154,
+      "nota": 0.5711,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "PTHY7E19",
+          "texto": "PTHY7E19",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.0,
+          "consenso": 0.154,
+          "nota": 0.4225
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "E419",
+          "texto": "E419",
+          "texto_corrigido": "E419",
+          "confianca": 0.58,
+          "consenso": 0.077,
+          "nota": 0.3649
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "BEES",
+          "texto": "BEES",
+          "texto_corrigido": "BEES",
+          "confianca": 0.0,
+          "consenso": 0.077,
+          "nota": 0.1682
+        },
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "BRASILPPTHY7E19E4197ZXABEESATE7EOM5PPTSS3S",
+          "texto": "PPTHY7E19E4197ZXABEESATE7EOM5PPTSS3S",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.178,
+          "consenso": 0.154,
+          "nota": 0.3418
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "THY7ZE19",
+          "texto": "THY7ZE19",
+          "texto_corrigido": "THY7Z31",
+          "confianca": 0.46,
+          "consenso": 0.154,
+          "nota": 0.5711
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "SE2E",
+          "texto": "SE2E",
+          "texto_corrigido": "SE2E",
+          "confianca": 0.0,
+          "consenso": 0.077,
+          "nota": 0.1329
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "GE7SBRASILTHY7ZE19SAOPOSE2E",
+          "texto": "GE7STHY7ZE19SAOPOSE2E",
+          "texto_corrigido": "THY7Z31",
+          "confianca": 0.217,
+          "consenso": 0.154,
+          "nota": 0.322
+        },
+        {
+          "variante": "cena_otsu_psm6",
+          "texto_cru": "PTHY7E29",
+          "texto": "PTHY7E29",
+          "texto_corrigido": "THY7E29",
+          "confianca": 0.0,
+          "consenso": 0.154,
+          "nota": 0.4225
+        },
+        {
+          "variante": "cena_otsu_psm6",
+          "texto_cru": "COLETTE",
+          "texto": "COLETTE",
+          "texto_corrigido": "COL3T13",
+          "confianca": 0.0,
+          "consenso": 0.077,
+          "nota": 0.3555
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "BRASILPPTHY7E29E19PNAAFSNOSCPEOERSOBETSTESCOLETTE",
+          "texto": "PPTHY7E29E19PNAAFSNOSCPEOERSOBETSTESCOLETTE",
+          "texto_corrigido": "THY7E29",
+          "confianca": 0.192,
+          "consenso": 0.154,
+          "nota": 0.3474
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "THYZE19",
+          "texto": "THYZE19",
+          "texto_corrigido": "THY2E19",
+          "confianca": 0.32,
+          "consenso": 0.154,
+          "nota": 0.5657
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "SSERE",
+          "texto": "SSERE",
+          "texto_corrigido": "SSERE",
+          "confianca": 0.0,
+          "consenso": 0.077,
+          "nota": 0.2542
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "A3BRASILTHYZE19NO7KSSERE",
+          "texto": "A3THYZE19NO7KSSERE",
+          "texto_corrigido": "THY2E19",
+          "confianca": 0.264,
+          "consenso": 0.154,
+          "nota": 0.3408
+        }
+      ]
+    },
+    {
+      "imagem": "16.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "TUHK5055",
+      "texto": "TUHK5055",
+      "texto_corrigido": "UHK5O55",
+      "confianca": 0.0,
+      "variante": "cena_cinza_psm3",
+      "formato_valido": true,
+      "tempo_s": 2.454,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.8,
+      "nota": 0.484,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm3",
+          "texto_cru": "TUHK5055",
+          "texto": "TUHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.0,
+          "consenso": 0.8,
+          "nota": 0.484
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "LUHK5055",
+          "texto": "LUHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.0,
+          "consenso": 0.8,
+          "nota": 0.484
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "4NT",
+          "texto": "4NT",
+          "texto_corrigido": "4NT",
+          "confianca": 0.345,
+          "consenso": 0.2,
+          "nota": 0.2387
+        },
+        {
+          "variante": "cena_otsu_psm3",
+          "texto_cru": "TUHK5055",
+          "texto": "TUHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.0,
+          "consenso": 0.8,
+          "nota": 0.484
+        },
+        {
+          "variante": "cena_otsu_psm6",
+          "texto_cru": "LUHK5055",
+          "texto": "LUHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.0,
+          "consenso": 0.8,
+          "nota": 0.484
+        }
+      ]
+    },
+    {
+      "imagem": "17.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "FOIOLS",
+      "texto": "FOIOLS",
+      "texto_corrigido": "FOIOLS",
+      "confianca": 0.0,
+      "variante": "cena_cinza_psm3",
+      "formato_valido": false,
+      "tempo_s": 2.389,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.2,
+      "nota": 0.3233,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm3",
+          "texto_cru": "FOIOLS",
+          "texto": "FOIOLS",
+          "texto_corrigido": "FOIOLS",
+          "confianca": 0.0,
+          "consenso": 0.2,
+          "nota": 0.3233
+        },
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "NNFXBZAIS7SV3Y7OOW",
+          "texto": "NNFXBZAIS7SV3Y7OOW",
+          "texto_corrigido": "AIS7SV3",
+          "confianca": 0.092,
+          "consenso": 0.2,
+          "nota": 0.2436
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "ZOESWVSUP",
+          "texto": "ZOESWVSUP",
+          "texto_corrigido": "ZOE5WV5",
+          "confianca": 0.118,
+          "consenso": 0.2,
+          "nota": 0.3199
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "WE1Y29",
+          "texto": "WE1Y29",
+          "texto_corrigido": "WE1Y29",
+          "confianca": 0.022,
+          "consenso": 0.2,
+          "nota": 0.2967
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "UI75",
+          "texto": "UI75",
+          "texto_corrigido": "UI75",
+          "confianca": 0.23,
+          "consenso": 0.2,
+          "nota": 0.2787
+        }
+      ]
+    },
+    {
+      "imagem": "18.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "EXDASESUM",
+      "texto": "EXDASESUM",
+      "texto_corrigido": "EXD4S35",
+      "confianca": 0.67,
+      "variante": "cena_cinza_psm6",
+      "formato_valido": true,
+      "tempo_s": 2.587,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.091,
+      "nota": 0.5243,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm3_concat",
+          "texto_cru": "TTBRASILPS",
+          "texto": "TTPS",
+          "texto_corrigido": "TTPS",
+          "confianca": 0.26,
+          "consenso": 0.091,
+          "nota": 0.2743
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "WACIONAL",
+          "texto": "WACIONAL",
+          "texto_corrigido": "WAC1ON4",
+          "confianca": 0.0,
+          "consenso": 0.273,
+          "nota": 0.3342
+        },
+        {
+          "variante": "cena_cinza_psm6",
+          "texto_cru": "EXDASESUM",
+          "texto": "EXDASESUM",
+          "texto_corrigido": "EXD4S35",
+          "confianca": 0.67,
+          "consenso": 0.091,
+          "nota": 0.5243
+        },
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "REEWACIONALBRASILBS4EXDASESUMXGG4",
+          "texto": "REEWACIONALBS4EXDASESUMXGG4",
+          "texto_corrigido": "ONA1B54",
+          "confianca": 0.201,
+          "consenso": 0.091,
+          "nota": 0.2355
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "WACIONAL",
+          "texto": "WACIONAL",
+          "texto_corrigido": "WAC1ON4",
+          "confianca": 0.0,
+          "consenso": 0.273,
+          "nota": 0.3342
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "LEGOLWACIONALBRASILN4",
+          "texto": "LEGOLWACIONALN4",
+          "texto_corrigido": "ION4LN4",
+          "confianca": 0.137,
+          "consenso": 0.091,
+          "nota": 0.2099
+        },
+        {
+          "variante": "cena_otsu_psm3_concat",
+          "texto_cru": "1BRASILAKA",
+          "texto": "1AKA",
+          "texto_corrigido": "1AKA",
+          "confianca": 0.25,
+          "consenso": 0.091,
+          "nota": 0.235
+        },
+        {
+          "variante": "cena_otsu_psm6",
+          "texto_cru": "WACIONAL",
+          "texto": "WACIONAL",
+          "texto_corrigido": "WAC1ON4",
+          "confianca": 0.0,
+          "consenso": 0.273,
+          "nota": 0.3342
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "WACIONALBRASILOL3LTT4",
+          "texto": "WACIONALOL3LTT4",
+          "texto_corrigido": "ONA1O13",
+          "confianca": 0.263,
+          "consenso": 0.091,
+          "nota": 0.2956
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "MACONAL",
+          "texto": "MACONAL",
+          "texto_corrigido": "MAC0N41",
+          "confianca": 0.0,
+          "consenso": 0.091,
+          "nota": 0.3576
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "4GOLMACONALBRASIL971",
+          "texto": "4GOLMACONAL971",
+          "texto_corrigido": "CON4L97",
+          "confianca": 0.145,
+          "consenso": 0.091,
+          "nota": 0.2484
+        }
+      ]
+    },
+    {
+      "imagem": "19.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "ABRET2I",
+      "texto": "ABRET2I",
+      "texto_corrigido": "ABR3T21",
+      "confianca": 0.273,
+      "variante": "cena_cinza_psm6_concat",
+      "formato_valido": true,
+      "tempo_s": 2.271,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 0.167,
+      "nota": 0.5135,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm6_concat",
+          "texto_cru": "ABRET2I",
+          "texto": "ABRET2I",
+          "texto_corrigido": "ABR3T21",
+          "confianca": 0.273,
+          "consenso": 0.167,
+          "nota": 0.5135
+        },
+        {
+          "variante": "cena_cinza_psm11",
+          "texto_cru": "SI419",
+          "texto": "SI419",
+          "texto_corrigido": "SI419",
+          "confianca": 0.17,
+          "consenso": 0.167,
+          "nota": 0.3003
+        },
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "2BRASILSI419",
+          "texto": "2SI419",
+          "texto_corrigido": "2SI419",
+          "confianca": 0.47,
+          "consenso": 0.167,
+          "nota": 0.5063
+        },
+        {
+          "variante": "cena_otsu_psm6_concat",
+          "texto_cru": "OLRA",
+          "texto": "OLRA",
+          "texto_corrigido": "OLRA",
+          "confianca": 0.27,
+          "consenso": 0.167,
+          "nota": 0.2897
+        },
+        {
+          "variante": "cena_otsu_psm11",
+          "texto_cru": "S1419",
+          "texto": "S1419",
+          "texto_corrigido": "S1419",
+          "confianca": 0.07,
+          "consenso": 0.167,
+          "nota": 0.225
+        },
+        {
+          "variante": "cena_otsu_psm11_concat",
+          "texto_cru": "FRS1419",
+          "texto": "FRS1419",
+          "texto_corrigido": "FRS1A19",
+          "confianca": 0.023,
+          "consenso": 0.167,
+          "nota": 0.4488
+        }
+      ]
+    },
+    {
+      "imagem": "20.JPG",
+      "detectada": false,
+      "score_deteccao": 0.0,
+      "metodo_deteccao": "",
+      "angulo": 0.0,
+      "n_caracteres": 0,
+      "texto_cru": "ES14",
+      "texto": "ES14",
+      "texto_corrigido": "ES14",
+      "confianca": 0.023,
+      "variante": "cena_cinza_psm11_concat",
+      "formato_valido": false,
+      "tempo_s": 2.681,
+      "deteccoes_extras": [],
+      "detector": "-",
+      "caixas_haar": 0,
+      "consenso": 1.0,
+      "nota": 0.3159,
+      "chamadas": 6,
+      "tentativas": [
+        {
+          "variante": "cena_cinza_psm11_concat",
+          "texto_cru": "ES14",
+          "texto": "ES14",
+          "texto_corrigido": "ES14",
+          "confianca": 0.023,
+          "consenso": 1.0,
+          "nota": 0.3159
+        }
+      ]
+    }
+  ]
+}

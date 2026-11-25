@@ -1,0 +1,36 @@
+# Dependencias do pipeline de segmentacao e OCR de placas veiculares.
+#
+# Instalacao:
+#   python -m venv .venv
+#   .venv\Scripts\activate        (Windows)   |   source .venv/bin/activate (Linux/macOS)
+#   pip install -r requirements.txt
+#
+# ATENCAO: o Tesseract tambem exige o BINARIO do motor, que nao vem via pip:
+#   Windows : winget install UB-Mannheim.TesseractOCR
+#   Ubuntu  : sudo apt install tesseract-ocr
+#   macOS   : brew install tesseract
+
+numpy>=1.24
+
+# ATENCAO: a versao do OpenCV e FIXADA de proposito.
+#
+# Os resultados mudam entre builds do OpenCV. A mesma pipeline, no mesmo
+# dataset, da 65% de acerto exato com Tesseract no 5.0.0 e 55% no 4.14 -- as
+# implementacoes de resize/bilateralFilter/CLAHE mudaram o suficiente para
+# virar a leitura de um caractere em duas imagens. Sem fixar a versao, os
+# numeros dos relatorios nao sao reproduziveis.
+#
+# `opencv-python-headless` entra na mesma versao porque o easyocr o instala e
+# os dois pacotes compartilham o mesmo diretorio `cv2/`.
+opencv-python==5.0.0.93
+opencv-python-headless==5.0.0.93
+
+# OPCIONAL -- apenas para o experimento de deteccao com Haar Cascade
+# (`src/detector_haar.py`, `run_experimentos.py --so-haar`). O OpenCV 5.0
+# REMOVEU `cv2.CascadeClassifier`, entao aquele modulo exige o 4.x:
+#     pip install opencv-python==4.14.0.94 opencv-python-headless==4.14.0.94
+# Nesse caso os numeros do pipeline principal mudam (ver acima), por isso a
+# versao padrao do projeto e a 5.0.0.93.
+
+pytesseract>=0.3.10
+easyocr>=1.7

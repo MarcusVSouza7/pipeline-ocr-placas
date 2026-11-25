@@ -1,0 +1,37 @@
+RESULTADO DO OCR - EASYOCR
+Versao do motor : 1.7.2
+Modo            : SEM ROI (OCR direto na imagem inteira)
+Dataset         : placas_exercicio
+Gerado em       : 17/11/2026 08:48:11
+
+IMAGEM     LIDO       CORRIGIDO  GABARITO  OK     VARIANTE     CONF
+------------------------------------------------------------------------------
+1.JPG      BRIFC      BRIFC      IFA1T95   NAO    cena_otsu_concat 0.85
+2.JPG      TADP66     TADP66     NEV1C08   NAO    cena_otsu    0.80
+3.JPG      IVZ2Z18    IVZ2Z18    IYZ2Z18   NAO    cena_otsu    0.96
+4.JPG      QOWI4Z     QOWI4Z     QOW9N47   NAO    cena_cinza   0.66
+5.JPG      BR4ML      BR4ML      USQ0T32   NAO    cena_cinza   0.69
+6.JPG      TYL3XZS    TYL3X25    TYL3X75   NAO    cena_cinza   0.55
+7.JPG      GXQ2J26    GXQ2J26    GXQ2J95   NAO    cena_otsu    0.43
+8.JPG      UUUUUUU    UUU0U00    XHY6U29   NAO    cena_cinza   1.00
+9.JPG      AOALJ16    AOA1J16    AOA4J16   NAO    cena_cinza   0.87
+10.JPG     AGILELZ    AGI1E12    PDU7G22   NAO    cena_otsu    0.91
+11.JPG     ML3U28     ML3U28     MNL3U98   NAO    cena_cinza   0.32
+12.JPG     BRE7C88    BRE7C88    JET7G88   NAO    cena_cinza_concat 0.71
+13.JPG     ABP8Q82    ABP8Q82    ABP8Q89   NAO    cena_otsu    0.86
+14.JPG     ESRACL     ESRACL     PHI8H00   NAO    cena_cinza   0.98
+15.JPG     THYZE12    THY2E12    THY7E19   NAO    cena_cinza_concat 0.89
+16.JPG     UK5055     UK5055     UHK5O55   NAO    cena_otsu    0.80
+17.JPG     NZQ37Z     NZQ37Z     NZQ3M77   NAO    cena_cinza   0.55
+18.JPG     XDASE5O    XDA5E50    XDA5E50   SIM    cena_cinza   0.53
+19.JPG     JP08C66    JPO8C66    ESI4I93   NAO    cena_otsu    0.65
+20.JPG     UGG4D44    UGG4D44    TGG1D44   NAO    cena_cinza   0.05
+------------------------------------------------------------------------------
+
+RESUMO
+  Imagens processadas       : 20
+  Etapa de deteccao         : nao se aplica (OCR direto)
+  Acerto exato (com mascara): 1/20 (5.0%)
+  Acerto exato (sem mascara): 0/20 (0.0%)
+  Acuracia por caractere    : 50.0%
+  Tempo total / por imagem  : 146.47s / 7.32s

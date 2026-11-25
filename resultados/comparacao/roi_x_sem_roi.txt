@@ -1,0 +1,83 @@
+OCR COM ROI x OCR DIRETO NA IMAGEM INTEIRA
+Gerado em: 25/11/2026 08:40:25
+Dataset  : placas_exercicio
+
+Aula 9, slide "DEMONSTRACAO IMPORTANTE":
+  OCR DIRETO  -> imagem inteira do carro, resultado tende a ser ruim
+  OCR COM ROI -> somente a placa recortada, resultado tende a ser melhor
+
+O motor e o pos-processamento (limpeza + mascara AAA0A00) sao os mesmos
+nos dois lados. A unica diferenca e a existencia da etapa de deteccao e
+segmentacao da placa.
+
+========================================================================
+MOTOR: TESSERACT
+========================================================================
+
+IMAGEM    GABARITO  COM ROI    OK   SEM ROI      OK  
+------------------------------------------------------------------------
+1.JPG     IFA1T95   LFA1T95         LFAME43          
+2.JPG     NEV1C08   NEV1C08    OK   ROS5F0X          
+3.JPG     IYZ2Z18   LYZ2Z18         LYZ2Z18          
+4.JPG     QOW9N47   QOW0N42         QOW1N47          
+5.JPG     USQ0T32   USQ0T32    OK   AQJTE            
+6.JPG     TYL3X75   TYL3X75    OK   COS73S           
+7.JPG     GXQ2J95   GXZ1I95         RASIL            
+8.JPG     XHY6U29   XHY6U29    OK   UUU0U00          
+9.JPG     AOA4J16   AOA4J16    OK   WS               
+10.JPG    PDU7G22   PBU7G22         ABILEZ           
+11.JPG    MNL3U98   MNL3U98    OK   9NLOS            
+12.JPG    JET7G88   JET7G88    OK   JET7G88      OK  
+13.JPG    ABP8Q89   ABP8G89         ABP3G50          
+14.JPG    PHI8H00   PHI8H00    OK   ESP4C14          
+15.JPG    THY7E19   THY7E19    OK   THY7Z31          
+16.JPG    UHK5O55   UHK5O55    OK   UHK5O55      OK  
+17.JPG    NZQ3M77   NZQ3M77    OK   FOIOLS           
+18.JPG    XDA5E50   XDA5E50    OK   EXD4S35          
+19.JPG    ESI4I93   ESI4I93    OK   ABR3T21          
+20.JPG    TGG1D44   SEG2A04         ES14             
+------------------------------------------------------------------------
+
+  METRICA                         COM ROI    SEM ROI      GANHO
+  Acerto exato (com mascara)        65.0%      10.0%      55.0 pp
+  Acerto exato (sem mascara)        35.0%       5.0%      30.0 pp
+  Acuracia por caractere            90.0%      32.1%      57.9 pp
+  Tempo por imagem                 14.49s      2.93s
+
+  Imagens em que o OCR direto nao devolveu nada: 0/20
+
+========================================================================
+MOTOR: EASYOCR
+========================================================================
+
+IMAGEM    GABARITO  COM ROI    OK   SEM ROI      OK  
+------------------------------------------------------------------------
+1.JPG     IFA1T95   IFU1T95         BRIFC            
+2.JPG     NEV1C08   NEV1C08    OK   TADP66           
+3.JPG     IYZ2Z18   IVZ2Z18         IVZ2Z18          
+4.JPG     QOW9N47   QOW9N17         QOWI4Z           
+5.JPG     USQ0T32   USQ0T32    OK   BR4ML            
+6.JPG     TYL3X75   TVL3X75         TYL3X25          
+7.JPG     GXQ2J95   GXQ2J95    OK   GXQ2J26          
+8.JPG     XHY6U29   XHY6A29         UUU0U00          
+9.JPG     AOA4J16   AOA4J16    OK   AOA1J16          
+10.JPG    PDU7G22   PDU7G22    OK   AGI1E12          
+11.JPG    MNL3U98   MNL3U98    OK   ML3U28           
+12.JPG    JET7G88   JET7G88    OK   BRE7C88          
+13.JPG    ABP8Q89   ABP8O89         ABP8Q82          
+14.JPG    PHI8H00   PHI8H00    OK   ESRACL           
+15.JPG    THY7E19   THY2E19         THY2E12          
+16.JPG    UHK5O55   UHK5O55    OK   UK5055           
+17.JPG    NZQ3M77   NZQ3M77    OK   NZQ37Z           
+18.JPG    XDA5E50   XDA5E50    OK   XDA5E50      OK  
+19.JPG    ESI4I93   ESI4I93    OK   JPO8C66          
+20.JPG    TGG1D44   TGGIDG          UGG4D44          
+------------------------------------------------------------------------
+
+  METRICA                         COM ROI    SEM ROI      GANHO
+  Acerto exato (com mascara)        60.0%       5.0%      55.0 pp
+  Acerto exato (sem mascara)        35.0%       0.0%      35.0 pp
+  Acuracia por caractere            92.9%      50.0%      42.9 pp
+  Tempo por imagem                 46.31s      7.32s
+
+  Imagens em que o OCR direto nao devolveu nada: 0/20

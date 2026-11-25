@@ -1,0 +1,1685 @@
+{
+  "motor": "EasyOCR",
+  "versao": "1.7.2",
+  "metricas": {
+    "imagens": 20,
+    "avaliadas": 20,
+    "placas_detectadas": 20,
+    "taxa_deteccao": 100.0,
+    "acertos": 12,
+    "acerto_exato_pct": 60.0,
+    "acuracia_caractere_pct": 92.86,
+    "acertos_sem_mascara": 7,
+    "acerto_exato_sem_mascara_pct": 35.0,
+    "acuracia_caractere_sem_mascara_pct": 85.71,
+    "tempo_total_s": 926.23,
+    "tempo_medio_s": 46.311,
+    "chamadas_ocr": 120,
+    "tempo_por_leitura_s": 7.719,
+    "motor": "EasyOCR",
+    "versao": "1.7.2",
+    "modo": "com ROI, detector=classico",
+    "detector": "classico",
+    "sem_roi": false
+  },
+  "resultados": [
+    {
+      "imagem": "1.JPG",
+      "detectada": true,
+      "score_deteccao": 0.913,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "IFU1T9S",
+      "texto": "IFU1T9S",
+      "texto_corrigido": "IFU1T95",
+      "confianca": 0.531,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 21.232,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        178,
+        215,
+        359,
+        131
+      ],
+      "consenso": 0.167,
+      "nota": 0.652,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "IFA1T95",
+          "texto": "IFA1T95",
+          "texto_corrigido": "IFA1T95",
+          "confianca": 0.221,
+          "consenso": 0.333,
+          "nota": 0.5884
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "IFATT95",
+          "texto": "IFATT95",
+          "texto_corrigido": "IFA1T95",
+          "confianca": 0.181,
+          "consenso": 0.333,
+          "nota": 0.537
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "IFOTT95",
+          "texto": "IFOTT95",
+          "texto_corrigido": "IFO1T95",
+          "confianca": 0.21,
+          "consenso": 0.167,
+          "nota": 0.5236
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "IFATTS5",
+          "texto": "IFATTS5",
+          "texto_corrigido": "IFA1T55",
+          "confianca": 0.563,
+          "consenso": 0.167,
+          "nota": 0.6295
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "IFATT96",
+          "texto": "IFATT96",
+          "texto_corrigido": "IFA1T96",
+          "confianca": 0.387,
+          "consenso": 0.167,
+          "nota": 0.5944
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "IFU1T9S",
+          "texto": "IFU1T9S",
+          "texto_corrigido": "IFU1T95",
+          "confianca": 0.531,
+          "consenso": 0.167,
+          "nota": 0.652
+        }
+      ]
+    },
+    {
+      "imagem": "2.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8791,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -2.7,
+      "n_caracteres": 7,
+      "texto_cru": "NEVICO8",
+      "texto": "NEVICO8",
+      "texto_corrigido": "NEV1C08",
+      "confianca": 0.926,
+      "variante": "cinza",
+      "formato_valido": true,
+      "tempo_s": 53.021,
+      "deteccoes_extras": [
+        {
+          "texto": "TAD0P66",
+          "score": 0.8092,
+          "metodo": "faixa_azul"
+        }
+      ],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        271,
+        307,
+        769,
+        208
+      ],
+      "consenso": 0.833,
+      "nota": 0.8747,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "NEVICO8",
+          "texto": "NEVICO8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.926,
+          "consenso": 0.833,
+          "nota": 0.8747
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "NEVICD8",
+          "texto": "NEVICD8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.525,
+          "consenso": 0.833,
+          "nota": 0.7143
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "NEVICD8",
+          "texto": "NEVICD8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.577,
+          "consenso": 0.833,
+          "nota": 0.7351
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "NEVIC08",
+          "texto": "NEVIC08",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.512,
+          "consenso": 0.833,
+          "nota": 0.7444
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "NEVZCW8",
+          "texto": "NEVZCW8",
+          "texto_corrigido": "NEV2CW8",
+          "confianca": 0.249,
+          "consenso": 0.167,
+          "nota": 0.5039
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "NEVIC08",
+          "texto": "NEVIC08",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.698,
+          "consenso": 0.833,
+          "nota": 0.8188
+        }
+      ]
+    },
+    {
+      "imagem": "3.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8968,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -1.91,
+      "n_caracteres": 7,
+      "texto_cru": "IVZ2Z18",
+      "texto": "IVZ2Z18",
+      "texto_corrigido": "IVZ2Z18",
+      "confianca": 0.904,
+      "variante": "cinza",
+      "formato_valido": true,
+      "tempo_s": 12.341,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        152,
+        325,
+        981,
+        271
+      ],
+      "consenso": 0.333,
+      "nota": 0.8616,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "IVZ2Z18",
+          "texto": "IVZ2Z18",
+          "texto_corrigido": "IVZ2Z18",
+          "confianca": 0.904,
+          "consenso": 0.333,
+          "nota": 0.8616
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "IZ2218",
+          "texto": "IZ2218",
+          "texto_corrigido": "IZ2218",
+          "confianca": 0.541,
+          "consenso": 0.167,
+          "nota": 0.5347
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "IZ2Z18",
+          "texto": "IZ2Z18",
+          "texto_corrigido": "IZ2Z18",
+          "confianca": 0.499,
+          "consenso": 0.167,
+          "nota": 0.4825
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "IVZ2Z78",
+          "texto": "IVZ2Z78",
+          "texto_corrigido": "IVZ2Z78",
+          "confianca": 0.816,
+          "consenso": 0.167,
+          "nota": 0.8014
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "IYTZ2717",
+          "texto": "IYTZ2717",
+          "texto_corrigido": "YTZ2T17",
+          "confianca": 0.42,
+          "consenso": 0.167,
+          "nota": 0.557
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "IVZZZ18",
+          "texto": "IVZZZ18",
+          "texto_corrigido": "IVZ2Z18",
+          "confianca": 0.643,
+          "consenso": 0.333,
+          "nota": 0.7218
+        }
+      ]
+    },
+    {
+      "imagem": "4.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8306,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "QOW9NL7",
+      "texto": "QOW9NL7",
+      "texto_corrigido": "QOW9N17",
+      "confianca": 0.677,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 29.387,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        296,
+        292,
+        312,
+        75
+      ],
+      "consenso": 0.167,
+      "nota": 0.7104,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "QOWON47",
+          "texto": "QOWON47",
+          "texto_corrigido": "QOW0N47",
+          "confianca": 0.42,
+          "consenso": 0.167,
+          "nota": 0.6076
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "QOWINAZ",
+          "texto": "QOWINAZ",
+          "texto_corrigido": "QOW1N42",
+          "confianca": 0.092,
+          "consenso": 0.167,
+          "nota": 0.4057
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "QOVINHZ",
+          "texto": "QOVINHZ",
+          "texto_corrigido": "QOV1N42",
+          "confianca": 0.094,
+          "consenso": 0.167,
+          "nota": 0.4065
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "QOHNLZ",
+          "texto": "QOHNLZ",
+          "texto_corrigido": "QOHNLZ",
+          "confianca": 0.146,
+          "consenso": 0.167,
+          "nota": 0.3767
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "QWOH4Z",
+          "texto": "QWOH4Z",
+          "texto_corrigido": "QWOH4Z",
+          "confianca": 0.099,
+          "consenso": 0.167,
+          "nota": 0.3225
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "QOW9NL7",
+          "texto": "QOW9NL7",
+          "texto_corrigido": "QOW9N17",
+          "confianca": 0.677,
+          "consenso": 0.167,
+          "nota": 0.7104
+        }
+      ]
+    },
+    {
+      "imagem": "5.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8108,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -2.14,
+      "n_caracteres": 7,
+      "texto_cru": "USQ0T32",
+      "texto": "USQ0T32",
+      "texto_corrigido": "USQ0T32",
+      "confianca": 0.597,
+      "variante": "cinza",
+      "formato_valido": true,
+      "tempo_s": 15.262,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        64,
+        175,
+        945,
+        170
+      ],
+      "consenso": 0.167,
+      "nota": 0.7138,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "USQ0T32",
+          "texto": "USQ0T32",
+          "texto_corrigido": "USQ0T32",
+          "confianca": 0.597,
+          "consenso": 0.167,
+          "nota": 0.7138
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "US80T32",
+          "texto": "US80T32",
+          "texto_corrigido": "USB0T32",
+          "confianca": 0.244,
+          "consenso": 0.167,
+          "nota": 0.5372
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "USDI232",
+          "texto": "USDI232",
+          "texto_corrigido": "USD1Z32",
+          "confianca": 0.437,
+          "consenso": 0.167,
+          "nota": 0.5791
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "USROT32",
+          "texto": "USROT32",
+          "texto_corrigido": "USR0T32",
+          "confianca": 0.275,
+          "consenso": 0.167,
+          "nota": 0.5496
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "U81T32",
+          "texto": "U81T32",
+          "texto_corrigido": "U81T32",
+          "confianca": 0.545,
+          "consenso": 0.167,
+          "nota": 0.4656
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "ULSSQMF32",
+          "texto": "ULSSQMF32",
+          "texto_corrigido": "SSQMF32",
+          "confianca": 0.516,
+          "consenso": 0.167,
+          "nota": 0.5448
+        }
+      ]
+    },
+    {
+      "imagem": "6.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8277,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -1.12,
+      "n_caracteres": 7,
+      "texto_cru": "TVL3X75",
+      "texto": "TVL3X75",
+      "texto_corrigido": "TVL3X75",
+      "confianca": 0.581,
+      "variante": "otsu",
+      "formato_valido": true,
+      "tempo_s": 13.791,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        379,
+        332,
+        1059,
+        247
+      ],
+      "consenso": 0.333,
+      "nota": 0.7324,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "TL3X75",
+          "texto": "TL3X75",
+          "texto_corrigido": "TL3X75",
+          "confianca": 0.855,
+          "consenso": 0.167,
+          "nota": 0.6249
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "TV53775",
+          "texto": "TV53775",
+          "texto_corrigido": "TVS3T75",
+          "confianca": 0.153,
+          "consenso": 0.167,
+          "nota": 0.4655
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "T23X5",
+          "texto": "T23X5",
+          "texto_corrigido": "T23X5",
+          "confianca": 0.798,
+          "consenso": 0.167,
+          "nota": 0.4808
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "TVL3X75",
+          "texto": "TVL3X75",
+          "texto_corrigido": "TVL3X75",
+          "confianca": 0.581,
+          "consenso": 0.333,
+          "nota": 0.7324
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "TVLZX5",
+          "texto": "TVLZX5",
+          "texto_corrigido": "TVLZX5",
+          "confianca": 0.659,
+          "consenso": 0.167,
+          "nota": 0.6173
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "TVL3X75",
+          "texto": "TVL3X75",
+          "texto_corrigido": "TVL3X75",
+          "confianca": 0.496,
+          "consenso": 0.333,
+          "nota": 0.6984
+        }
+      ]
+    },
+    {
+      "imagem": "7.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8097,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "GXQ2J95",
+      "texto": "GXQ2J95",
+      "texto_corrigido": "GXQ2J95",
+      "confianca": 0.832,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 57.25,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        129,
+        179,
+        893,
+        150
+      ],
+      "consenso": 0.167,
+      "nota": 0.8078,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "GXO2J25",
+          "texto": "GXO2J25",
+          "texto_corrigido": "GXO2J25",
+          "confianca": 0.464,
+          "consenso": 0.167,
+          "nota": 0.6606
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "602J25",
+          "texto": "602J25",
+          "texto_corrigido": "602J25",
+          "confianca": 0.153,
+          "consenso": 0.167,
+          "nota": 0.2734
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "FEXD2J25",
+          "texto": "FEXD2J25",
+          "texto_corrigido": "EXD2J25",
+          "confianca": 0.083,
+          "consenso": 0.167,
+          "nota": 0.4576
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "GXD2J26",
+          "texto": "GXD2J26",
+          "texto_corrigido": "GXD2J26",
+          "confianca": 0.585,
+          "consenso": 0.167,
+          "nota": 0.709
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "EXQ2425B",
+          "texto": "EXQ2425B",
+          "texto_corrigido": "EXQ2A25",
+          "confianca": 0.126,
+          "consenso": 0.167,
+          "nota": 0.4394
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "GXQ2J95",
+          "texto": "GXQ2J95",
+          "texto_corrigido": "GXQ2J95",
+          "confianca": 0.832,
+          "consenso": 0.167,
+          "nota": 0.8078
+        }
+      ]
+    },
+    {
+      "imagem": "8.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9765,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 0.25,
+      "n_caracteres": 7,
+      "texto_cru": "XHY6429",
+      "texto": "XHY6429",
+      "texto_corrigido": "XHY6A29",
+      "confianca": 0.769,
+      "variante": "adaptativo",
+      "formato_valido": true,
+      "tempo_s": 61.224,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        554,
+        448,
+        626,
+        224
+      ],
+      "consenso": 0.667,
+      "nota": 0.8222,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "XHY6429",
+          "texto": "XHY6429",
+          "texto_corrigido": "XHY6A29",
+          "confianca": 0.712,
+          "consenso": 0.667,
+          "nota": 0.7994
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "XHV6429",
+          "texto": "XHV6429",
+          "texto_corrigido": "XHV6A29",
+          "confianca": 0.736,
+          "consenso": 0.167,
+          "nota": 0.734
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.603,
+          "consenso": 0.167,
+          "nota": 0.7162
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "XHY6429",
+          "texto": "XHY6429",
+          "texto_corrigido": "XHY6A29",
+          "confianca": 0.691,
+          "consenso": 0.667,
+          "nota": 0.791
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "XHY6429",
+          "texto": "XHY6429",
+          "texto_corrigido": "XHY6A29",
+          "confianca": 0.769,
+          "consenso": 0.667,
+          "nota": 0.8222
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "XHY6429",
+          "texto": "XHY6429",
+          "texto_corrigido": "XHY6A29",
+          "confianca": 0.488,
+          "consenso": 0.667,
+          "nota": 0.7098
+        }
+      ]
+    },
+    {
+      "imagem": "9.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9124,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 0.4,
+      "n_caracteres": 7,
+      "texto_cru": "A0A4J16",
+      "texto": "A0A4J16",
+      "texto_corrigido": "AOA4J16",
+      "confianca": 0.834,
+      "variante": "cinza",
+      "formato_valido": true,
+      "tempo_s": 54.082,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        211,
+        85,
+        687,
+        189
+      ],
+      "consenso": 0.5,
+      "nota": 0.8232,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "A0A4J16",
+          "texto": "A0A4J16",
+          "texto_corrigido": "AOA4J16",
+          "confianca": 0.834,
+          "consenso": 0.5,
+          "nota": 0.8232
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "AOALJ16",
+          "texto": "AOALJ16",
+          "texto_corrigido": "AOA1J16",
+          "confianca": 0.719,
+          "consenso": 0.333,
+          "nota": 0.7522
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "AOALJ16",
+          "texto": "AOALJ16",
+          "texto_corrigido": "AOA1J16",
+          "confianca": 0.493,
+          "consenso": 0.333,
+          "nota": 0.6618
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "A0A4J16",
+          "texto": "A0A4J16",
+          "texto_corrigido": "AOA4J16",
+          "confianca": 0.694,
+          "consenso": 0.5,
+          "nota": 0.7672
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "404461",
+          "texto": "404461",
+          "texto_corrigido": "404461",
+          "confianca": 0.528,
+          "consenso": 0.167,
+          "nota": 0.4588
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "AOA4J16",
+          "texto": "AOA4J16",
+          "texto_corrigido": "AOA4J16",
+          "confianca": 0.693,
+          "consenso": 0.5,
+          "nota": 0.8022
+        }
+      ]
+    },
+    {
+      "imagem": "10.JPG",
+      "detectada": true,
+      "score_deteccao": 0.891,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 1.35,
+      "n_caracteres": 7,
+      "texto_cru": "PDU7G22",
+      "texto": "PDU7G22",
+      "texto_corrigido": "PDU7G22",
+      "confianca": 0.623,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 40.079,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        200,
+        281,
+        520,
+        175
+      ],
+      "consenso": 0.167,
+      "nota": 0.7242,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "PDWG22",
+          "texto": "PDWG22",
+          "texto_corrigido": "PDWG22",
+          "confianca": 0.291,
+          "consenso": 0.333,
+          "nota": 0.4597
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "PDWG22",
+          "texto": "PDWG22",
+          "texto_corrigido": "PDWG22",
+          "confianca": 0.642,
+          "consenso": 0.333,
+          "nota": 0.6001
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "PDWZG22",
+          "texto": "PDWZG22",
+          "texto_corrigido": "PDW2G22",
+          "confianca": 0.29,
+          "consenso": 0.333,
+          "nota": 0.5806
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "PDW2G22",
+          "texto": "PDW2G22",
+          "texto_corrigido": "PDW2G22",
+          "confianca": 0.39,
+          "consenso": 0.333,
+          "nota": 0.656
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "PIZ2Z",
+          "texto": "PIZ2Z",
+          "texto_corrigido": "PIZ2Z",
+          "confianca": 0.276,
+          "consenso": 0.167,
+          "nota": 0.4134
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "PDU7G22",
+          "texto": "PDU7G22",
+          "texto_corrigido": "PDU7G22",
+          "confianca": 0.623,
+          "consenso": 0.167,
+          "nota": 0.7242
+        }
+      ]
+    },
+    {
+      "imagem": "11.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9568,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 1.99,
+      "n_caracteres": 7,
+      "texto_cru": "MNL3U98",
+      "texto": "MNL3U98",
+      "texto_corrigido": "MNL3U98",
+      "confianca": 0.933,
+      "variante": "adaptativo",
+      "formato_valido": true,
+      "tempo_s": 34.226,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        226,
+        185,
+        249,
+        108
+      ],
+      "consenso": 0.5,
+      "nota": 0.8982,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.68,
+          "consenso": 0.5,
+          "nota": 0.797
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "MNL3U28",
+          "texto": "MNL3U28",
+          "texto_corrigido": "MNL3U28",
+          "confianca": 0.45,
+          "consenso": 0.167,
+          "nota": 0.655
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "MNL3UP8",
+          "texto": "MNL3UP8",
+          "texto_corrigido": "MNL3UP8",
+          "confianca": 0.498,
+          "consenso": 0.167,
+          "nota": 0.6388
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "MML3U98",
+          "texto": "MML3U98",
+          "texto_corrigido": "MML3U98",
+          "confianca": 0.538,
+          "consenso": 0.167,
+          "nota": 0.6902
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.933,
+          "consenso": 0.5,
+          "nota": 0.8982
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.755,
+          "consenso": 0.5,
+          "nota": 0.827
+        }
+      ]
+    },
+    {
+      "imagem": "12.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9765,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -1.52,
+      "n_caracteres": 7,
+      "texto_cru": "JET7G88",
+      "texto": "JET7G88",
+      "texto_corrigido": "JET7G88",
+      "confianca": 0.997,
+      "variante": "otsu",
+      "formato_valido": true,
+      "tempo_s": 41.735,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        79,
+        109,
+        472,
+        151
+      ],
+      "consenso": 0.833,
+      "nota": 0.9738,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.849,
+          "consenso": 0.833,
+          "nota": 0.9146
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.913,
+          "consenso": 0.833,
+          "nota": 0.9402
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "JETZG88",
+          "texto": "JETZG88",
+          "texto_corrigido": "JET2G88",
+          "confianca": 0.891,
+          "consenso": 0.167,
+          "nota": 0.796
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.997,
+          "consenso": 0.833,
+          "nota": 0.9738
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.796,
+          "consenso": 0.833,
+          "nota": 0.8934
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.509,
+          "consenso": 0.833,
+          "nota": 0.7786
+        }
+      ]
+    },
+    {
+      "imagem": "13.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8378,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -1.12,
+      "n_caracteres": 7,
+      "texto_cru": "ABP8089",
+      "texto": "ABP8089",
+      "texto_corrigido": "ABP8O89",
+      "confianca": 0.998,
+      "variante": "cinza",
+      "formato_valido": true,
+      "tempo_s": 42.657,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        279,
+        284,
+        611,
+        143
+      ],
+      "consenso": 0.333,
+      "nota": 0.8638,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "ABP8089",
+          "texto": "ABP8089",
+          "texto_corrigido": "ABP8O89",
+          "confianca": 0.998,
+          "consenso": 0.333,
+          "nota": 0.8638
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "AP8C820",
+          "texto": "AP8C820",
+          "texto_corrigido": "APB0B20",
+          "confianca": 0.199,
+          "consenso": 0.167,
+          "nota": 0.4485
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "TBP80B2",
+          "texto": "TBP80B2",
+          "texto_corrigido": "TBP8O82",
+          "confianca": 0.168,
+          "consenso": 0.167,
+          "nota": 0.4715
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "ABP8Q82",
+          "texto": "ABP8Q82",
+          "texto_corrigido": "ABP8Q82",
+          "confianca": 0.698,
+          "consenso": 0.167,
+          "nota": 0.7542
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "IBP80",
+          "texto": "IBP80",
+          "texto_corrigido": "IBP80",
+          "confianca": 0.509,
+          "consenso": 0.167,
+          "nota": 0.4713
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "ABP8089",
+          "texto": "ABP8089",
+          "texto_corrigido": "ABP8O89",
+          "confianca": 0.814,
+          "consenso": 0.333,
+          "nota": 0.7902
+        }
+      ]
+    },
+    {
+      "imagem": "14.JPG",
+      "detectada": true,
+      "score_deteccao": 0.942,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 1.37,
+      "n_caracteres": 7,
+      "texto_cru": "PHI8HOO",
+      "texto": "PHI8HOO",
+      "texto_corrigido": "PHI8H00",
+      "confianca": 0.855,
+      "variante": "nitidez",
+      "formato_valido": true,
+      "tempo_s": 12.753,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        257,
+        385,
+        624,
+        184
+      ],
+      "consenso": 0.833,
+      "nota": 0.8463,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "PHI8HOO",
+          "texto": "PHI8HOO",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.698,
+          "consenso": 0.833,
+          "nota": 0.7835
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "PHI8HOO",
+          "texto": "PHI8HOO",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.585,
+          "consenso": 0.833,
+          "nota": 0.7383
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "PHI8HOO",
+          "texto": "PHI8HOO",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.855,
+          "consenso": 0.833,
+          "nota": 0.8463
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "PHIBHOO",
+          "texto": "PHIBHOO",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.579,
+          "consenso": 0.833,
+          "nota": 0.7005
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "PHI8HT",
+          "texto": "PHI8HT",
+          "texto_corrigido": "PHI8HT",
+          "confianca": 0.101,
+          "consenso": 0.167,
+          "nota": 0.3941
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "PHI8HOO",
+          "texto": "PHI8HOO",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.682,
+          "consenso": 0.833,
+          "nota": 0.7771
+        }
+      ]
+    },
+    {
+      "imagem": "15.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9776,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -2.13,
+      "n_caracteres": 7,
+      "texto_cru": "THYZE19",
+      "texto": "THYZE19",
+      "texto_corrigido": "THY2E19",
+      "confianca": 0.904,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 96.94,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        520,
+        363,
+        608,
+        215
+      ],
+      "consenso": 0.667,
+      "nota": 0.8762,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "THYZE19",
+          "texto": "THYZE19",
+          "texto_corrigido": "THY2E19",
+          "confianca": 0.432,
+          "consenso": 0.667,
+          "nota": 0.6874
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "THYZET9",
+          "texto": "THYZET9",
+          "texto_corrigido": "THY2E19",
+          "confianca": 0.323,
+          "consenso": 0.667,
+          "nota": 0.6085
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "THY7E19",
+          "texto": "THY7E19",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.368,
+          "consenso": 0.167,
+          "nota": 0.6222
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "THYZE19",
+          "texto": "THYZE19",
+          "texto_corrigido": "THY2E19",
+          "confianca": 0.831,
+          "consenso": 0.667,
+          "nota": 0.847
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "TMYZE19",
+          "texto": "TMYZE19",
+          "texto_corrigido": "TMY2E19",
+          "confianca": 0.275,
+          "consenso": 0.167,
+          "nota": 0.5496
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "THYZE19",
+          "texto": "THYZE19",
+          "texto_corrigido": "THY2E19",
+          "confianca": 0.904,
+          "consenso": 0.667,
+          "nota": 0.8762
+        }
+      ]
+    },
+    {
+      "imagem": "16.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9134,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "UHK5055",
+      "texto": "UHK5055",
+      "texto_corrigido": "UHK5O55",
+      "confianca": 0.901,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 35.845,
+      "deteccoes_extras": [
+        {
+          "texto": "MRL0G01",
+          "score": 0.8381,
+          "metodo": "faixa_azul"
+        }
+      ],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        398,
+        323,
+        362,
+        134
+      ],
+      "consenso": 0.167,
+      "nota": 0.8,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "WK5O55",
+          "texto": "WK5O55",
+          "texto_corrigido": "WK5O55",
+          "confianca": 0.57,
+          "consenso": 0.5,
+          "nota": 0.5609
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "WKSO55",
+          "texto": "WKSO55",
+          "texto_corrigido": "WKSO55",
+          "confianca": 0.6,
+          "consenso": 0.167,
+          "nota": 0.5583
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "WK5O55",
+          "texto": "WK5O55",
+          "texto_corrigido": "WK5O55",
+          "confianca": 0.509,
+          "consenso": 0.5,
+          "nota": 0.5365
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "WHK5055",
+          "texto": "WHK5055",
+          "texto_corrigido": "WHK5O55",
+          "confianca": 0.526,
+          "consenso": 0.167,
+          "nota": 0.65
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "WK5O55",
+          "texto": "WK5O55",
+          "texto_corrigido": "WK5O55",
+          "confianca": 0.589,
+          "consenso": 0.5,
+          "nota": 0.5685
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "UHK5055",
+          "texto": "UHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.901,
+          "consenso": 0.167,
+          "nota": 0.8
+        }
+      ]
+    },
+    {
+      "imagem": "17.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8354,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "NZQ3M77",
+      "texto": "NZQ3M77",
+      "texto_corrigido": "NZQ3M77",
+      "confianca": 0.89,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 22.84,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        275,
+        289,
+        380,
+        106
+      ],
+      "consenso": 0.333,
+      "nota": 0.856,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "N203M77",
+          "texto": "N203M77",
+          "texto_corrigido": "NZO3M77",
+          "confianca": 0.231,
+          "consenso": 0.167,
+          "nota": 0.4967
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "NZO377",
+          "texto": "NZO377",
+          "texto_corrigido": "NZO377",
+          "confianca": 0.211,
+          "consenso": 0.167,
+          "nota": 0.4381
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "NQ377",
+          "texto": "NQ377",
+          "texto_corrigido": "NQ377",
+          "confianca": 0.353,
+          "consenso": 0.167,
+          "nota": 0.3735
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "NZQ3MZ7",
+          "texto": "NZQ3MZ7",
+          "texto_corrigido": "NZQ3M27",
+          "confianca": 0.231,
+          "consenso": 0.167,
+          "nota": 0.532
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "NZQ3M77",
+          "texto": "NZQ3M77",
+          "texto_corrigido": "NZQ3M77",
+          "confianca": 0.372,
+          "consenso": 0.333,
+          "nota": 0.6488
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "NZQ3M77",
+          "texto": "NZQ3M77",
+          "texto_corrigido": "NZQ3M77",
+          "confianca": 0.89,
+          "consenso": 0.333,
+          "nota": 0.856
+        }
+      ]
+    },
+    {
+      "imagem": "18.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9067,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "XDASESO",
+      "texto": "XDASESO",
+      "texto_corrigido": "XDA5E50",
+      "confianca": 0.801,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 44.742,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        400,
+        366,
+        369,
+        134
+      ],
+      "consenso": 0.5,
+      "nota": 0.7393,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "XDA5ESO",
+          "texto": "XDA5ESO",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.292,
+          "consenso": 0.5,
+          "nota": 0.5711
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "XWSEE",
+          "texto": "XWSEE",
+          "texto_corrigido": "XWSEE",
+          "confianca": 0.118,
+          "consenso": 0.167,
+          "nota": 0.3149
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "XDNEEE",
+          "texto": "XDNEEE",
+          "texto_corrigido": "XDNEEE",
+          "confianca": 0.08,
+          "consenso": 0.167,
+          "nota": 0.3503
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "IXDASESO",
+          "texto": "IXDASESO",
+          "texto_corrigido": "IXD4S35",
+          "confianca": 0.878,
+          "consenso": 0.167,
+          "nota": 0.6695
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "XDASE5O",
+          "texto": "XDASE5O",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.281,
+          "consenso": 0.5,
+          "nota": 0.5667
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "XDASESO",
+          "texto": "XDASESO",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.801,
+          "consenso": 0.5,
+          "nota": 0.7393
+        }
+      ]
+    },
+    {
+      "imagem": "19.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8618,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -3.81,
+      "n_caracteres": 7,
+      "texto_cru": "ESI4I93",
+      "texto": "ESI4I93",
+      "texto_corrigido": "ESI4I93",
+      "confianca": 0.979,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 150.163,
+      "deteccoes_extras": [
+        {
+          "texto": "JPQ8C66",
+          "score": 0.7448,
+          "metodo": "faixa_azul"
+        }
+      ],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        340,
+        174,
+        644,
+        243
+      ],
+      "consenso": 0.333,
+      "nota": 0.8916,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "ESIEI9",
+          "texto": "ESIEI9",
+          "texto_corrigido": "ESIEI9",
+          "confianca": 0.317,
+          "consenso": 0.333,
+          "nota": 0.5055
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "ESIEI9",
+          "texto": "ESIEI9",
+          "texto_corrigido": "ESIEI9",
+          "confianca": 0.281,
+          "consenso": 0.333,
+          "nota": 0.4911
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "ESIUIF",
+          "texto": "ESIUIF",
+          "texto_corrigido": "ESIUIF",
+          "confianca": 0.122,
+          "consenso": 0.167,
+          "nota": 0.3671
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "ESI4I93",
+          "texto": "ESI4I93",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.563,
+          "consenso": 0.333,
+          "nota": 0.7252
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "ESEEIF",
+          "texto": "ESEEIF",
+          "texto_corrigido": "ESEEIF",
+          "confianca": 0.261,
+          "consenso": 0.167,
+          "nota": 0.4227
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "ESI4I93",
+          "texto": "ESI4I93",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.979,
+          "consenso": 0.333,
+          "nota": 0.8916
+        }
+      ]
+    },
+    {
+      "imagem": "20.JPG",
+      "detectada": true,
+      "score_deteccao": 0.7442,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 0.2,
+      "n_caracteres": 7,
+      "texto_cru": "TGGIDG",
+      "texto": "TGGIDG",
+      "texto_corrigido": "TGGIDG",
+      "confianca": 0.702,
+      "variante": "otsu",
+      "formato_valido": false,
+      "tempo_s": 86.655,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        100,
+        232,
+        942,
+        164
+      ],
+      "consenso": 0.167,
+      "nota": 0.5991,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "texto_cru": "TGG1JD",
+          "texto": "TGG1JD",
+          "texto_corrigido": "TGG1JD",
+          "confianca": 0.366,
+          "consenso": 0.167,
+          "nota": 0.5001
+        },
+        {
+          "variante": "clahe",
+          "texto_cru": "GG",
+          "texto": "GG",
+          "texto_corrigido": "GG",
+          "confianca": 0.389,
+          "consenso": 0.167,
+          "nota": 0.2513
+        },
+        {
+          "variante": "nitidez",
+          "texto_cru": "GG7",
+          "texto": "GG7",
+          "texto_corrigido": "GG7",
+          "confianca": 0.283,
+          "consenso": 0.167,
+          "nota": 0.2089
+        },
+        {
+          "variante": "otsu",
+          "texto_cru": "TGGIDG",
+          "texto": "TGGIDG",
+          "texto_corrigido": "TGGIDG",
+          "confianca": 0.702,
+          "consenso": 0.167,
+          "nota": 0.5991
+        },
+        {
+          "variante": "adaptativo",
+          "texto_cru": "TGEI",
+          "texto": "TGEI",
+          "texto_corrigido": "TGEI",
+          "confianca": 0.497,
+          "consenso": 0.167,
+          "nota": 0.3805
+        },
+        {
+          "variante": "segmentada",
+          "texto_cru": "T61D4",
+          "texto": "T61D4",
+          "texto_corrigido": "T61D4",
+          "confianca": 0.079,
+          "consenso": 0.167,
+          "nota": 0.1932
+        }
+      ]
+    }
+  ]
+}

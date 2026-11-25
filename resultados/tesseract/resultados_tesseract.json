@@ -1,0 +1,4243 @@
+{
+  "motor": "Tesseract OCR",
+  "versao": "5.4.0.20240606",
+  "metricas": {
+    "imagens": 20,
+    "avaliadas": 20,
+    "placas_detectadas": 20,
+    "taxa_deteccao": 100.0,
+    "acertos": 13,
+    "acerto_exato_pct": 65.0,
+    "acuracia_caractere_pct": 90.0,
+    "acertos_sem_mascara": 7,
+    "acerto_exato_sem_mascara_pct": 35.0,
+    "acuracia_caractere_sem_mascara_pct": 83.57,
+    "tempo_total_s": 289.83,
+    "tempo_medio_s": 14.492,
+    "chamadas_ocr": 360,
+    "tempo_por_leitura_s": 0.805,
+    "motor": "Tesseract OCR",
+    "versao": "5.4.0.20240606",
+    "modo": "com ROI, detector=classico",
+    "detector": "classico",
+    "sem_roi": false
+  },
+  "resultados": [
+    {
+      "imagem": "1.JPG",
+      "detectada": true,
+      "score_deteccao": 0.913,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "LFAIT95",
+      "texto": "LFAIT95",
+      "texto_corrigido": "LFA1T95",
+      "confianca": 0.8,
+      "variante": "otsu",
+      "formato_valido": true,
+      "tempo_s": 25.258,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        178,
+        215,
+        359,
+        131
+      ],
+      "psm": 7,
+      "consenso": 0.056,
+      "nota": 0.743,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.025
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "1S",
+          "texto": "1S",
+          "texto_corrigido": "1S",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.052
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "1S",
+          "texto": "1S",
+          "texto_corrigido": "1S",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.052
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.025
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "IFRS",
+          "texto": "IFRS",
+          "texto_corrigido": "IFRS",
+          "confianca": 0.53,
+          "consenso": 0.222,
+          "nota": 0.402
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "IFRS",
+          "texto": "IFRS",
+          "texto_corrigido": "IFRS",
+          "confianca": 0.53,
+          "consenso": 0.222,
+          "nota": 0.402
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.025
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "IFRS",
+          "texto": "IFRS",
+          "texto_corrigido": "IFRS",
+          "confianca": 0.45,
+          "consenso": 0.222,
+          "nota": 0.37
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "IFRS",
+          "texto": "IFRS",
+          "texto_corrigido": "IFRS",
+          "confianca": 0.45,
+          "consenso": 0.222,
+          "nota": 0.37
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "LFAIT95",
+          "texto": "LFAIT95",
+          "texto_corrigido": "LFA1T95",
+          "confianca": 0.8,
+          "consenso": 0.056,
+          "nota": 0.743
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "IFAIT95",
+          "texto": "IFAIT95",
+          "texto_corrigido": "IFA1T95",
+          "confianca": 0.36,
+          "consenso": 0.333,
+          "nota": 0.6086
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "IFAIT95",
+          "texto": "IFAIT95",
+          "texto_corrigido": "IFA1T95",
+          "confianca": 0.36,
+          "consenso": 0.333,
+          "nota": 0.6086
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "LFAZT9S",
+          "texto": "LFAZT9S",
+          "texto_corrigido": "LFA2T95",
+          "confianca": 0.17,
+          "consenso": 0.056,
+          "nota": 0.4556
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "IFAIT9S",
+          "texto": "IFAIT9S",
+          "texto_corrigido": "IFA1T95",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.4293
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "IFAIT9S",
+          "texto": "IFAIT9S",
+          "texto_corrigido": "IFA1T95",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.4293
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "IFQ1T95",
+          "texto": "IFQ1T95",
+          "texto_corrigido": "IFQ1T95",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.4583
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "IFA1T95",
+          "texto": "IFA1T95",
+          "texto_corrigido": "IFA1T95",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.5
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "IFA1T95",
+          "texto": "IFA1T95",
+          "texto_corrigido": "IFA1T95",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.5
+        }
+      ]
+    },
+    {
+      "imagem": "2.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8791,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -2.7,
+      "n_caracteres": 7,
+      "texto_cru": "NEV1CG8",
+      "texto": "NEV1CG8",
+      "texto_corrigido": "NEV1C08",
+      "confianca": 0.88,
+      "variante": "otsu",
+      "formato_valido": true,
+      "tempo_s": 44.757,
+      "deteccoes_extras": [
+        {
+          "texto": "TAD0P66",
+          "score": 0.8092,
+          "metodo": "faixa_azul"
+        }
+      ],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        271,
+        307,
+        769,
+        208
+      ],
+      "psm": 7,
+      "consenso": 0.444,
+      "nota": 0.8333,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "NEV1CG8",
+          "texto": "NEV1CG8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.29,
+          "consenso": 0.444,
+          "nota": 0.5973
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "NEV1CG8",
+          "texto": "NEV1CG8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.0,
+          "consenso": 0.444,
+          "nota": 0.4813
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "NEV1CG8",
+          "texto": "NEV1CG8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.0,
+          "consenso": 0.444,
+          "nota": 0.4813
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "NEVACGS",
+          "texto": "NEVACGS",
+          "texto_corrigido": "NEV4C05",
+          "confianca": 0.68,
+          "consenso": 0.111,
+          "nota": 0.6326
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "NEV4CG3S",
+          "texto": "NEV4CG3S",
+          "texto_corrigido": "NEV4C03",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3974
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "NEV4CG3S",
+          "texto": "NEV4CG3S",
+          "texto_corrigido": "NEV4C03",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3974
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "NEVACUS",
+          "texto": "NEVACUS",
+          "texto_corrigido": "NEV4C05",
+          "confianca": 0.03,
+          "consenso": 0.111,
+          "nota": 0.3726
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "NEV4CG3",
+          "texto": "NEV4CG3",
+          "texto_corrigido": "NEV4C03",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.448
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "NEV4CG3",
+          "texto": "NEV4CG3",
+          "texto_corrigido": "NEV4C03",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.448
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "NEV1CG8",
+          "texto": "NEV1CG8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.88,
+          "consenso": 0.444,
+          "nota": 0.8333
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "NEV1CG8",
+          "texto": "NEV1CG8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.24,
+          "consenso": 0.444,
+          "nota": 0.5773
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "NEV1CG8",
+          "texto": "NEV1CG8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.24,
+          "consenso": 0.444,
+          "nota": 0.5773
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "NEV2CES",
+          "texto": "NEV2CES",
+          "texto_corrigido": "NEV2C35",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3876
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "HEVACGS",
+          "texto": "HEVACGS",
+          "texto_corrigido": "HEV4C05",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3606
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "HEVACGS",
+          "texto": "HEVACGS",
+          "texto_corrigido": "HEV4C05",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3606
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "NEVICGS3",
+          "texto": "NEVICGS3",
+          "texto_corrigido": "EVI0G53",
+          "confianca": 0.28,
+          "consenso": 0.056,
+          "nota": 0.449
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "NEV1CG8",
+          "texto": "NEV1CG8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.86,
+          "consenso": 0.444,
+          "nota": 0.8253
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "NEV1CG8",
+          "texto": "NEV1CG8",
+          "texto_corrigido": "NEV1C08",
+          "confianca": 0.86,
+          "consenso": 0.444,
+          "nota": 0.8253
+        }
+      ]
+    },
+    {
+      "imagem": "3.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8968,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -1.91,
+      "n_caracteres": 7,
+      "texto_cru": "LYZ2Z18",
+      "texto": "LYZ2Z18",
+      "texto_corrigido": "LYZ2Z18",
+      "confianca": 0.7,
+      "variante": "cinza",
+      "formato_valido": true,
+      "tempo_s": 16.708,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        152,
+        325,
+        981,
+        271
+      ],
+      "psm": 7,
+      "consenso": 0.056,
+      "nota": 0.7383,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "LYZ2Z18",
+          "texto": "LYZ2Z18",
+          "texto_corrigido": "LYZ2Z18",
+          "confianca": 0.7,
+          "consenso": 0.056,
+          "nota": 0.7383
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "1YZ2Z18",
+          "texto": "1YZ2Z18",
+          "texto_corrigido": "IYZ2Z18",
+          "confianca": 0.17,
+          "consenso": 0.111,
+          "nota": 0.4993
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "1YZ2Z18",
+          "texto": "1YZ2Z18",
+          "texto_corrigido": "IYZ2Z18",
+          "confianca": 0.17,
+          "consenso": 0.111,
+          "nota": 0.4993
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "IVZ22Z48",
+          "texto": "IVZ22Z48",
+          "texto_corrigido": "VZZ2Z48",
+          "confianca": 0.21,
+          "consenso": 0.056,
+          "nota": 0.4564
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "AVYZ2Z18",
+          "texto": "AVYZ2Z18",
+          "texto_corrigido": "VYZ2Z18",
+          "confianca": 0.29,
+          "consenso": 0.111,
+          "nota": 0.532
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "AVYZ2Z18",
+          "texto": "AVYZ2Z18",
+          "texto_corrigido": "VYZ2Z18",
+          "confianca": 0.29,
+          "consenso": 0.111,
+          "nota": 0.532
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "LVZ2Z48",
+          "texto": "LVZ2Z48",
+          "texto_corrigido": "LVZ2Z48",
+          "confianca": 0.16,
+          "consenso": 0.056,
+          "nota": 0.5223
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "IVZ2Z418",
+          "texto": "IVZ2Z418",
+          "texto_corrigido": "IVZ2Z41",
+          "confianca": 0.36,
+          "consenso": 0.111,
+          "nota": 0.56
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "IVZ2Z418",
+          "texto": "IVZ2Z418",
+          "texto_corrigido": "IVZ2Z41",
+          "confianca": 0.36,
+          "consenso": 0.111,
+          "nota": 0.56
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "LVZ22Z18",
+          "texto": "LVZ22Z18",
+          "texto_corrigido": "VZZ2Z18",
+          "confianca": 0.45,
+          "consenso": 0.056,
+          "nota": 0.5524
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "AVZ2Z18",
+          "texto": "AVZ2Z18",
+          "texto_corrigido": "AVZ2Z18",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4667
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "AVZ2Z18",
+          "texto": "AVZ2Z18",
+          "texto_corrigido": "AVZ2Z18",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4667
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "LYZAZLAS",
+          "texto": "LYZAZLAS",
+          "texto_corrigido": "LYZ4Z14",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3016
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "AYZ2Z248",
+          "texto": "AYZ2Z248",
+          "texto_corrigido": "AYZ2Z24",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.416
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "AYZ2Z248",
+          "texto": "AYZ2Z248",
+          "texto_corrigido": "AYZ2Z24",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.416
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "LVYZ22Z18",
+          "texto": "LVYZ22Z18",
+          "texto_corrigido": "YZZ2Z18",
+          "confianca": 0.34,
+          "consenso": 0.056,
+          "nota": 0.4577
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "LVZ2Z218",
+          "texto": "LVZ2Z218",
+          "texto_corrigido": "LVZ2Z21",
+          "confianca": 0.31,
+          "consenso": 0.111,
+          "nota": 0.54
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "LVZ2Z218",
+          "texto": "LVZ2Z218",
+          "texto_corrigido": "LVZ2Z21",
+          "confianca": 0.31,
+          "consenso": 0.111,
+          "nota": 0.54
+        }
+      ]
+    },
+    {
+      "imagem": "4.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8306,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "QOWON4Z",
+      "texto": "QOWON4Z",
+      "texto_corrigido": "QOW0N42",
+      "confianca": 0.44,
+      "variante": "otsu",
+      "formato_valido": true,
+      "tempo_s": 19.633,
+      "deteccoes_extras": [
+        {
+          "texto": "SIV0M35",
+          "score": 0.6236,
+          "metodo": "regiao_clara"
+        }
+      ],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        296,
+        292,
+        312,
+        75
+      ],
+      "psm": 7,
+      "consenso": 0.056,
+      "nota": 0.5636,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "QOW9ON47",
+          "texto": "QOW9ON47",
+          "texto_corrigido": "QOW9ON4",
+          "confianca": 0.26,
+          "consenso": 0.278,
+          "nota": 0.5097
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "QOW9ON47",
+          "texto": "QOW9ON47",
+          "texto_corrigido": "QOW9ON4",
+          "confianca": 0.2,
+          "consenso": 0.278,
+          "nota": 0.4857
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "QOW9ON47",
+          "texto": "QOW9ON47",
+          "texto_corrigido": "QOW9ON4",
+          "confianca": 0.2,
+          "consenso": 0.278,
+          "nota": 0.4857
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.0167
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "DOWON4GZ",
+          "texto": "DOWON4GZ",
+          "texto_corrigido": "DOW0N40",
+          "confianca": 0.19,
+          "consenso": 0.111,
+          "nota": 0.4213
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "DOWON4GZ",
+          "texto": "DOWON4GZ",
+          "texto_corrigido": "DOW0N40",
+          "confianca": 0.19,
+          "consenso": 0.111,
+          "nota": 0.4213
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.0167
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "DOWON4Z",
+          "texto": "DOWON4Z",
+          "texto_corrigido": "DOW0N42",
+          "confianca": 0.19,
+          "consenso": 0.111,
+          "nota": 0.472
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "DOWON4Z",
+          "texto": "DOWON4Z",
+          "texto_corrigido": "DOW0N42",
+          "confianca": 0.19,
+          "consenso": 0.111,
+          "nota": 0.472
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "QOWON4Z",
+          "texto": "QOWON4Z",
+          "texto_corrigido": "QOW0N42",
+          "confianca": 0.44,
+          "consenso": 0.056,
+          "nota": 0.5636
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "QOWON4T",
+          "texto": "QOWON4T",
+          "texto_corrigido": "QOW0N41",
+          "confianca": 0.13,
+          "consenso": 0.111,
+          "nota": 0.448
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "QOWON4T",
+          "texto": "QOWON4T",
+          "texto_corrigido": "QOW0N41",
+          "confianca": 0.13,
+          "consenso": 0.111,
+          "nota": 0.448
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "QOWGH4EZ",
+          "texto": "QOWGH4EZ",
+          "texto_corrigido": "QOW0H43",
+          "confianca": 0.26,
+          "consenso": 0.056,
+          "nota": 0.441
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "QOWSH4GZ",
+          "texto": "QOWSH4GZ",
+          "texto_corrigido": "QOW5H40",
+          "confianca": 0.1,
+          "consenso": 0.111,
+          "nota": 0.3853
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "QOWSH4GZ",
+          "texto": "QOWSH4GZ",
+          "texto_corrigido": "QOW5H40",
+          "confianca": 0.1,
+          "consenso": 0.111,
+          "nota": 0.3853
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "QOWON4G7",
+          "texto": "QOWON4G7",
+          "texto_corrigido": "QOW0N40",
+          "confianca": 0.3,
+          "consenso": 0.056,
+          "nota": 0.457
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "QOW9ON4G7",
+          "texto": "QOW9ON4G7",
+          "texto_corrigido": "QOW9ON4",
+          "confianca": 0.39,
+          "consenso": 0.278,
+          "nota": 0.5111
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "QOW9ON4G7",
+          "texto": "QOW9ON4G7",
+          "texto_corrigido": "QOW9ON4",
+          "confianca": 0.39,
+          "consenso": 0.278,
+          "nota": 0.5111
+        }
+      ]
+    },
+    {
+      "imagem": "5.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8108,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -2.14,
+      "n_caracteres": 7,
+      "texto_cru": "USQGT32",
+      "texto": "USQGT32",
+      "texto_corrigido": "USQ0T32",
+      "confianca": 0.09,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 10.76,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        64,
+        175,
+        945,
+        170
+      ],
+      "psm": 8,
+      "consenso": 0.111,
+      "nota": 0.4673,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "EISQGGF3Z",
+          "texto": "EISQGGF3Z",
+          "texto_corrigido": "ISQ0GF3",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.2864
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "USGT2",
+          "texto": "USGT2",
+          "texto_corrigido": "USGT2",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.2407
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "USGT2",
+          "texto": "USGT2",
+          "texto_corrigido": "USGT2",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.2407
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "EISGQGGTS2",
+          "texto": "EISGQGGTS2",
+          "texto_corrigido": "GQG0T52",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.2357
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "USTT2",
+          "texto": "USTT2",
+          "texto_corrigido": "USTT2",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.224
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "USTT2",
+          "texto": "USTT2",
+          "texto_corrigido": "USTT2",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.224
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "EEISGQGTS2",
+          "texto": "EEISGQGTS2",
+          "texto_corrigido": "SGQ0T52",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.2357
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "USGT2",
+          "texto": "USGT2",
+          "texto_corrigido": "USGT2",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.2407
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "USGT2",
+          "texto": "USGT2",
+          "texto_corrigido": "USGT2",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.2407
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "USAGT32",
+          "texto": "USAGT32",
+          "texto_corrigido": "USA0T32",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.423
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "USOEGT3S2",
+          "texto": "USOEGT3S2",
+          "texto_corrigido": "USO3G13",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.2947
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "USOEGT3S2",
+          "texto": "USOEGT3S2",
+          "texto_corrigido": "USO3G13",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.2947
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.0083
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "EISRRSTSFZ",
+          "texto": "EISRRSTSFZ",
+          "texto_corrigido": "EIS8R51",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.2087
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "EISRRSTSFZ",
+          "texto": "EISRRSTSFZ",
+          "texto_corrigido": "EIS8R51",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.2087
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "EISGT32",
+          "texto": "EISGT32",
+          "texto_corrigido": "EIS0T32",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.423
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "USQGT32",
+          "texto": "USQGT32",
+          "texto_corrigido": "USQ0T32",
+          "confianca": 0.09,
+          "consenso": 0.111,
+          "nota": 0.4673
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "USQGT32",
+          "texto": "USQGT32",
+          "texto_corrigido": "USQ0T32",
+          "confianca": 0.09,
+          "consenso": 0.111,
+          "nota": 0.4673
+        }
+      ]
+    },
+    {
+      "imagem": "6.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8277,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -1.12,
+      "n_caracteres": 7,
+      "texto_cru": "TYL3X75",
+      "texto": "TYL3X75",
+      "texto_corrigido": "TYL3X75",
+      "confianca": 0.85,
+      "variante": "otsu",
+      "formato_valido": true,
+      "tempo_s": 9.662,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        379,
+        332,
+        1059,
+        247
+      ],
+      "psm": 8,
+      "consenso": 0.333,
+      "nota": 0.84,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "TYL3X75",
+          "texto": "TYL3X75",
+          "texto_corrigido": "TYL3X75",
+          "confianca": 0.54,
+          "consenso": 0.333,
+          "nota": 0.716
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "TYL3X75",
+          "texto": "TYL3X75",
+          "texto_corrigido": "TYL3X75",
+          "confianca": 0.54,
+          "consenso": 0.333,
+          "nota": 0.716
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "TYL3X75",
+          "texto": "TYL3X75",
+          "texto_corrigido": "TYL3X75",
+          "confianca": 0.54,
+          "consenso": 0.333,
+          "nota": 0.716
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "TYLSX75",
+          "texto": "TYLSX75",
+          "texto_corrigido": "TYL5X75",
+          "confianca": 0.66,
+          "consenso": 0.5,
+          "nota": 0.7536
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "TYLSX75",
+          "texto": "TYLSX75",
+          "texto_corrigido": "TYL5X75",
+          "confianca": 0.66,
+          "consenso": 0.5,
+          "nota": 0.7536
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "TYLSX75",
+          "texto": "TYLSX75",
+          "texto_corrigido": "TYL5X75",
+          "confianca": 0.66,
+          "consenso": 0.5,
+          "nota": 0.7536
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "TYLSX75S",
+          "texto": "TYLSX75S",
+          "texto_corrigido": "TYL5X75",
+          "confianca": 0.18,
+          "consenso": 0.5,
+          "nota": 0.511
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "TYLSX75S",
+          "texto": "TYLSX75S",
+          "texto_corrigido": "TYL5X75",
+          "confianca": 0.18,
+          "consenso": 0.5,
+          "nota": 0.511
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "TYLSX75S",
+          "texto": "TYLSX75S",
+          "texto_corrigido": "TYL5X75",
+          "confianca": 0.18,
+          "consenso": 0.5,
+          "nota": 0.511
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "TYLSX75",
+          "texto": "TYLSX75",
+          "texto_corrigido": "TYL5X75",
+          "confianca": 0.76,
+          "consenso": 0.5,
+          "nota": 0.7936
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "TYL3X75",
+          "texto": "TYL3X75",
+          "texto_corrigido": "TYL3X75",
+          "confianca": 0.85,
+          "consenso": 0.333,
+          "nota": 0.84
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "TYL3X75",
+          "texto": "TYL3X75",
+          "texto_corrigido": "TYL3X75",
+          "confianca": 0.85,
+          "consenso": 0.333,
+          "nota": 0.84
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.0083
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "TYLSX75S",
+          "texto": "TYLSX75S",
+          "texto_corrigido": "TYL5X75",
+          "confianca": 0.37,
+          "consenso": 0.5,
+          "nota": 0.587
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "TYLSX75S",
+          "texto": "TYLSX75S",
+          "texto_corrigido": "TYL5X75",
+          "confianca": 0.37,
+          "consenso": 0.5,
+          "nota": 0.587
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "TYL3X75D",
+          "texto": "TYL3X75D",
+          "texto_corrigido": "TYL3X75",
+          "confianca": 0.16,
+          "consenso": 0.333,
+          "nota": 0.5134
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "TYL3X7D",
+          "texto": "TYL3X7D",
+          "texto_corrigido": "TYL3X70",
+          "confianca": 0.65,
+          "consenso": 0.111,
+          "nota": 0.6913
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "TYL3X7D",
+          "texto": "TYL3X7D",
+          "texto_corrigido": "TYL3X70",
+          "confianca": 0.65,
+          "consenso": 0.111,
+          "nota": 0.6913
+        }
+      ]
+    },
+    {
+      "imagem": "7.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8097,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "GX2JI95",
+      "texto": "GX2JI95",
+      "texto_corrigido": "GXZ1I95",
+      "confianca": 0.0,
+      "variante": "otsu",
+      "formato_valido": true,
+      "tempo_s": 22.402,
+      "deteccoes_extras": [
+        {
+          "texto": "MEW1E31",
+          "score": 0.5606,
+          "metodo": "regiao_clara"
+        }
+      ],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        129,
+        179,
+        893,
+        150
+      ],
+      "psm": 8,
+      "consenso": 0.111,
+      "nota": 0.396,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "GX2J3S",
+          "texto": "GX2J3S",
+          "texto_corrigido": "GX2J3S",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.2309
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "GX2I395",
+          "texto": "GX2I395",
+          "texto_corrigido": "GXZ1B95",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.3689
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "GX2I395",
+          "texto": "GX2I395",
+          "texto_corrigido": "GXZ1B95",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.3689
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "GX2Z2IS",
+          "texto": "GX2Z2IS",
+          "texto_corrigido": "GXZ2Z15",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.2815
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "GX2395",
+          "texto": "GX2395",
+          "texto_corrigido": "GX2395",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3266
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "GX2395",
+          "texto": "GX2395",
+          "texto_corrigido": "GX2395",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3266
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "GX2335",
+          "texto": "GX2335",
+          "texto_corrigido": "GX2335",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3016
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "GX2395",
+          "texto": "GX2395",
+          "texto_corrigido": "GX2395",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3266
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "GX2395",
+          "texto": "GX2395",
+          "texto_corrigido": "GX2395",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3266
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "GX2I395",
+          "texto": "GX2I395",
+          "texto_corrigido": "GXZ1B95",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.3689
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "GX2JI95",
+          "texto": "GX2JI95",
+          "texto_corrigido": "GXZ1I95",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.396
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "GX2JI95",
+          "texto": "GX2JI95",
+          "texto_corrigido": "GXZ1I95",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.396
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "BXASSZSISFS",
+          "texto": "BXASSZSISFS",
+          "texto_corrigido": "BXA5S25",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.1498
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "GX235",
+          "texto": "GX235",
+          "texto_corrigido": "GX235",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.224
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "GX235",
+          "texto": "GX235",
+          "texto_corrigido": "GX235",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.224
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "XQI2ZI9YD",
+          "texto": "XQI2ZI9YD",
+          "texto_corrigido": "XQI2Z19",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3217
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "GXQ2Z2I95",
+          "texto": "GXQ2Z2I95",
+          "texto_corrigido": "GXQ2Z21",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3301
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "GXQ2Z2I95",
+          "texto": "GXQ2Z2I95",
+          "texto_corrigido": "GXQ2Z21",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3301
+        }
+      ]
+    },
+    {
+      "imagem": "8.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9765,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 0.25,
+      "n_caracteres": 7,
+      "texto_cru": "XHY6U29",
+      "texto": "XHY6U29",
+      "texto_corrigido": "XHY6U29",
+      "confianca": 0.89,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 20.226,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        554,
+        448,
+        626,
+        224
+      ],
+      "psm": 8,
+      "consenso": 0.556,
+      "nota": 0.8893,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.556,
+          "nota": 0.5333
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "KHY6U29",
+          "texto": "KHY6U29",
+          "texto_corrigido": "KHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.5
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "KHY6U29",
+          "texto": "KHY6U29",
+          "texto_corrigido": "KHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.5
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.556,
+          "nota": 0.5333
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "KHY6U29",
+          "texto": "KHY6U29",
+          "texto_corrigido": "KHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.5
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "KHY6U29",
+          "texto": "KHY6U29",
+          "texto_corrigido": "KHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.5
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "XHY6U2Z9",
+          "texto": "XHY6U2Z9",
+          "texto_corrigido": "XHY6U22",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3724
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "KHY6U29",
+          "texto": "KHY6U29",
+          "texto_corrigido": "KHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.5
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "KHY6U29",
+          "texto": "KHY6U29",
+          "texto_corrigido": "KHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.5
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.556,
+          "nota": 0.5333
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.556,
+          "nota": 0.5333
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.556,
+          "nota": 0.5333
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "AHY6UZ9",
+          "texto": "AHY6UZ9",
+          "texto_corrigido": "AHY6U29",
+          "confianca": 0.66,
+          "consenso": 0.056,
+          "nota": 0.687
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.556,
+          "nota": 0.5333
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.0,
+          "consenso": 0.556,
+          "nota": 0.5333
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.87,
+          "consenso": 0.556,
+          "nota": 0.8813
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.89,
+          "consenso": 0.556,
+          "nota": 0.8893
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "XHY6U29",
+          "texto": "XHY6U29",
+          "texto_corrigido": "XHY6U29",
+          "confianca": 0.89,
+          "consenso": 0.556,
+          "nota": 0.8893
+        }
+      ]
+    },
+    {
+      "imagem": "9.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9124,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 0.4,
+      "n_caracteres": 7,
+      "texto_cru": "AOA4J16",
+      "texto": "AOA4J16",
+      "texto_corrigido": "AOA4J16",
+      "confianca": 0.81,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 13.674,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        211,
+        85,
+        687,
+        189
+      ],
+      "psm": 8,
+      "consenso": 0.167,
+      "nota": 0.799,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "AQA4J16",
+          "texto": "AQA4J16",
+          "texto_corrigido": "AQA4J16",
+          "confianca": 0.49,
+          "consenso": 0.111,
+          "nota": 0.6627
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "AOA4I16",
+          "texto": "AOA4I16",
+          "texto_corrigido": "AOA4I16",
+          "confianca": 0.51,
+          "consenso": 0.278,
+          "nota": 0.6957
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "AOA4I16",
+          "texto": "AOA4I16",
+          "texto_corrigido": "AOA4I16",
+          "confianca": 0.51,
+          "consenso": 0.278,
+          "nota": 0.6957
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "AOA4I16",
+          "texto": "AOA4I16",
+          "texto_corrigido": "AOA4I16",
+          "confianca": 0.01,
+          "consenso": 0.278,
+          "nota": 0.4957
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "AGCA4I16",
+          "texto": "AGCA4I16",
+          "texto_corrigido": "GCA4I16",
+          "confianca": 0.08,
+          "consenso": 0.111,
+          "nota": 0.448
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "AGCA4I16",
+          "texto": "AGCA4I16",
+          "texto_corrigido": "GCA4I16",
+          "confianca": 0.08,
+          "consenso": 0.111,
+          "nota": 0.448
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "AQA4JI16",
+          "texto": "AQA4JI16",
+          "texto_corrigido": "AQA4J11",
+          "confianca": 0.24,
+          "consenso": 0.056,
+          "nota": 0.4684
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "ACA4I1I6",
+          "texto": "ACA4I1I6",
+          "texto_corrigido": "ACA4I11",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3807
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "ACA4I1I6",
+          "texto": "ACA4I1I6",
+          "texto_corrigido": "ACA4I11",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3807
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "AOA4J16",
+          "texto": "AOA4J16",
+          "texto_corrigido": "AOA4J16",
+          "confianca": 0.79,
+          "consenso": 0.167,
+          "nota": 0.791
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "AOA4I16",
+          "texto": "AOA4I16",
+          "texto_corrigido": "AOA4I16",
+          "confianca": 0.29,
+          "consenso": 0.278,
+          "nota": 0.6077
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "AOA4I16",
+          "texto": "AOA4I16",
+          "texto_corrigido": "AOA4I16",
+          "confianca": 0.29,
+          "consenso": 0.278,
+          "nota": 0.6077
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "AGS4326",
+          "texto": "AGS4326",
+          "texto_corrigido": "AGS4B26",
+          "confianca": 0.31,
+          "consenso": 0.056,
+          "nota": 0.547
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "BOB4I26",
+          "texto": "BOB4I26",
+          "texto_corrigido": "BOB4I26",
+          "confianca": 0.33,
+          "consenso": 0.111,
+          "nota": 0.5987
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "BOB4I26",
+          "texto": "BOB4I26",
+          "texto_corrigido": "BOB4I26",
+          "confianca": 0.33,
+          "consenso": 0.111,
+          "nota": 0.5987
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "AQA4J16",
+          "texto": "AQA4J16",
+          "texto_corrigido": "AQA4J16",
+          "confianca": 0.77,
+          "consenso": 0.111,
+          "nota": 0.7747
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "AOA4J16",
+          "texto": "AOA4J16",
+          "texto_corrigido": "AOA4J16",
+          "confianca": 0.81,
+          "consenso": 0.167,
+          "nota": 0.799
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "AOA4J16",
+          "texto": "AOA4J16",
+          "texto_corrigido": "AOA4J16",
+          "confianca": 0.81,
+          "consenso": 0.167,
+          "nota": 0.799
+        }
+      ]
+    },
+    {
+      "imagem": "10.JPG",
+      "detectada": true,
+      "score_deteccao": 0.891,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 1.35,
+      "n_caracteres": 7,
+      "texto_cru": "PBU7G22",
+      "texto": "PBU7G22",
+      "texto_corrigido": "PBU7G22",
+      "confianca": 0.62,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 5.402,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        200,
+        281,
+        520,
+        175
+      ],
+      "psm": 8,
+      "consenso": 0.111,
+      "nota": 0.7147,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "PU7G22",
+          "texto": "PU7G22",
+          "texto_corrigido": "PU7G22",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.2829
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "PU7G22",
+          "texto": "PU7G22",
+          "texto_corrigido": "PU7G22",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.2829
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "PU7G22",
+          "texto": "PU7G22",
+          "texto_corrigido": "PU7G22",
+          "confianca": 0.0,
+          "consenso": 0.167,
+          "nota": 0.2829
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.0083
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "PUZE2Z2",
+          "texto": "PUZE2Z2",
+          "texto_corrigido": "PUZ3Z22",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3606
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "PUZE2Z2",
+          "texto": "PUZE2Z2",
+          "texto_corrigido": "PUZ3Z22",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3606
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "PRUZG2Z2",
+          "texto": "PRUZG2Z2",
+          "texto_corrigido": "PRU2G22",
+          "confianca": 0.06,
+          "consenso": 0.056,
+          "nota": 0.361
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "PRUZE2Z2",
+          "texto": "PRUZE2Z2",
+          "texto_corrigido": "PRU2E22",
+          "confianca": 0.18,
+          "consenso": 0.167,
+          "nota": 0.4257
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "PRUZE2Z2",
+          "texto": "PRUZE2Z2",
+          "texto_corrigido": "PRU2E22",
+          "confianca": 0.18,
+          "consenso": 0.167,
+          "nota": 0.4257
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "PDUCGE2Z2",
+          "texto": "PDUCGE2Z2",
+          "texto_corrigido": "PDU0G32",
+          "confianca": 0.31,
+          "consenso": 0.056,
+          "nota": 0.4104
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "PDUZG22",
+          "texto": "PDUZG22",
+          "texto_corrigido": "PDU2G22",
+          "confianca": 0.64,
+          "consenso": 0.111,
+          "nota": 0.6873
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "PDUZG22",
+          "texto": "PDUZG22",
+          "texto_corrigido": "PDU2G22",
+          "confianca": 0.64,
+          "consenso": 0.111,
+          "nota": 0.6873
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "PRUZEZZ",
+          "texto": "PRUZEZZ",
+          "texto_corrigido": "PRU2E22",
+          "confianca": 0.38,
+          "consenso": 0.167,
+          "nota": 0.5209
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "PBUZG22",
+          "texto": "PBUZG22",
+          "texto_corrigido": "PBU2G22",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4313
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "PBUZG22",
+          "texto": "PBUZG22",
+          "texto_corrigido": "PBU2G22",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4313
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "PDU7G22",
+          "texto": "PDU7G22",
+          "texto_corrigido": "PDU7G22",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.4583
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "PBU7G22",
+          "texto": "PBU7G22",
+          "texto_corrigido": "PBU7G22",
+          "confianca": 0.62,
+          "consenso": 0.111,
+          "nota": 0.7147
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "PBU7G22",
+          "texto": "PBU7G22",
+          "texto_corrigido": "PBU7G22",
+          "confianca": 0.62,
+          "consenso": 0.111,
+          "nota": 0.7147
+        }
+      ]
+    },
+    {
+      "imagem": "11.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9568,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 1.99,
+      "n_caracteres": 7,
+      "texto_cru": "MNL3U98",
+      "texto": "MNL3U98",
+      "texto_corrigido": "MNL3U98",
+      "confianca": 0.85,
+      "variante": "otsu",
+      "formato_valido": true,
+      "tempo_s": 6.381,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        226,
+        185,
+        249,
+        108
+      ],
+      "psm": 7,
+      "consenso": 0.444,
+      "nota": 0.8567,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.0083
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "MNDSU98",
+          "texto": "MNDSU98",
+          "texto_corrigido": "MND5U98",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4313
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "MNDSU98",
+          "texto": "MNDSU98",
+          "texto_corrigido": "MND5U98",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4313
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.73,
+          "consenso": 0.444,
+          "nota": 0.8087
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "MNDS098",
+          "texto": "MNDS098",
+          "texto_corrigido": "MND5O98",
+          "confianca": 0.19,
+          "consenso": 0.111,
+          "nota": 0.472
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "MNDS098",
+          "texto": "MNDS098",
+          "texto_corrigido": "MND5O98",
+          "confianca": 0.19,
+          "consenso": 0.111,
+          "nota": 0.472
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.81,
+          "consenso": 0.444,
+          "nota": 0.8407
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "MNDSU9S",
+          "texto": "MNDSU9S",
+          "texto_corrigido": "MND5U95",
+          "confianca": 0.02,
+          "consenso": 0.111,
+          "nota": 0.404
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "MNDSU9S",
+          "texto": "MNDSU9S",
+          "texto_corrigido": "MND5U95",
+          "confianca": 0.02,
+          "consenso": 0.111,
+          "nota": 0.404
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.85,
+          "consenso": 0.444,
+          "nota": 0.8567
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.11,
+          "consenso": 0.444,
+          "nota": 0.5607
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.11,
+          "consenso": 0.444,
+          "nota": 0.5607
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "MNLSU98",
+          "texto": "MNLSU98",
+          "texto_corrigido": "MNL5U98",
+          "confianca": 0.55,
+          "consenso": 0.056,
+          "nota": 0.643
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "HNL3U98",
+          "texto": "HNL3U98",
+          "texto_corrigido": "HNL3U98",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4667
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "HNL3U98",
+          "texto": "HNL3U98",
+          "texto_corrigido": "HNL3U98",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4667
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.53,
+          "consenso": 0.444,
+          "nota": 0.7287
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.84,
+          "consenso": 0.444,
+          "nota": 0.8527
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "MNL3U98",
+          "texto": "MNL3U98",
+          "texto_corrigido": "MNL3U98",
+          "confianca": 0.84,
+          "consenso": 0.444,
+          "nota": 0.8527
+        }
+      ]
+    },
+    {
+      "imagem": "12.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9765,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -1.52,
+      "n_caracteres": 7,
+      "texto_cru": "JET7G88",
+      "texto": "JET7G88",
+      "texto_corrigido": "JET7G88",
+      "confianca": 0.89,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 7.254,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        79,
+        109,
+        472,
+        151
+      ],
+      "psm": 8,
+      "consenso": 0.444,
+      "nota": 0.8727,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "JET7GSS",
+          "texto": "JET7GSS",
+          "texto_corrigido": "JET7G55",
+          "confianca": 0.6,
+          "consenso": 0.111,
+          "nota": 0.636
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "UVET7G88",
+          "texto": "UVET7G88",
+          "texto_corrigido": "VET7G88",
+          "confianca": 0.05,
+          "consenso": 0.111,
+          "nota": 0.436
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "UVET7G88",
+          "texto": "UVET7G88",
+          "texto_corrigido": "VET7G88",
+          "confianca": 0.05,
+          "consenso": 0.111,
+          "nota": 0.436
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "JET7GSS",
+          "texto": "JET7GSS",
+          "texto_corrigido": "JET7G55",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.396
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "JET7G688",
+          "texto": "JET7G688",
+          "texto_corrigido": "JET7G68",
+          "confianca": 0.29,
+          "consenso": 0.222,
+          "nota": 0.5487
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "JET7G688",
+          "texto": "JET7G688",
+          "texto_corrigido": "JET7G68",
+          "confianca": 0.29,
+          "consenso": 0.222,
+          "nota": 0.5487
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "JET7GESS",
+          "texto": "JET7GESS",
+          "texto_corrigido": "JET7G35",
+          "confianca": 0.06,
+          "consenso": 0.056,
+          "nota": 0.361
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "JET7G688",
+          "texto": "JET7G688",
+          "texto_corrigido": "JET7G68",
+          "confianca": 0.35,
+          "consenso": 0.222,
+          "nota": 0.5727
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "JET7G688",
+          "texto": "JET7G688",
+          "texto_corrigido": "JET7G68",
+          "confianca": 0.35,
+          "consenso": 0.222,
+          "nota": 0.5727
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.79,
+          "consenso": 0.444,
+          "nota": 0.8327
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.79,
+          "consenso": 0.444,
+          "nota": 0.8327
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.79,
+          "consenso": 0.444,
+          "nota": 0.8327
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "JET7E8S",
+          "texto": "JET7E8S",
+          "texto_corrigido": "JET7E85",
+          "confianca": 0.58,
+          "consenso": 0.056,
+          "nota": 0.655
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.61,
+          "consenso": 0.444,
+          "nota": 0.7607
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.61,
+          "consenso": 0.444,
+          "nota": 0.7607
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.87,
+          "consenso": 0.444,
+          "nota": 0.8647
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.89,
+          "consenso": 0.444,
+          "nota": 0.8727
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "JET7G88",
+          "texto": "JET7G88",
+          "texto_corrigido": "JET7G88",
+          "confianca": 0.89,
+          "consenso": 0.444,
+          "nota": 0.8727
+        }
+      ]
+    },
+    {
+      "imagem": "13.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8378,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -1.12,
+      "n_caracteres": 7,
+      "texto_cru": "ABP8G89",
+      "texto": "ABP8G89",
+      "texto_corrigido": "ABP8G89",
+      "confianca": 0.52,
+      "variante": "cinza",
+      "formato_valido": true,
+      "tempo_s": 5.662,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        279,
+        284,
+        611,
+        143
+      ],
+      "psm": 7,
+      "consenso": 0.167,
+      "nota": 0.683,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "ABP8G89",
+          "texto": "ABP8G89",
+          "texto_corrigido": "ABP8G89",
+          "confianca": 0.52,
+          "consenso": 0.167,
+          "nota": 0.683
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "ABP8G89",
+          "texto": "ABP8G89",
+          "texto_corrigido": "ABP8G89",
+          "confianca": 0.52,
+          "consenso": 0.167,
+          "nota": 0.683
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "ABP8G89",
+          "texto": "ABP8G89",
+          "texto_corrigido": "ABP8G89",
+          "confianca": 0.52,
+          "consenso": 0.167,
+          "nota": 0.683
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "ABPSGS9O",
+          "texto": "ABPSGS9O",
+          "texto_corrigido": "ABP5G59",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3453
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "ABP8BG8O",
+          "texto": "ABP8BG8O",
+          "texto_corrigido": "ABP8B08",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3974
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "ABP8BG8O",
+          "texto": "ABP8BG8O",
+          "texto_corrigido": "ABP8B08",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3974
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "ABPSGS9O",
+          "texto": "ABPSGS9O",
+          "texto_corrigido": "ABP5G59",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3453
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "ABP8BG8D",
+          "texto": "ABP8BG8D",
+          "texto_corrigido": "ABP8B08",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3974
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "ABP8BG8D",
+          "texto": "ABP8BG8D",
+          "texto_corrigido": "ABP8B08",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.3974
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "ABP8Q39",
+          "texto": "ABP8Q39",
+          "texto_corrigido": "ABP8Q39",
+          "confianca": 0.28,
+          "consenso": 0.056,
+          "nota": 0.5703
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "ABP8Q389",
+          "texto": "ABP8Q389",
+          "texto_corrigido": "ABP8Q38",
+          "confianca": 0.06,
+          "consenso": 0.111,
+          "nota": 0.44
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "ABP8Q389",
+          "texto": "ABP8Q389",
+          "texto_corrigido": "ABP8Q38",
+          "confianca": 0.06,
+          "consenso": 0.111,
+          "nota": 0.44
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "ABPSESD",
+          "texto": "ABPSESD",
+          "texto_corrigido": "ABP5E50",
+          "confianca": 0.5,
+          "consenso": 0.056,
+          "nota": 0.5523
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "ABPBASS",
+          "texto": "ABPBASS",
+          "texto_corrigido": "ABP8A55",
+          "confianca": 0.09,
+          "consenso": 0.111,
+          "nota": 0.3966
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "ABPBASS",
+          "texto": "ABPBASS",
+          "texto_corrigido": "ABP8A55",
+          "confianca": 0.09,
+          "consenso": 0.111,
+          "nota": 0.3966
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "ABPSQSY9",
+          "texto": "ABPSQSY9",
+          "texto_corrigido": "BPS0S99",
+          "confianca": 0.3,
+          "consenso": 0.056,
+          "nota": 0.457
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "ABPS8Q89",
+          "texto": "ABPS8Q89",
+          "texto_corrigido": "BPS8Q89",
+          "confianca": 0.45,
+          "consenso": 0.111,
+          "nota": 0.596
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "ABPS8Q89",
+          "texto": "ABPS8Q89",
+          "texto_corrigido": "BPS8Q89",
+          "confianca": 0.45,
+          "consenso": 0.111,
+          "nota": 0.596
+        }
+      ]
+    },
+    {
+      "imagem": "14.JPG",
+      "detectada": true,
+      "score_deteccao": 0.942,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 1.37,
+      "n_caracteres": 7,
+      "texto_cru": "PHI8HGG",
+      "texto": "PHI8HGG",
+      "texto_corrigido": "PHI8H00",
+      "confianca": 0.76,
+      "variante": "cinza",
+      "formato_valido": true,
+      "tempo_s": 6.632,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        257,
+        385,
+        624,
+        184
+      ],
+      "psm": 8,
+      "consenso": 0.444,
+      "nota": 0.75,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "PHI8SHGE",
+          "texto": "PHI8SHGE",
+          "texto_corrigido": "PHI8S40",
+          "confianca": 0.24,
+          "consenso": 0.167,
+          "nota": 0.4497
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.76,
+          "consenso": 0.444,
+          "nota": 0.75
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.76,
+          "consenso": 0.444,
+          "nota": 0.75
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "PHI8SHGE",
+          "texto": "PHI8SHGE",
+          "texto_corrigido": "PHI8S40",
+          "confianca": 0.14,
+          "consenso": 0.167,
+          "nota": 0.4097
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.32,
+          "consenso": 0.444,
+          "nota": 0.574
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.32,
+          "consenso": 0.444,
+          "nota": 0.574
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.0,
+          "consenso": 0.444,
+          "nota": 0.446
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.39,
+          "consenso": 0.444,
+          "nota": 0.602
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.39,
+          "consenso": 0.444,
+          "nota": 0.602
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "PHI8HGG",
+          "texto": "PHI8HGG",
+          "texto_corrigido": "PHI8H00",
+          "confianca": 0.63,
+          "consenso": 0.444,
+          "nota": 0.698
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "PHI8HGSG",
+          "texto": "PHI8HGSG",
+          "texto_corrigido": "PHI8H05",
+          "confianca": 0.43,
+          "consenso": 0.111,
+          "nota": 0.5173
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "PHI8HGSG",
+          "texto": "PHI8HGSG",
+          "texto_corrigido": "PHI8H05",
+          "confianca": 0.43,
+          "consenso": 0.111,
+          "nota": 0.5173
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "PHISHEG",
+          "texto": "PHISHEG",
+          "texto_corrigido": "PHI5H30",
+          "confianca": 0.42,
+          "consenso": 0.056,
+          "nota": 0.5203
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "PHI8HEG",
+          "texto": "PHI8HEG",
+          "texto_corrigido": "PHI8H30",
+          "confianca": 0.38,
+          "consenso": 0.111,
+          "nota": 0.548
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "PHI8HEG",
+          "texto": "PHI8HEG",
+          "texto_corrigido": "PHI8H30",
+          "confianca": 0.38,
+          "consenso": 0.111,
+          "nota": 0.548
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "PHI8SHUG",
+          "texto": "PHI8SHUG",
+          "texto_corrigido": "PHI8S40",
+          "confianca": 0.42,
+          "consenso": 0.167,
+          "nota": 0.5217
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "PHL8HGG",
+          "texto": "PHL8HGG",
+          "texto_corrigido": "PHL8H00",
+          "confianca": 0.81,
+          "consenso": 0.111,
+          "nota": 0.72
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "PHL8HGG",
+          "texto": "PHL8HGG",
+          "texto_corrigido": "PHL8H00",
+          "confianca": 0.81,
+          "consenso": 0.111,
+          "nota": 0.72
+        }
+      ]
+    },
+    {
+      "imagem": "15.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9776,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -2.13,
+      "n_caracteres": 7,
+      "texto_cru": "THY7E19",
+      "texto": "THY7E19",
+      "texto_corrigido": "THY7E19",
+      "confianca": 0.75,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 19.826,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        520,
+        363,
+        608,
+        215
+      ],
+      "psm": 8,
+      "consenso": 0.556,
+      "nota": 0.8333,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "THY7EL9",
+          "texto": "THY7EL9",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.0,
+          "consenso": 0.556,
+          "nota": 0.498
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "THY7E19",
+          "texto": "THY7E19",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.68,
+          "consenso": 0.556,
+          "nota": 0.8053
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "THY7E19",
+          "texto": "THY7E19",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.68,
+          "consenso": 0.556,
+          "nota": 0.8053
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "THY7EL9",
+          "texto": "THY7EL9",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.59,
+          "consenso": 0.556,
+          "nota": 0.734
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "THY7ES9",
+          "texto": "THY7ES9",
+          "texto_corrigido": "THY7E59",
+          "confianca": 0.29,
+          "consenso": 0.222,
+          "nota": 0.564
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "THY7ES9",
+          "texto": "THY7ES9",
+          "texto_corrigido": "THY7E59",
+          "confianca": 0.29,
+          "consenso": 0.222,
+          "nota": 0.564
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "THY7ED9",
+          "texto": "THY7ED9",
+          "texto_corrigido": "THY7E09",
+          "confianca": 0.27,
+          "consenso": 0.056,
+          "nota": 0.531
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "THY7ES9",
+          "texto": "THY7ES9",
+          "texto_corrigido": "THY7E59",
+          "confianca": 0.16,
+          "consenso": 0.222,
+          "nota": 0.512
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "THY7ES9",
+          "texto": "THY7ES9",
+          "texto_corrigido": "THY7E59",
+          "confianca": 0.16,
+          "consenso": 0.222,
+          "nota": 0.512
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "THY7E19",
+          "texto": "THY7E19",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.3,
+          "consenso": 0.556,
+          "nota": 0.6533
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "THY7E19",
+          "texto": "THY7E19",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.68,
+          "consenso": 0.556,
+          "nota": 0.8053
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "THY7E19",
+          "texto": "THY7E19",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.68,
+          "consenso": 0.556,
+          "nota": 0.8053
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "THY7EL9",
+          "texto": "THY7EL9",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.32,
+          "consenso": 0.556,
+          "nota": 0.626
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "THY7ER9",
+          "texto": "THY7ER9",
+          "texto_corrigido": "THY7E89",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4313
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "THY7ER9",
+          "texto": "THY7ER9",
+          "texto_corrigido": "THY7E89",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4313
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "THY7E29",
+          "texto": "THY7E29",
+          "texto_corrigido": "THY7E29",
+          "confianca": 0.29,
+          "consenso": 0.056,
+          "nota": 0.5743
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "THY7E19",
+          "texto": "THY7E19",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.75,
+          "consenso": 0.556,
+          "nota": 0.8333
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "THY7E19",
+          "texto": "THY7E19",
+          "texto_corrigido": "THY7E19",
+          "confianca": 0.75,
+          "consenso": 0.556,
+          "nota": 0.8333
+        }
+      ]
+    },
+    {
+      "imagem": "16.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9134,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "UHK5055",
+      "texto": "UHK5055",
+      "texto_corrigido": "UHK5O55",
+      "confianca": 0.8,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 10.56,
+      "deteccoes_extras": [
+        {
+          "texto": "MRL0G01",
+          "score": 0.8381,
+          "metodo": "faixa_azul"
+        }
+      ],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        398,
+        323,
+        362,
+        134
+      ],
+      "psm": 7,
+      "consenso": 0.389,
+      "nota": 0.793,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "UHK5C",
+          "texto": "UHK5C",
+          "texto_corrigido": "UHK5C",
+          "confianca": 0.67,
+          "consenso": 0.056,
+          "nota": 0.5544
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "UHK5055",
+          "texto": "UHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.0,
+          "consenso": 0.389,
+          "nota": 0.473
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "UHK5055",
+          "texto": "UHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.0,
+          "consenso": 0.389,
+          "nota": 0.473
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "UHKS055",
+          "texto": "UHKS055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.0,
+          "consenso": 0.389,
+          "nota": 0.4376
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "THKS055",
+          "texto": "THKS055",
+          "texto_corrigido": "THK5O55",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.4293
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "THKS055",
+          "texto": "THKS055",
+          "texto_corrigido": "THK5O55",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.4293
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "UHKS055",
+          "texto": "UHKS055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.0,
+          "consenso": 0.389,
+          "nota": 0.4376
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "THKS055",
+          "texto": "THKS055",
+          "texto_corrigido": "THK5O55",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.4293
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "THKS055",
+          "texto": "THKS055",
+          "texto_corrigido": "THK5O55",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.4293
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "UHK5S055",
+          "texto": "UHK5S055",
+          "texto_corrigido": "UHK5S05",
+          "confianca": 0.3,
+          "consenso": 0.056,
+          "nota": 0.5277
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "THK5055",
+          "texto": "THK5055",
+          "texto_corrigido": "THK5O55",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.4646
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "THK5055",
+          "texto": "THK5055",
+          "texto_corrigido": "THK5O55",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.4646
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.0083
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "URK5055",
+          "texto": "URK5055",
+          "texto_corrigido": "URK5O55",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4313
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "URK5055",
+          "texto": "URK5055",
+          "texto_corrigido": "URK5O55",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4313
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "UHK5055",
+          "texto": "UHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.8,
+          "consenso": 0.389,
+          "nota": 0.793
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "UHK5055",
+          "texto": "UHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.54,
+          "consenso": 0.389,
+          "nota": 0.689
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "UHK5055",
+          "texto": "UHK5055",
+          "texto_corrigido": "UHK5O55",
+          "confianca": 0.54,
+          "consenso": 0.389,
+          "nota": 0.689
+        }
+      ]
+    },
+    {
+      "imagem": "17.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8354,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "NZQ3M77",
+      "texto": "NZQ3M77",
+      "texto_corrigido": "NZQ3M77",
+      "confianca": 0.89,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 8.144,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        275,
+        289,
+        380,
+        106
+      ],
+      "psm": 8,
+      "consenso": 0.222,
+      "nota": 0.8393,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "NZQSM77",
+          "texto": "NZQSM77",
+          "texto_corrigido": "NZQ5M77",
+          "confianca": 0.4,
+          "consenso": 0.167,
+          "nota": 0.5996
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "NZQSM77",
+          "texto": "NZQSM77",
+          "texto_corrigido": "NZQ5M77",
+          "confianca": 0.4,
+          "consenso": 0.167,
+          "nota": 0.5996
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "NZQSM77",
+          "texto": "NZQSM77",
+          "texto_corrigido": "NZQ5M77",
+          "confianca": 0.4,
+          "consenso": 0.167,
+          "nota": 0.5996
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "NZQSM7Z",
+          "texto": "NZQSM7Z",
+          "texto_corrigido": "NZQ5M72",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3876
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "NZQSMZZ",
+          "texto": "NZQSMZZ",
+          "texto_corrigido": "NZQ5M22",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3606
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "NZQSMZZ",
+          "texto": "NZQSMZZ",
+          "texto_corrigido": "NZQ5M22",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3606
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "NZOSNZZ",
+          "texto": "NZOSNZZ",
+          "texto_corrigido": "NZO5N22",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3523
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "NZOQSMZZ",
+          "texto": "NZOQSMZZ",
+          "texto_corrigido": "NZO0SM2",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.31
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "NZOQSMZZ",
+          "texto": "NZOQSMZZ",
+          "texto_corrigido": "NZO0SM2",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.31
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "NZQ3M77",
+          "texto": "NZQ3M77",
+          "texto_corrigido": "NZQ3M77",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.4833
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "NZQS3M77",
+          "texto": "NZQS3M77",
+          "texto_corrigido": "ZQS3M77",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.416
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "NZQS3M77",
+          "texto": "NZQS3M77",
+          "texto_corrigido": "ZQS3M77",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.416
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "NZOSMZZ",
+          "texto": "NZOSMZZ",
+          "texto_corrigido": "NZO5M22",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3523
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "NZQS3MZ7",
+          "texto": "NZQS3MZ7",
+          "texto_corrigido": "ZQS3M27",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3807
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "NZQS3MZ7",
+          "texto": "NZQS3MZ7",
+          "texto_corrigido": "ZQS3M27",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3807
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "NZQ3M77",
+          "texto": "NZQ3M77",
+          "texto_corrigido": "NZQ3M77",
+          "confianca": 0.84,
+          "consenso": 0.222,
+          "nota": 0.8193
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "NZQ3M77",
+          "texto": "NZQ3M77",
+          "texto_corrigido": "NZQ3M77",
+          "confianca": 0.89,
+          "consenso": 0.222,
+          "nota": 0.8393
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "NZQ3M77",
+          "texto": "NZQ3M77",
+          "texto_corrigido": "NZQ3M77",
+          "confianca": 0.89,
+          "consenso": 0.222,
+          "nota": 0.8393
+        }
+      ]
+    },
+    {
+      "imagem": "18.JPG",
+      "detectada": true,
+      "score_deteccao": 0.9067,
+      "metodo_deteccao": "bordas",
+      "angulo": 0.0,
+      "n_caracteres": 7,
+      "texto_cru": "XDASESO",
+      "texto": "XDASESO",
+      "texto_corrigido": "XDA5E50",
+      "confianca": 0.83,
+      "variante": "otsu",
+      "formato_valido": true,
+      "tempo_s": 8.09,
+      "deteccoes_extras": [],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        400,
+        366,
+        369,
+        134
+      ],
+      "psm": 7,
+      "consenso": 0.389,
+      "nota": 0.7343,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "XDASESE",
+          "texto": "XDASESE",
+          "texto_corrigido": "XDA5E53",
+          "confianca": 0.34,
+          "consenso": 0.111,
+          "nota": 0.4966
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "KDASESO",
+          "texto": "KDASESO",
+          "texto_corrigido": "KDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.3939
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "KDASESO",
+          "texto": "KDASESO",
+          "texto_corrigido": "KDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.3939
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "XDASESD",
+          "texto": "XDASESD",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.14,
+          "consenso": 0.389,
+          "nota": 0.4583
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "KDASESO",
+          "texto": "KDASESO",
+          "texto_corrigido": "KDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.3939
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "KDASESO",
+          "texto": "KDASESO",
+          "texto_corrigido": "KDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.3939
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "XDASESD",
+          "texto": "XDASESD",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.25,
+          "consenso": 0.389,
+          "nota": 0.5023
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "KDASESO",
+          "texto": "KDASESO",
+          "texto_corrigido": "KDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.3939
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "KDASESO",
+          "texto": "KDASESO",
+          "texto_corrigido": "KDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.333,
+          "nota": 0.3939
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "XDASESO",
+          "texto": "XDASESO",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.83,
+          "consenso": 0.389,
+          "nota": 0.7343
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "XDASESO",
+          "texto": "XDASESO",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.389,
+          "nota": 0.4023
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "XDASESO",
+          "texto": "XDASESO",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.389,
+          "nota": 0.4023
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "XDASESE",
+          "texto": "XDASESE",
+          "texto_corrigido": "XDA5E53",
+          "confianca": 0.62,
+          "consenso": 0.111,
+          "nota": 0.6086
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "XDASESO",
+          "texto": "XDASESO",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.389,
+          "nota": 0.4023
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "XDASESO",
+          "texto": "XDASESO",
+          "texto_corrigido": "XDA5E50",
+          "confianca": 0.0,
+          "consenso": 0.389,
+          "nota": 0.4023
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "XDASESL",
+          "texto": "XDASESL",
+          "texto_corrigido": "XDA5E51",
+          "confianca": 0.27,
+          "consenso": 0.056,
+          "nota": 0.4603
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "XDA5E56",
+          "texto": "XDA5E56",
+          "texto_corrigido": "XDA5E56",
+          "confianca": 0.4,
+          "consenso": 0.111,
+          "nota": 0.6267
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "XDA5E56",
+          "texto": "XDA5E56",
+          "texto_corrigido": "XDA5E56",
+          "confianca": 0.4,
+          "consenso": 0.111,
+          "nota": 0.6267
+        }
+      ]
+    },
+    {
+      "imagem": "19.JPG",
+      "detectada": true,
+      "score_deteccao": 0.8618,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": -3.81,
+      "n_caracteres": 7,
+      "texto_cru": "ESI4193",
+      "texto": "ESI4193",
+      "texto_corrigido": "ESI4I93",
+      "confianca": 0.88,
+      "variante": "segmentada",
+      "formato_valido": true,
+      "tempo_s": 12.16,
+      "deteccoes_extras": [
+        {
+          "texto": "IPG8C66",
+          "score": 0.7448,
+          "metodo": "faixa_azul"
+        }
+      ],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        340,
+        174,
+        644,
+        243
+      ],
+      "psm": 8,
+      "consenso": 0.611,
+      "nota": 0.8583,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.75,
+          "consenso": 0.611,
+          "nota": 0.8063
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.75,
+          "consenso": 0.611,
+          "nota": 0.8063
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.75,
+          "consenso": 0.611,
+          "nota": 0.8063
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.84,
+          "consenso": 0.611,
+          "nota": 0.8423
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "ESIG193",
+          "texto": "ESIG193",
+          "texto_corrigido": "ESI0I93",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.4126
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "ESIG193",
+          "texto": "ESIG193",
+          "texto_corrigido": "ESI0I93",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.4126
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.71,
+          "consenso": 0.611,
+          "nota": 0.7903
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "ESIG193",
+          "texto": "ESIG193",
+          "texto_corrigido": "ESI0I93",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.4126
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "ESIG193",
+          "texto": "ESIG193",
+          "texto_corrigido": "ESI0I93",
+          "confianca": 0.0,
+          "consenso": 0.222,
+          "nota": 0.4126
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.85,
+          "consenso": 0.611,
+          "nota": 0.8463
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.75,
+          "consenso": 0.611,
+          "nota": 0.8063
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.75,
+          "consenso": 0.611,
+          "nota": 0.8063
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.36,
+          "consenso": 0.611,
+          "nota": 0.6503
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "ESLG193",
+          "texto": "ESLG193",
+          "texto_corrigido": "ESL0I93",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.396
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "ESLG193",
+          "texto": "ESLG193",
+          "texto_corrigido": "ESL0I93",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.396
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "ESI419S",
+          "texto": "ESI419S",
+          "texto_corrigido": "ESI4I95",
+          "confianca": 0.31,
+          "consenso": 0.056,
+          "nota": 0.5116
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.88,
+          "consenso": 0.611,
+          "nota": 0.8583
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "ESI4193",
+          "texto": "ESI4193",
+          "texto_corrigido": "ESI4I93",
+          "confianca": 0.88,
+          "consenso": 0.611,
+          "nota": 0.8583
+        }
+      ]
+    },
+    {
+      "imagem": "20.JPG",
+      "detectada": true,
+      "score_deteccao": 0.7442,
+      "metodo_deteccao": "faixa_azul",
+      "angulo": 0.2,
+      "n_caracteres": 7,
+      "texto_cru": "TSEG2AD4A",
+      "texto": "TSEG2AD4A",
+      "texto_corrigido": "SEG2A04",
+      "confianca": 0.38,
+      "variante": "cinza",
+      "formato_valido": true,
+      "tempo_s": 16.639,
+      "deteccoes_extras": [
+        {
+          "texto": "ITF0O02",
+          "score": 0.598,
+          "metodo": "bordas"
+        }
+      ],
+      "detector": "classico",
+      "caixas_haar": 0,
+      "caixa": [
+        100,
+        232,
+        942,
+        164
+      ],
+      "psm": 7,
+      "consenso": 0.167,
+      "nota": 0.4904,
+      "tentativas": [
+        {
+          "variante": "cinza",
+          "psm": 7,
+          "texto_cru": "TSEG2AD4A",
+          "texto": "TSEG2AD4A",
+          "texto_corrigido": "SEG2A04",
+          "confianca": 0.38,
+          "consenso": 0.167,
+          "nota": 0.4904
+        },
+        {
+          "variante": "cinza",
+          "psm": 8,
+          "texto_cru": "TSEG2AD4A",
+          "texto": "TSEG2AD4A",
+          "texto_corrigido": "SEG2A04",
+          "confianca": 0.38,
+          "consenso": 0.167,
+          "nota": 0.4904
+        },
+        {
+          "variante": "cinza",
+          "psm": 13,
+          "texto_cru": "TSEG2AD4A",
+          "texto": "TSEG2AD4A",
+          "texto_corrigido": "SEG2A04",
+          "confianca": 0.38,
+          "consenso": 0.167,
+          "nota": 0.4904
+        },
+        {
+          "variante": "clahe",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.0167
+        },
+        {
+          "variante": "clahe",
+          "psm": 8,
+          "texto_cru": "TE2Z",
+          "texto": "TE2Z",
+          "texto_corrigido": "TE2Z",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.138
+        },
+        {
+          "variante": "clahe",
+          "psm": 13,
+          "texto_cru": "TE2Z",
+          "texto": "TE2Z",
+          "texto_corrigido": "TE2Z",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.138
+        },
+        {
+          "variante": "nitidez",
+          "psm": 7,
+          "texto_cru": "TEG6G20B424",
+          "texto": "TEG6G20B424",
+          "texto_corrigido": "TEG6G20",
+          "confianca": 0.18,
+          "consenso": 0.056,
+          "nota": 0.3278
+        },
+        {
+          "variante": "nitidez",
+          "psm": 8,
+          "texto_cru": "TE624Z4",
+          "texto": "TE624Z4",
+          "texto_corrigido": "TEG2A24",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3606
+        },
+        {
+          "variante": "nitidez",
+          "psm": 13,
+          "texto_cru": "TE624Z4",
+          "texto": "TE624Z4",
+          "texto_corrigido": "TEG2A24",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.3606
+        },
+        {
+          "variante": "otsu",
+          "psm": 7,
+          "texto_cru": "ZGGADGA",
+          "texto": "ZGGADGA",
+          "texto_corrigido": "ZGG4D04",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3523
+        },
+        {
+          "variante": "otsu",
+          "psm": 8,
+          "texto_cru": "17GGAD44",
+          "texto": "17GGAD44",
+          "texto_corrigido": "TGG4D44",
+          "confianca": 0.18,
+          "consenso": 0.111,
+          "nota": 0.4173
+        },
+        {
+          "variante": "otsu",
+          "psm": 13,
+          "texto_cru": "17GGAD44",
+          "texto": "17GGAD44",
+          "texto_corrigido": "TGG4D44",
+          "confianca": 0.18,
+          "consenso": 0.111,
+          "nota": 0.4173
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 7,
+          "texto_cru": "",
+          "texto": "",
+          "texto_corrigido": "",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.0167
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 8,
+          "texto_cru": "TES2R44",
+          "texto": "TES2R44",
+          "texto_corrigido": "TES2R44",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4667
+        },
+        {
+          "variante": "adaptativo",
+          "psm": 13,
+          "texto_cru": "TES2R44",
+          "texto": "TES2R44",
+          "texto_corrigido": "TES2R44",
+          "confianca": 0.0,
+          "consenso": 0.111,
+          "nota": 0.4667
+        },
+        {
+          "variante": "segmentada",
+          "psm": 7,
+          "texto_cru": "TGG62D44",
+          "texto": "TGG62D44",
+          "texto_corrigido": "GGG2D44",
+          "confianca": 0.0,
+          "consenso": 0.056,
+          "nota": 0.3724
+        },
+        {
+          "variante": "segmentada",
+          "psm": 8,
+          "texto_cru": "TGGIED44",
+          "texto": "TGGIED44",
+          "texto_corrigido": "GGI3D44",
+          "confianca": 0.02,
+          "consenso": 0.111,
+          "nota": 0.3887
+        },
+        {
+          "variante": "segmentada",
+          "psm": 13,
+          "texto_cru": "TGGIED44",
+          "texto": "TGGIED44",
+          "texto_corrigido": "GGI3D44",
+          "confianca": 0.02,
+          "consenso": 0.111,
+          "nota": 0.3887
+        }
+      ]
+    }
+  ]
+}

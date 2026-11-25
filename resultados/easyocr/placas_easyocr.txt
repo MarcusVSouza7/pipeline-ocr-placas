@@ -1,0 +1,40 @@
+RESULTADO DO OCR - EASYOCR
+Versao do motor : 1.7.2
+Modo            : com ROI, detector=classico
+Dataset         : placas_exercicio
+Gerado em       : 17/11/2026 09:02:34
+
+IMAGEM     LIDO       CORRIGIDO  GABARITO  OK     VARIANTE     CONF
+------------------------------------------------------------------------------
+1.JPG      IFU1T9S    IFU1T95    IFA1T95   NAO    segmentada   0.53
+2.JPG      NEVICO8    NEV1C08    NEV1C08   SIM    cinza        0.93
+                      TAD0P66                     (2a placa detectada na imagem)
+3.JPG      IVZ2Z18    IVZ2Z18    IYZ2Z18   NAO    cinza        0.90
+4.JPG      QOW9NL7    QOW9N17    QOW9N47   NAO    segmentada   0.68
+5.JPG      USQ0T32    USQ0T32    USQ0T32   SIM    cinza        0.60
+6.JPG      TVL3X75    TVL3X75    TYL3X75   NAO    otsu         0.58
+7.JPG      GXQ2J95    GXQ2J95    GXQ2J95   SIM    segmentada   0.83
+8.JPG      XHY6429    XHY6A29    XHY6U29   NAO    adaptativo   0.77
+9.JPG      A0A4J16    AOA4J16    AOA4J16   SIM    cinza        0.83
+10.JPG     PDU7G22    PDU7G22    PDU7G22   SIM    segmentada   0.62
+11.JPG     MNL3U98    MNL3U98    MNL3U98   SIM    adaptativo   0.93
+12.JPG     JET7G88    JET7G88    JET7G88   SIM    otsu         1.00
+13.JPG     ABP8089    ABP8O89    ABP8Q89   NAO    cinza        1.00
+14.JPG     PHI8HOO    PHI8H00    PHI8H00   SIM    nitidez      0.85
+15.JPG     THYZE19    THY2E19    THY7E19   NAO    segmentada   0.90
+16.JPG     UHK5055    UHK5O55    UHK5O55   SIM    segmentada   0.90
+                      MRL0G01                     (2a placa detectada na imagem)
+17.JPG     NZQ3M77    NZQ3M77    NZQ3M77   SIM    segmentada   0.89
+18.JPG     XDASESO    XDA5E50    XDA5E50   SIM    segmentada   0.80
+19.JPG     ESI4I93    ESI4I93    ESI4I93   SIM    segmentada   0.98
+                      JPQ8C66                     (2a placa detectada na imagem)
+20.JPG     TGGIDG     TGGIDG     TGG1D44   NAO    otsu         0.70
+------------------------------------------------------------------------------
+
+RESUMO
+  Imagens processadas       : 20
+  Placas detectadas         : 20 (100.0%)
+  Acerto exato (com mascara): 12/20 (60.0%)
+  Acerto exato (sem mascara): 7/20 (35.0%)
+  Acuracia por caractere    : 92.9%
+  Tempo total / por imagem  : 926.23s / 46.31s

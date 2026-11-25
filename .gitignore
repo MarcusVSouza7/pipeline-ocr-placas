@@ -1,0 +1,31 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Modelos baixados pelo EasyOCR
+.EasyOCR/
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Material de aula que estava na pasta e nao faz parte da entrega.
+# (remova estas linhas se quiser versiona-lo junto)
+Aula-*.pdf
+Exemplos*.zip
+
+# ATENCAO: haar_xml/ NAO e ignorado de proposito. Os dois XMLs vieram de
+# 'Exemplos (1).zip' (que e ignorado) e src/detector_haar.py depende deles --
+# alguns wheels do opencv-python nao embarcam cascata nenhuma.
+
+# NAO ignorar os resultados: eles fazem parte da entrega.
+# (resultados/ e versionado de proposito)
