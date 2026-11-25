@@ -2,7 +2,7 @@ RESULTADO DO OCR - EASYOCR
 Versao do motor : 1.7.2
 Modo            : com ROI, detector=classico
 Dataset         : placas_exercicio
-Gerado em       : 17/11/2026 09:02:34
+Gerado em       : 25/11/2026 11:07:58
 
 IMAGEM     LIDO       CORRIGIDO  GABARITO  OK     VARIANTE     CONF
 ------------------------------------------------------------------------------
@@ -37,4 +37,4 @@ RESUMO
   Acerto exato (com mascara): 12/20 (60.0%)
   Acerto exato (sem mascara): 7/20 (35.0%)
   Acuracia por caractere    : 92.9%
-  Tempo total / por imagem  : 926.23s / 46.31s
+  Tempo total / por imagem  : 783.67s / 39.18s

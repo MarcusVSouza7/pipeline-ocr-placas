@@ -2,7 +2,7 @@ RESULTADO DO OCR - TESSERACT OCR
 Versao do motor : 5.4.0.20240606
 Modo            : com ROI, detector=classico
 Dataset         : placas_exercicio
-Gerado em       : 17/11/2026 08:45:49
+Gerado em       : 25/11/2026 10:46:55
 
 IMAGEM     LIDO       CORRIGIDO  GABARITO  OK     VARIANTE     CONF
 ------------------------------------------------------------------------------
@@ -40,4 +40,4 @@ RESUMO
   Acerto exato (com mascara): 13/20 (65.0%)
   Acerto exato (sem mascara): 7/20 (35.0%)
   Acuracia por caractere    : 90.0%
-  Tempo total / por imagem  : 289.83s / 14.49s
+  Tempo total / por imagem  : 179.98s / 9.00s

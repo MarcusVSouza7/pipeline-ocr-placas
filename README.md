@@ -261,8 +261,8 @@ indica `7 chars`. Os casos que exercitam cada parte do pipeline:
 | **Acuracia por caractere** | 90,0% | **92,9%** |
 | Acerto exato *sem* a mascara de formato | 35,0% | 35,0% |
 | Acuracia por caractere *sem* a mascara | 83,6% | 85,7% |
-| Tempo por chamada ao motor | **0,81 s** | 7,72 s |
-| Tempo por imagem (todas as variantes) | **14,5 s** | 46,3 s |
+| Tempo por chamada ao motor | **0,50 s** | 6,53 s |
+| Tempo por imagem (todas as variantes) | **9,0 s** | 39,2 s |
 
 ### Concordancia entre os motores
 
@@ -299,7 +299,7 @@ indica `7 chars`. Os casos que exercitam cada parte do pipeline:
    Tesseract prefere `otsu` (7x, binario) e o EasyOCR prefere `cinza` (5x, fotografico),
    exatamente como se espera de um motor classico contra um motor neural.
 
-5. **Custo**: o Tesseract e ~10x mais rapido por chamada (0,81 s contra 7,72 s em CPU).
+5. **Custo**: o Tesseract e ~13x mais rapido por chamada (0,50 s contra 6,53 s em CPU).
    Para rodar em tempo real sem GPU, a diferenca e decisiva.
 
 6. **A diferenca de uma imagem nao sobrevive a troca da versao do OpenCV.**

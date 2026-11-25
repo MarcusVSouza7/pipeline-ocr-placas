@@ -1,5 +1,5 @@
 COMPARACAO ENTRE PIPELINES DE OCR - PLACAS VEICULARES
-Gerado em: 17/11/2026 09:02:44
+Gerado em: 25/11/2026 11:09:29
 Dataset  : placas_exercicio (20 imagens)
 
 Legenda: OK = leitura identica ao gabarito.
@@ -33,16 +33,16 @@ TESSERACT OCR (v5.4.0.20240606)
   Acerto exato (sem mascara) :  35.0%  (7/20)
   Acuracia por caractere     :  90.0%
   Acur. caractere sem mascara:  83.6%
-  Tempo total / por imagem   :  289.8s / 14.49s
-  Chamadas ao motor / tempo  : 360 / 0.805s por chamada
+  Tempo total / por imagem   :  180.0s / 9.00s
+  Chamadas ao motor / tempo  : 360 / 0.500s por chamada
 
 EASYOCR (v1.7.2)
   Acerto exato (com mascara) :  60.0%  (12/20)
   Acerto exato (sem mascara) :  35.0%  (7/20)
   Acuracia por caractere     :  92.9%
   Acur. caractere sem mascara:  85.7%
-  Tempo total / por imagem   :  926.2s / 46.31s
-  Chamadas ao motor / tempo  : 120 / 7.719s por chamada
+  Tempo total / por imagem   :  783.7s / 39.18s
+  Chamadas ao motor / tempo  : 120 / 6.531s por chamada
 
 CONCORDANCIA ENTRE OS MOTORES
   Leituras identicas         : 10/20 (50.0%)

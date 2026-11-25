@@ -1,6 +1,6 @@
 # Analise comparativa: Tesseract OCR x EasyOCR
 
-Gerado automaticamente por `python run_comparacao.py` em 17/11/2026 09:02.
+Gerado automaticamente por `python run_comparacao.py` em 25/11/2026 11:09.
 
 Os dois pipelines compartilham **exatamente** as mesmas etapas de
 deteccao, segmentacao, extracao e pre-processamento. A unica variavel
@@ -14,8 +14,8 @@ e o motor de OCR, de modo que as diferencas abaixo sao atribuiveis a ele.
 | Acerto exato (sem mascara) | 35.0% | 35.0% |
 | Acuracia por caractere | 90.0% | 92.9% |
 | Acuracia por caractere (sem mascara) | 83.6% | 85.7% |
-| Tempo medio por imagem | 14.49s | 46.31s |
-| Tempo por chamada ao motor | 0.805s | 7.719s |
+| Tempo medio por imagem | 9.00s | 39.18s |
+| Tempo por chamada ao motor | 0.500s | 6.531s |
 | Chamadas ao motor (6 variantes x N modos) | 360 | 120 |
 
 Placas segmentadas com sucesso: **20/20 (100.0%)** -- etapa comum aos dois.
@@ -34,16 +34,16 @@ Imagens em que as leituras divergem: 1.JPG, 3.JPG, 4.JPG, 6.JPG, 7.JPG, 8.JPG, 1
 
 | Confusao (lido -> correto) | Tesseract | EasyOCR |
 |---|---:|---:|
-| 2 -> 7 | 1 | 1 |
 | V -> Y | 0 | 2 |
 | L -> I | 2 | 0 |
+| 2 -> 7 | 1 | 1 |
 | 0 -> 4 | 1 | 0 |
+| 0 -> 9 | 1 | 0 |
+| A -> U | 0 | 1 |
 | I -> J | 1 | 0 |
-| Z -> Q | 1 | 0 |
 | E -> G | 1 | 0 |
-| G -> Q | 1 | 0 |
-| A -> D | 1 | 0 |
 | 1 -> 2 | 1 | 0 |
+| 2 -> 1 | 1 | 0 |
 
 ## 4. Sensibilidade ao pre-processamento
 
@@ -82,7 +82,7 @@ Pontos observados:
   Tesseract e +25 pontos ao EasyOCR, porque quase toda confusao de OCR em
   placas (O/0, I/1, S/5, G/0, Z/2) e resolvida pela POSICAO do caractere.
   Conhecimento de dominio pesa aqui tanto quanto a escolha do motor.
-- *Custo*: o Tesseract e ~10x mais rapido por chamada (0.81s contra 7.72s em
+- *Custo*: o Tesseract e ~13x mais rapido por chamada (0.50s contra 6.53s em
   CPU). O EasyOCR carrega dois modelos neurais; com GPU a distancia cai, mas
   para rodar sem aceleracao a diferenca e decisiva.
 
