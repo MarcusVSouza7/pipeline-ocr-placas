@@ -132,9 +132,9 @@ do OCR e o que e merito do conhecimento de dominio.
 ├── run_comparacao.py              gera a comparacao final
 ├── run_experimentos.py            gera as comparacoes de detector e de ROI
 └── resultados/
-    ├── tesseract/placas_tesseract.txt      <- entregavel
+    ├── tesseract/placas_tesseract.txt      
     ├── tesseract/por_imagem/*.txt
-    ├── easyocr/placas_easyocr.txt          <- entregavel
+    ├── easyocr/placas_easyocr.txt          
     ├── easyocr/por_imagem/*.txt
     ├── comparacao/comparacao.txt | .csv | analise.md
     ├── crops/                     placas e tarjas extraidas
