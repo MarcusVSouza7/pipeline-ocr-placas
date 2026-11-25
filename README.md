@@ -324,7 +324,7 @@ troca de build do OpenCV — e a leitura honesta e de **empate tecnico**.
 ## 5. Tecnicas empregadas
 
 Onde cada tecnica de processamento de imagens usada no projeto esta
-implementada, e o problema concreto que ela resolve aqui.
+implementada, e o problema que ela resolve aqui.
 
 | Tecnica | Onde esta | Para que serve neste pipeline |
 |---|---|---|
