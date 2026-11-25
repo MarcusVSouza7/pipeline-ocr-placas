@@ -111,9 +111,9 @@ do OCR e o que e merito do conhecimento de dominio.
 .
 ├── README.md                      este arquivo
 ├── requirements.txt               dependencias (versao do OpenCV fixada)
-├── dataset/placas_exercicio/      20 imagens de veiculos (dataset da atividade)
+├── dataset/placas_exercicio/      20 imagens de veiculos com placa Mercosul
 ├── data/ground_truth.csv          gabarito transcrito manualmente
-├── haar_xml/                      cascatas Haar de placa (Aula 8, opcional)
+├── haar_xml/                      cascatas Haar de placa (detector alternativo)
 ├── src/
 │   ├── config.py                  parametros e caminhos centralizados
 │   ├── plate_detector.py          [1][2] deteccao, retificacao e segmentacao
@@ -144,8 +144,8 @@ do OCR e o que e merito do conhecimento de dominio.
 
 Os modulos `detector_haar.py`, `baseline_sem_roi.py`, `comparar_experimentos.py`
 e `run_experimentos.py` sao os experimentos opcionais descritos na secao 3; eles
-gravam em `resultados/experimentos/` justamente para nunca sobrescrever os dois
-entregaveis principais.
+gravam em `resultados/experimentos/` justamente para nunca sobrescrever os
+resultados do pipeline principal.
 
 ---
 
@@ -178,7 +178,7 @@ python run_easyocr.py       # pipeline com EasyOCR
 python run_comparacao.py    # tabela e analise comparativa
 ```
 
-Esses tres comandos produzem tudo o que a atividade pede.
+Esses tres comandos produzem todos os resultados da secao 4.
 
 Opcoes uteis: `--dataset CAMINHO` (outra pasta de imagens), `--sem-artefatos`
 (nao gravar recortes/debug) e, no EasyOCR, `--gpu`.
@@ -191,8 +191,8 @@ Opcoes uteis: `--dataset CAMINHO` (outra pasta de imagens), `--sem-artefatos`
 
 ### Experimentos opcionais
 
-Dois experimentos acompanham o projeto. Eles **nao fazem parte dos requisitos
-da atividade** -- existem para quantificar duas decisoes do pipeline em vez de
+Dois experimentos acompanham o projeto. Eles **nao fazem parte do pipeline
+principal** -- existem para quantificar duas decisoes de projeto em vez de
 apenas afirma-las:
 
 ```bash
@@ -212,7 +212,7 @@ pip install opencv-python==4.14.0.94 opencv-python-headless==4.14.0.94
 Rodar nessa versao muda tambem os numeros do pipeline principal, por isso ela
 nao e a versao padrao do projeto -- e por isso tambem que o relatorio do Haar
 **nao acompanha o repositorio**: os resultados versionados em `resultados/` sao
-todos da versao fixada. O experimento de ROI, que roda na versao fixada, tem o
+todos da versao fixada. O experimento de ROI roda na versao fixada e tem o
 relatorio publicado em `resultados/comparacao/roi_x_sem_roi.txt` e `.md`.
 
 ---
@@ -321,55 +321,34 @@ troca de build do OpenCV — e a leitura honesta e de **empate tecnico**.
 
 ---
 
-## 5. Atendimento aos requisitos da atividade
+## 5. Tecnicas empregadas
 
-| Requisito do enunciado | Onde esta |
-|---|---|
-| Detectar e segmentar as placas das imagens do dataset | `src/plate_detector.py` -- 20/20 imagens |
-| Extrair a regiao correspondente a placa | `resultados/crops/*_placa.png` (placa retificada) e `*_tarja.png` (so os caracteres) |
-| Aplicar OCR com **Tesseract** | `src/ocr_tesseract.py` + `run_tesseract.py` |
-| Aplicar OCR com **EasyOCR** | `src/ocr_easyocr.py` + `run_easyocr.py` |
-| Gerar arquivos .txt com os resultados de cada abordagem | `resultados/tesseract/placas_tesseract.txt` e `resultados/easyocr/placas_easyocr.txt`, mais um `.txt` por imagem em `por_imagem/` |
-| Comparar as duas abordagens sobre o mesmo pipeline | `src/comparar.py` -> `resultados/comparacao/` (etapas 1-3 e 5 identicas; so o motor muda) |
-| Organizacao separando processamento, OCR e resultados | `src/` por etapa, `run_*.py` como pontos de entrada, `resultados/` por abordagem (secao 2) |
-| Codigo comentado, sobretudo segmentacao e pre-processamento | docstrings de modulo em `plate_detector.py` e `preprocessing.py` explicando cada tecnica e o porque |
-| Testar diferentes tecnicas de pre-processamento | 6 variantes por imagem (secao 1, etapa 3); o relatorio registra qual venceu em cada caso |
+Onde cada tecnica de processamento de imagens usada no projeto esta
+implementada, e o problema concreto que ela resolve aqui.
 
-### Tecnicas das aulas usadas no projeto
-
-Material de apoio, nao requisito -- mapeamento de onde cada tecnica vista em
-aula aparece no codigo.
-
-| Aula | Conteudo | Onde esta implementado |
+| Tecnica | Onde esta | Para que serve neste pipeline |
 |---|---|---|
-| 3 | Fotografia digital, compressao, artefatos JPEG | `preprocessing.py` -- o filtro bilateral da variante `cinza` existe para remover ruido de compressao preservando as bordas dos caracteres |
-| 4 | Espacos de cor, conversoes (RGB, HSV, YUV) | `plate_detector.py` -- `cvtColor` BGR->HSV no detector de faixa azul e BGR->GRAY em todo o pipeline |
-| 5 | Filtros de ruido: media, mediana, gaussiano, bilateral | `preprocessing.py` (bilateral, gaussiano na mascara de nitidez), `plate_detector.py` (bilateral antes do Sobel) |
-| 6 | Segmentacao por cor, `inRange`, mascaras, morfologia | `plate_detector.py` -- `_mascara_azul` / `_mascara_clara` com `inRange` em HSV + `morphologyEx` (CLOSE/OPEN) |
-| 7 | Deteccao de movimento em video | nao se aplica: o dataset e de fotos estaticas. As operacoes morfologicas da aula sao usadas nas etapas 1-3 |
-| 8 | **Haar Cascade**, imagem integral, `detectMultiScale`, ROI | `detector_haar.py` -- **verificacao extra, fora dos requisitos** (o enunciado nao exige tecnica especifica de deteccao). Usa as cascatas de placa distribuidas em `Exemplos (1).zip`. A medicao foi feita a parte, em OpenCV 4.14 -- a versao fixada do projeto (5.0) removeu `cv2.CascadeClassifier` --, por isso nao ha relatorio dela em `resultados/`: a cascata acha a placa em 19/20 imagens, contra 20/20 do detector classico, falhando na imagem 20 (placa sobreposta a uma antiga) |
-| 8 | HOG+SVM, YOLO | nao usados -- o enunciado nao exige tecnica especifica de deteccao e o detector classico resolve 20/20 |
-| 9 | Cinza, threshold simples/Otsu/adaptativo, blur, morfologia | `preprocessing.py` -- as variantes `cinza`, `otsu`, `adaptativo`, `clahe`, `nitidez`, `segmentada` |
-| 9 | Tesseract, `--psm`, `image_to_data`, whitelist | `ocr_tesseract.py` -- `--oem 3`, `--psm 7/8/13`, `tessedit_char_whitelist`, confianca via `image_to_data` |
-| 9 | EasyOCR | `ocr_easyocr.py` -- `easyocr.Reader` com `allowlist` equivalente |
-| 9 | Pos-processamento com regex do padrao Mercosul | `postprocess.py` -- a mascara `AAA0A00` generaliza o `r"^[A-Z]{3}[0-9][A-Z][0-9]{2}$"` do slide, corrigindo o caractere em vez de so validar |
-| 9 | **OCR direto x OCR com ROI** ("demonstracao importante") | `baseline_sem_roi.py` (experimento opcional) -- roda o OCR na foto inteira para medir o ganho da segmentacao em vez de apenas afirma-lo |
+| Conversao de espaco de cor (BGR->HSV, BGR->GRAY) | `plate_detector.py` | isolar a faixa azul do Mercosul por matiz, de forma estavel sob mudanca de iluminacao |
+| Segmentacao por cor (`inRange`) + morfologia (CLOSE/OPEN) | `plate_detector._mascara_azul`, `_mascara_clara` | transformar a faixa azul e o corpo claro da placa em blobs solidos e continuos |
+| Sobel em X | `plate_detector._candidatos_bordas` | achar a densidade de bordas verticais dos caracteres quando a faixa azul esta em sombra ou estourada |
+| Filtro bilateral | `preprocessing.py`, `plate_detector.py` | remover ruido de compressao JPEG e a textura de seguranca do fundo **preservando** as bordas dos caracteres |
+| CLAHE (equalizacao local de histograma) | `preprocessing.py` | recuperar placas lavadas, de caracteres cinza-claro sobre fundo prateado |
+| Unsharp masking | `preprocessing.py` | compensar desfoque de foco e de movimento |
+| Binarizacao de Otsu e limiar adaptativo gaussiano | `preprocessing.py`, `plate_detector._variantes_binarias` | separar tinta de fundo sob luz uniforme (Otsu) e sob sombra parcial ou reflexo (adaptativo) |
+| Black-hat morfologico | `plate_detector._variantes_binarias` | realcar caracteres escuros sobre fundo claro removendo a variacao lenta de iluminacao |
+| Componentes conexos | `plate_detector._componentes` | segmentar os caracteres um a um -- base da variante `segmentada` e da contagem de 7 caracteres usada na pontuacao |
+| Transformacao afim / retificacao por rotacao | `plate_detector._extrair_candidato` | endireitar a placa antes do recorte, usando a faixa azul como referencia de angulo |
+| Supressao de nao-maximos (IoU) | `plate_detector.detectar_placas` | descartar deteccoes sobrepostas do mesmo objeto |
+| Haar Cascade (Viola-Jones) | `detector_haar.py` | detector alternativo, medido contra o detector proprio (secao 3) |
+| Tesseract (`--oem`, `--psm`, whitelist, `image_to_data`) | `ocr_tesseract.py` | OCR classico, com alfabeto restrito a A-Z0-9 e confianca por palavra |
+| EasyOCR (CRAFT + CRNN/CTC, `allowlist`) | `ocr_easyocr.py` | OCR neural, para contraste com o motor classico |
+| Mascara de formato posicional | `postprocess.py` | corrigir `O/0`, `I/1`, `S/5`, `Z/2` pela posicao do caractere no padrao `AAA0A00` |
+| Distancia de Levenshtein | `evaluate.py` | acuracia por caractere, que separa "errou tudo" de "errou um caractere" |
 
-### Tecnicas usadas que vao alem das aulas
-
-Estas nao aparecem nos slides e estao aqui porque o dataset exigiu; cada uma
-resolve um problema concreto das 20 imagens:
-
-- **Sobel em X** (`plate_detector._candidatos_bordas`) -- detector de borda
-  direcional, para placas cuja faixa azul esta em sombra ou estourada.
-- **CLAHE** (`preprocessing`) -- equalizacao de histograma *local*, para as
-  placas lavadas (cinza-claro sobre prata) da imagem 8.
-- **Unsharp masking** (`preprocessing`) -- compensa o desfoque das imagens 10 e 11.
-- **Componentes conexos** (`plate_detector._componentes`) -- segmentacao de
-  caracteres, que e o que permite a variante `segmentada` e a contagem de 7
-  caracteres usada na pontuacao.
-- **Supressao de nao-maximos** -- descarta deteccoes sobrepostas.
-- **Distancia de Levenshtein** (`evaluate`) -- acuracia por caractere.
+Avaliadas e descartadas para a deteccao: **HOG+SVM** e **YOLO**. O detector
+classico resolve as 20 imagens sem exigir treinamento nem pesos de rede, e a
+comparacao com o Haar Cascade (secao 3) ja cobre a pergunta de quanto o
+detector muda o resultado final.
 
 ---
 

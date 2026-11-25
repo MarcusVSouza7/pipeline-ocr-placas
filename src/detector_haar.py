@@ -1,10 +1,9 @@
 """
-Deteccao de placa por HAAR CASCADE -- a tecnica da Aula 8.
+Deteccao de placa por HAAR CASCADE (Viola-Jones).
 
-Este modulo existe para que o projeto implemente o detector ENSINADO em aula
-(Viola-Jones / Haar Cascade, slide "EXEMPLO: DETECTAR PLACA E SALVAR ROI") e
-para medi-lo contra o detector classico proprio (`plate_detector`), que usa
-cor em HSV + bordas Sobel + regioes claras.
+Detector alternativo ao classico do projeto (`plate_detector`, que usa cor em
+HSV + bordas Sobel + regioes claras), implementado para ser MEDIDO contra ele
+em vez de escolhido por preferencia.
 
 Como a comparacao e feita
 -------------------------
@@ -17,12 +16,11 @@ Tesseract x EasyOCR isola o motor de OCR.
 
 Por que "russian plate number"
 ------------------------------
-O OpenCV nao publica cascata treinada para placa brasileira; a cascata russa
-e a que o professor distribuiu em "Exemplos (1).zip" e a usada no slide da
-Aula 8. Ela foi treinada em placas russas -- uma unica linha de caracteres,
-sem o cabecalho azul do Mercosul -- o que ja antecipa a limitacao listada no
-proprio slide "LIMITACOES DO HAAR CASCADE": o detector funciona melhor com
-objetos parecidos com os do treinamento.
+O OpenCV nao publica cascata treinada para placa brasileira, e a cascata
+russa e a unica disponivel. Ela foi treinada em placas russas -- uma unica
+linha de caracteres, sem o cabecalho azul do Mercosul -- o que ja antecipa a
+limitacao classica do Haar Cascade: o detector funciona melhor com objetos
+parecidos com os do treinamento.
 
 Duas hipoteses por caixa
 ------------------------
@@ -62,8 +60,8 @@ def localizar_cascata(nome):
     """
     Devolve o caminho do XML da cascata, ou None se nao for encontrado.
 
-    Procura primeiro em `haar_xml/` (os arquivos distribuidos pelo professor em
-    "Exemplos (1).zip") e depois no diretorio de dados do proprio OpenCV --
+    Procura primeiro em `haar_xml/` (copia local versionada no projeto) e
+    depois no diretorio de dados do proprio OpenCV --
     alguns wheels do `opencv-python` nao embarcam cascata nenhuma, por isso a
     copia local do projeto e a fonte principal e nao um plano B.
     """
@@ -144,9 +142,8 @@ def caixas(cinza):
     ja sem duplicatas (IoU > 0.4) e sem caixas com proporcao ou area
     incompativeis com uma placa.
 
-    Os parametros vem de `config` e sao os mesmos do slide da Aula 8
-    (scaleFactor, minNeighbors, minSize), apenas afrouxados o suficiente para
-    as placas pequenas das imagens 11 e 17.
+    Os parametros vem de `config` (scaleFactor, minNeighbors, minSize),
+    afrouxados o suficiente para as placas pequenas das imagens 11 e 17.
     """
     altura_img, largura_img = cinza.shape[:2]
     brutas = []

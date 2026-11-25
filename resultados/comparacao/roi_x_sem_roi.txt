@@ -1,10 +1,10 @@
 OCR COM ROI x OCR DIRETO NA IMAGEM INTEIRA
-Gerado em: 25/11/2026 08:40:25
+Gerado em: 25/11/2026 09:21:39
 Dataset  : placas_exercicio
 
-Aula 9, slide "DEMONSTRACAO IMPORTANTE":
-  OCR DIRETO  -> imagem inteira do carro, resultado tende a ser ruim
-  OCR COM ROI -> somente a placa recortada, resultado tende a ser melhor
+Os dois lados da comparacao:
+  OCR DIRETO  -> imagem inteira do carro, sem etapa de segmentacao
+  OCR COM ROI -> somente a placa recortada pelo pipeline
 
 O motor e o pos-processamento (limpeza + mascara AAA0A00) sao os mesmos
 nos dois lados. A unica diferenca e a existencia da etapa de deteccao e

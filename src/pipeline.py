@@ -80,7 +80,7 @@ def processar_imagem(caminho, reconhecer, salvar_artefatos=True,
     `detector` ("classico" | "haar" | "ambos") escolhe o detector de placa.
 
     `sem_roi=True` pula as etapas 1, 2 e 3 e roda o OCR na imagem INTEIRA --
-    a linha de base da "demonstracao importante" da Aula 9. Nesse modo
+    a linha de base que mede o ganho da segmentacao. Nesse modo
     `reconhecer` deve vir de `baseline_sem_roi`.
     """
     inicio = time.perf_counter()
@@ -205,7 +205,7 @@ def executar(motor="tesseract", diretorio=None, salvar_artefatos=True,
     `detector` e `sem_roi` selecionam as variacoes experimentais. A execucao de
     referencia (detector classico, com ROI) grava em `resultados/<motor>/`; as
     variacoes gravam em `resultados/experimentos/...`, para que um experimento
-    nunca sobrescreva o entregavel.
+    nunca sobrescreva a execucao de referencia.
     """
     cfg.garantir_diretorios()
 
@@ -306,7 +306,7 @@ def gravar_saidas(motor, rotulo, versao, resultados, metricas, gabarito, destino
     por_imagem = destino / "por_imagem"
     por_imagem.mkdir(exist_ok=True)
 
-    # (1) Arquivo .txt consolidado -- entregavel principal da atividade.
+    # (1) Arquivo .txt consolidado -- resultado principal do pipeline.
     linhas = [
         "RESULTADO DO OCR - %s" % rotulo.upper(),
         "Versao do motor : %s" % versao,

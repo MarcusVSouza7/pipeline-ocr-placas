@@ -13,12 +13,12 @@ Uso:
     python run_easyocr.py --sem-roi          # OCR direto na imagem inteira
 
 Saida (execucao de referencia, --detector classico e com ROI):
-    resultados/easyocr/placas_easyocr.txt      (entregavel principal)
+    resultados/easyocr/placas_easyocr.txt      (resultado consolidado)
     resultados/easyocr/resultados_easyocr.csv
     resultados/easyocr/resultados_easyocr.json
     resultados/easyocr/por_imagem/<n>.txt
 
-Saida das variacoes (nunca sobrescreve o entregavel):
+Saida das variacoes (nunca sobrescreve a execucao de referencia):
     resultados/experimentos/deteccao_haar/easyocr/
     resultados/experimentos/sem_roi/easyocr/
 """
@@ -40,10 +40,10 @@ def main():
     parser.add_argument("--detector", choices=("classico", "haar", "ambos"),
                         default="classico",
                         help="detector de placa (padrao: classico). "
-                             "'haar' usa a cascata Haar da Aula 8")
+                             "'haar' usa Haar Cascade (Viola-Jones)")
     parser.add_argument("--sem-roi", action="store_true",
                         help="OCR direto na imagem inteira, sem deteccao nem "
-                             "recorte (linha de base da Aula 9)")
+                             "recorte (linha de base da segmentacao)")
     args = parser.parse_args()
 
     pipeline.executar(

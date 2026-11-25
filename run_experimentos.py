@@ -1,8 +1,8 @@
 """
-Roda as duas comparacoes extras exigidas pelas aulas 8 e 9, na ordem certa.
+Roda as duas comparacoes extras do projeto, na ordem certa.
 
-  (1) DETECTOR  -- Haar Cascade (Aula 8) x detector classico do projeto.
-  (2) ROI       -- OCR com ROI x OCR direto na imagem inteira (Aula 9).
+  (1) DETECTOR  -- Haar Cascade x detector classico do projeto.
+  (2) ROI       -- OCR com ROI x OCR direto na imagem inteira.
 
 Pre-requisito: `python run_tesseract.py` e `python run_easyocr.py` (as
 execucoes de referencia, que sao o lado "classico" e o lado "com ROI" das duas
@@ -20,7 +20,7 @@ Saida:
     resultados/comparacao/deteccao_haar_x_classico.txt | .md
     resultados/comparacao/roi_x_sem_roi.txt | .md
 
-Atencao: nada aqui sobrescreve os entregaveis de `resultados/tesseract/` e
+Atencao: nada aqui sobrescreve os resultados de `resultados/tesseract/` e
 `resultados/easyocr/`.
 """
 

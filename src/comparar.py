@@ -7,7 +7,7 @@ Le os JSON produzidos por `run_tesseract.py` e `run_easyocr.py` e gera:
   resultados/comparacao/comparacao.csv   -- mesmos dados para planilha
   resultados/comparacao/analise.md       -- analise escrita dos resultados
 
-A analise e o objetivo central da atividade: nao basta rodar os dois motores,
+A analise e o objetivo central do projeto: nao basta rodar os dois motores,
 e preciso entender ONDE e POR QUE eles divergem.
 """
 

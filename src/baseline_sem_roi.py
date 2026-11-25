@@ -1,7 +1,7 @@
 """
-Linha de base SEM ROI -- a "DEMONSTRACAO IMPORTANTE" da Aula 9.
+Linha de base SEM ROI -- OCR direto na imagem inteira.
 
-O slide compara:
+A comparacao:
 
     OCR DIRETO                     OCR COM ROI
     Imagem inteira do carro.       Somente a placa recortada.
@@ -19,7 +19,7 @@ isso:
   * Os `--psm` sao DIFERENTES dos do pipeline com ROI, e de proposito. Com ROI
     a tarja e uma linha unica de texto (psm 7/8/13); numa foto inteira de
     veiculo o texto e esparso e espalhado, entao usamos psm 3 (automatico,
-    o padrao do slide "OCR MAIS SIMPLES POSSIVEL"), 6 (bloco uniforme) e 11
+    o padrao do Tesseract), 6 (bloco uniforme) e 11
     (texto esparso). Rodar psm 7 numa foto inteira produziria um baseline
     artificialmente pessimo.
   * O EasyOCR roda com os limiares PADRAO, nao com os limiares afrouxados do
@@ -55,9 +55,8 @@ LARGURA_MAX = 1600
 
 def _preparar(imagem):
     """
-    Gera as variantes da IMAGEM INTEIRA, seguindo o pipeline de
-    pre-processamento do slide "PIPELINE DE PRE-PROCESSAMENTO" da Aula 9:
-    imagem colorida -> escala de cinza -> binarizacao.
+    Gera as variantes da IMAGEM INTEIRA, seguindo o pre-processamento mais
+    simples possivel: imagem colorida -> escala de cinza -> binarizacao.
 
     Devolve {nome: imagem}. Sao duas variantes (e nao as seis do pipeline com
     ROI) porque as outras quatro -- CLAHE, nitidez, adaptativo e `segmentada`
@@ -82,8 +81,7 @@ def _candidatos_para_tentativas(variante, blocos):
 
     Cada bloco de >= 4 caracteres e um candidato (a placa pode ter sido lida
     inteira ou partida em dois pedacos), e a concatenacao de todos os blocos
-    tambem -- exatamente a estrategia do exemplo `placa_ocr.py` do professor,
-    que ordena os blocos por X e junta.
+    tambem -- os blocos sao ordenados por X e concatenados.
     """
     tentativas = []
     for texto, conf in blocos:
@@ -115,7 +113,7 @@ def _blocos_tesseract(imagem, psm):
     """
     Roda o Tesseract na cena e devolve [(texto_da_palavra, confianca)].
 
-    Usa `image_to_data` (slide "CAIXAS DE TEXTO DETECTADAS") para obter uma
+    Usa `image_to_data` para obter uma
     confianca por palavra -- numa cena inteira interessa cada palavra
     isoladamente, nao a string unica devolvida por `image_to_string`.
     """

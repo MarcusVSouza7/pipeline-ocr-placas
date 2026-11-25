@@ -1,11 +1,10 @@
 """
-Relatorios das duas comparacoes exigidas pelas aulas 8 e 9.
+Relatorios das duas comparacoes experimentais do projeto.
 
-  (1) DETECTOR -- Haar Cascade (Aula 8) x detector classico proprio.
+  (1) DETECTOR -- Haar Cascade x detector classico proprio.
       Saida: resultados/comparacao/deteccao_haar_x_classico.txt | .md
 
-  (2) ROI -- OCR com ROI x OCR direto na imagem inteira (Aula 9, slide
-      "DEMONSTRACAO IMPORTANTE").
+  (2) ROI -- OCR com ROI x OCR direto na imagem inteira.
       Saida: resultados/comparacao/roi_x_sem_roi.txt | .md
 
 Cada comparacao isola UMA variavel. Em (1) muda apenas a origem dos candidatos
@@ -95,21 +94,20 @@ def comparar_detector(detector="haar", verboso=True):
         "pre-processamento, OCR e pos-processamento sao identicos nos dois lados.",
         "",
         "  classico = HSV (faixa azul) + Sobel (bordas) + regiao clara",
-        "  %-8s = cv2.CascadeClassifier, cascatas de placa da Aula 8" % detector,
+        "  %-8s = cv2.CascadeClassifier, cascata de placa" % detector,
         "",
     ]
 
     md = [
-        "# Deteccao: Haar Cascade (Aula 8) x detector classico",
+        "# Deteccao: Haar Cascade x detector classico",
         "",
         "Gerado por `python run_experimentos.py` em %s."
         % datetime.now().strftime("%d/%m/%Y %H:%M"),
         "",
-        "A Aula 8 ensina deteccao de placa com **Haar Cascade** "
-        "(`cv2.CascadeClassifier` + `detectMultiScale`) e a Aula 9 parte dessa "
-        "ROI para o OCR. Este relatorio substitui o detector proprio do projeto "
-        "pelo Haar, mantendo todo o resto do pipeline igual, para medir o que o "
-        "detector muda de fato.",
+        "Este relatorio substitui o detector proprio do projeto pelo **Haar "
+        "Cascade** (`cv2.CascadeClassifier` + `detectMultiScale`), mantendo "
+        "todo o resto do pipeline igual, para medir o que o detector muda de "
+        "fato.",
         "",
     ]
 
@@ -232,7 +230,7 @@ def comparar_detector(detector="haar", verboso=True):
 # --------------------------------------------------------------------------- #
 def comparar_roi(verboso=True):
     """
-    Gera o relatorio ROI x sem ROI -- a "demonstracao importante" da Aula 9.
+    Gera o relatorio ROI x sem ROI.
 
     Mede o ganho da etapa de segmentacao: o mesmo motor, com o mesmo
     pos-processamento, lendo (a) a tarja recortada e (b) a foto inteira.
@@ -257,9 +255,9 @@ def comparar_roi(verboso=True):
         "Gerado em: %s" % datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
         "Dataset  : %s" % cfg.DIR_DATASET.name,
         "",
-        'Aula 9, slide "DEMONSTRACAO IMPORTANTE":',
-        "  OCR DIRETO  -> imagem inteira do carro, resultado tende a ser ruim",
-        "  OCR COM ROI -> somente a placa recortada, resultado tende a ser melhor",
+        "Os dois lados da comparacao:",
+        "  OCR DIRETO  -> imagem inteira do carro, sem etapa de segmentacao",
+        "  OCR COM ROI -> somente a placa recortada pelo pipeline",
         "",
         "O motor e o pos-processamento (limpeza + mascara AAA0A00) sao os mesmos",
         "nos dois lados. A unica diferenca e a existencia da etapa de deteccao e",
@@ -272,10 +270,9 @@ def comparar_roi(verboso=True):
         "Gerado por `python run_experimentos.py` em %s."
         % datetime.now().strftime("%d/%m/%Y %H:%M"),
         "",
-        'A Aula 9 afirma, no slide "DEMONSTRACAO IMPORTANTE", que rodar OCR na '
-        "foto inteira do veiculo tende a dar resultado ruim e que recortar a ROI "
-        "da placa tende a melhorar muito a leitura. Este relatorio mede essa "
-        "afirmacao no dataset da atividade em vez de apenas repeti-la.",
+        "Rodar OCR na foto inteira do veiculo tende a dar resultado ruim, e "
+        "recortar a ROI da placa tende a melhorar muito a leitura. Este "
+        "relatorio mede esse ganho no dataset em vez de apenas afirma-lo.",
         "",
         "O baseline sem ROI nao foi sabotado: ele usa os `--psm` apropriados a "
         "uma cena (3, 6 e 11, nao os 7/8/13 de linha unica), os limiares padrao "

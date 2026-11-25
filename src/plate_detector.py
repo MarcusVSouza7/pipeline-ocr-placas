@@ -637,7 +637,7 @@ def detectar_placas(imagem, maximo=3, limiar=0.30, detector="classico"):
     modo que a comparacao entre eles mede o detector.
 
       "classico" -- os tres detectores proprios (HSV + Sobel + regiao clara).
-      "haar"     -- Haar Cascade da Aula 8 (`detector_haar`).
+      "haar"     -- Haar Cascade (`detector_haar`).
       "ambos"    -- a uniao dos dois conjuntos de candidatos.
     """
     trabalho, escala = _redimensionar(imagem, cfg.LARGURA_TRABALHO)

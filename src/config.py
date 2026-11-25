@@ -17,7 +17,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 DIR_DATASET = RAIZ / "dataset" / "placas_exercicio"
 DIR_DADOS = RAIZ / "data"
 DIR_RESULTADOS = RAIZ / "resultados"
-DIR_HAAR = RAIZ / "haar_xml"               # cascatas Haar (Aula 8)
+DIR_HAAR = RAIZ / "haar_xml"               # cascatas Haar
 
 DIR_SAIDA_TESSERACT = DIR_RESULTADOS / "tesseract"
 DIR_SAIDA_EASYOCR = DIR_RESULTADOS / "easyocr"
@@ -26,7 +26,7 @@ DIR_CROPS = DIR_RESULTADOS / "crops"       # placas segmentadas e retificadas
 DIR_DEBUG = DIR_RESULTADOS / "debug"       # imagens anotadas de cada etapa
 
 # Saidas dos experimentos (detector Haar e baseline sem ROI). Ficam separadas
-# de DIR_SAIDA_* para que um experimento nunca sobrescreva o entregavel.
+# de DIR_SAIDA_* para que um experimento nunca sobrescreva a referencia.
 DIR_EXPERIMENTOS = DIR_RESULTADOS / "experimentos"
 
 
@@ -35,7 +35,7 @@ def dir_saida(motor, detector="classico", sem_roi=False):
     Diretorio de saida de uma execucao.
 
     A execucao de referencia (detector classico, com ROI) grava em
-    `resultados/<motor>/` -- o entregavel. Qualquer variacao grava em
+    `resultados/<motor>/`. Qualquer variacao grava em
     `resultados/experimentos/<variacao>/<motor>/`.
     """
     if sem_roi:
@@ -70,9 +70,9 @@ HSV_AZUL_MIN = (95, 70, 40)
 HSV_AZUL_MAX = (130, 255, 255)
 
 # --------------------------------------------------------------------------- #
-# Haar Cascade (Aula 8) -- detector alternativo, usado por `detector_haar.py`
+# Haar Cascade -- detector alternativo, usado por `detector_haar.py`
 # --------------------------------------------------------------------------- #
-# Os tres parametros do slide "PARAMETROS IMPORTANTES":
+# Os tres parametros de `detectMultiScale`:
 #   scaleFactor  -- reducao da imagem em cada escala (menor = mais preciso e
 #                   mais lento). 1.05 em vez de 1.1 porque as placas do
 #                   dataset variam muito de tamanho.

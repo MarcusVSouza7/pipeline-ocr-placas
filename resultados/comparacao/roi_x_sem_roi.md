@@ -1,8 +1,8 @@
 # OCR com ROI x OCR direto na imagem inteira
 
-Gerado por `python run_experimentos.py` em 25/11/2026 08:40.
+Gerado por `python run_experimentos.py` em 25/11/2026 09:21.
 
-A Aula 9 afirma, no slide "DEMONSTRACAO IMPORTANTE", que rodar OCR na foto inteira do veiculo tende a dar resultado ruim e que recortar a ROI da placa tende a melhorar muito a leitura. Este relatorio mede essa afirmacao no dataset da atividade em vez de apenas repeti-la.
+Rodar OCR na foto inteira do veiculo tende a dar resultado ruim, e recortar a ROI da placa tende a melhorar muito a leitura. Este relatorio mede esse ganho no dataset em vez de apenas afirma-lo.
 
 O baseline sem ROI nao foi sabotado: ele usa os `--psm` apropriados a uma cena (3, 6 e 11, nao os 7/8/13 de linha unica), os limiares padrao do EasyOCR, e cada bloco de texto encontrado na foto conta como candidato, escolhido pela mesma regra do pipeline com ROI.
 

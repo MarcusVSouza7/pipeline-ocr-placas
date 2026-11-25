@@ -9,12 +9,12 @@ Uso:
     python run_tesseract.py --sem-roi          # OCR direto na imagem inteira
 
 Saida (execucao de referencia, --detector classico e com ROI):
-    resultados/tesseract/placas_tesseract.txt      (entregavel principal)
+    resultados/tesseract/placas_tesseract.txt      (resultado consolidado)
     resultados/tesseract/resultados_tesseract.csv
     resultados/tesseract/resultados_tesseract.json
     resultados/tesseract/por_imagem/<n>.txt
 
-Saida das variacoes (nunca sobrescreve o entregavel):
+Saida das variacoes (nunca sobrescreve a execucao de referencia):
     resultados/experimentos/deteccao_haar/tesseract/
     resultados/experimentos/sem_roi/tesseract/
 """
@@ -34,10 +34,10 @@ def main():
     parser.add_argument("--detector", choices=("classico", "haar", "ambos"),
                         default="classico",
                         help="detector de placa (padrao: classico). "
-                             "'haar' usa a cascata Haar da Aula 8")
+                             "'haar' usa Haar Cascade (Viola-Jones)")
     parser.add_argument("--sem-roi", action="store_true",
                         help="OCR direto na imagem inteira, sem deteccao nem "
-                             "recorte (linha de base da Aula 9)")
+                             "recorte (linha de base da segmentacao)")
     args = parser.parse_args()
 
     pipeline.executar(

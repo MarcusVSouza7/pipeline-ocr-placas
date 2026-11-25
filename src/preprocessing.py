@@ -6,7 +6,7 @@ pre-processadas -- e isso que torna a comparacao entre as ferramentas justa:
 a unica variavel que muda e o motor de reconhecimento.
 
 Em vez de apostar num unico pre-processamento, cada tarja gera um CONJUNTO de
-variantes (a atividade pede explicitamente que se testem tecnicas diferentes).
+variantes -- testar varias e o que permite medir a sensibilidade de cada motor.
 Cada motor executa o OCR em todas elas e fica com a leitura mais confiavel --
 estrategia conhecida como "ensemble de pre-processamentos". O relatorio final
 registra qual variante venceu em cada imagem, o que mostra na pratica a
